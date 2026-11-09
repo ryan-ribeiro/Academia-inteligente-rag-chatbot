@@ -652,6 +652,34 @@ Provide a chat where the client can discuss their training and provide additiona
   directly to instructor review; it does not merely start another client-review
   generation step. The client receives sent, pending and failure feedback.
 
+**Question-answering amendment (RF-18):** The assistant identifies informational
+questions, including indirect requests and questions without a question mark,
+and answers the client's question using the approved retrieval contract and
+functionally relevant authoritative completed-onboarding context. A question
+about how to perform an exercise is in scope whether or not the exercise has
+been assigned to the client. Exercise instructions require relevant eligible
+evidence; missing evidence or retrieval failure must be stated, not invented.
+Existing explicit generation and draft-change requests retain their established
+flows and authorization. See `docs/ai-question-answering-specification.md` for
+the implementation and verification plan.
+
+- [ ] **CA-18.9:** informational questions are recognized by intent, including
+  questions without interrogative punctuation, and receive an answer or a
+  focused clarification when the question is ambiguous.
+- [ ] **CA-18.10:** every question triggers the approved hybrid vector retrieval
+  before a substantive answer or clarification; unavailable or insufficient
+  evidence produces an explicit limitation under CA-18.7.
+- [ ] **CA-18.11:** relevant facts from the authenticated client's completed
+  onboarding are considered in the answer, with sensitive fields limited to
+  those functionally necessary; missing onboarding is not invented.
+- [ ] **CA-18.12:** exercise technique questions are handled for both assigned
+  and unassigned exercises, without silently changing any training plan. A
+  retrieval match or valid citation alone does not establish technique
+  applicability: evidence must describe the requested movement, variant, and
+  asked execution aspect. Partial study procedures must be identified as such,
+  not generalized into universal or individualized safety advice. If no current
+  applicable procedure is reviewed, the assistant states the limitation.
+
 **Approved RAG contract (RF-15/RF-18/RF-19):** PostgreSQL with `pgvector`
 stores a versioned bibliographic catalogue, reviewed passages, and 1024-
 dimensional dense embeddings from BGE-M3 through a separate Ollama embedding
@@ -727,6 +755,15 @@ licenses are NC. WHO and JOSPT guidelines remain metadata-only pending reuse
 authorization. Their content is never embedded or supplied to a writing LLM.
 Research/textbook selections have an annual technical review deadline of
 2027-10-13. Any future ingestion requires the same source/license checks.
+
+**Exercise explanation source, 2026-11-08:** A translated summary of the
+supine barbell bench-press procedure in Muyor, Rodríguez-Ridao and Oliva-Lozano
+(2023), DOI `10.5114/jhk/161468`, is indexed for RF-18 exercise explanations.
+The article is CC BY 4.0; attribution and the adaptation notice accompany the
+passage. This technical reuse review does not constitute professional approval:
+the experiment involved 20 physically active adults and its procedure is not
+evidence of suitability, load, or a universal technique for any individual.
+The source review deadline is 2027-11-08. Existing safety and source rules apply.
 
 Focused verification covers grounding/reference validation in all three AI
 flows, real PostgreSQL `vector(1024)` and hybrid-search behavior, idempotent

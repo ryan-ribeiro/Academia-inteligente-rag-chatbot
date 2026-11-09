@@ -309,7 +309,7 @@ def test_client_critical_path_is_scoped_and_preserves_history(
     failed_chat = api.request(
         "POST",
         "/training/chat/messages",
-        {"message": "Explique meu treino.", "client_request_id": str(uuid4())},
+        {"message": "Hoje completei meu treino.", "client_request_id": str(uuid4())},
     )
     assert failed_chat.status_code == 503
     assert api.request("GET", "/training/current").body["plan"]["version_number"] == 2

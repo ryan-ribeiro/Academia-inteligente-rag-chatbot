@@ -51,15 +51,29 @@ _REASONS = {
     "unmeasured_external_load_generated",
     "invalid_typed_candidate",
 }
-_PATHS = {"none", "model", "direct", "confirmation", "cached"}
+_PATHS = {"none", "model", "direct", "reviewed_procedure", "confirmation", "cached"}
 _OPERATIONS = {"onboarding", "training_chat", "training_generation", "training_adaptation"}
+_KNOWLEDGE_STATES = {"supported", "insufficient_evidence", "outdated", "unavailable"}
+_CITATION_STATES = {"not_attempted", "missing", "provided", "invalid"}
 
 
 def _allowed(value, choices, default):
     return value if isinstance(value, str) and value in choices else default
 
 
-def record_turn(*, outcome=None, path=None, reason=None, accepted_count=None, fallback=None):
+def record_turn(
+    *,
+    outcome=None,
+    path=None,
+    reason=None,
+    accepted_count=None,
+    fallback=None,
+    question=None,
+    knowledge_status=None,
+    passage_count=None,
+    citation_state=None,
+    citation_reassessment=None,
+):
     current = _turn.get()
     if current is None:
         return
@@ -74,6 +88,16 @@ def record_turn(*, outcome=None, path=None, reason=None, accepted_count=None, fa
         current["accepted_count"] = min(10, max(0, accepted_count))
     if type(fallback) is bool:
         current["fallback"] = fallback
+    if type(question) is bool:
+        current["question"] = question
+    if isinstance(knowledge_status, str) and knowledge_status in _KNOWLEDGE_STATES:
+        current["knowledge_status"] = knowledge_status
+    if type(passage_count) is int:
+        current["passage_count"] = min(6, max(0, passage_count))
+    if isinstance(citation_state, str) and citation_state in _CITATION_STATES:
+        current["citation_state"] = citation_state
+    if type(citation_reassessment) is bool:
+        current["citation_reassessment"] = citation_reassessment
 
 
 def record_retry(reason: str, will_retry: bool):

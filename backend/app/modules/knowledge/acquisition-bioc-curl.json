@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "pmc": "PMC12550948",
+  "doi": "10.3390/muscles4040045",
+  "source": {
+    "id": "parpa-dumbbell-curl-2025",
+    "title": "An Exploratory Study of Biceps Brachii Electromyographic Activity During Traditional Dumbbell Versus Bayesian Cable Curls",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12550948/",
+    "authors": [
+      "Parpa, Koulla",
+      "Vasiliou, Antreas",
+      "Michaelides, Marcos",
+      "Govindasamy, Karuppasamy",
+      "Chernov, Anton",
+      "Intziegianni, Konstantina"
+    ],
+    "language": "en",
+    "license": "CC-BY-4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "license_review_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12550948/",
+    "commercial_use_allowed": true,
+    "review_status": "approved",
+    "reviewed_by": "Repository identity, item licence and pinned extraction review; article-authored study procedure; independent Portuguese instruction review pending",
+    "reviewed_at": "2026-11-08",
+    "review_due_at": "2027-11-08",
+    "attribution": "Parpa K, Vasiliou A, Michaelides M, Govindasamy K, Chernov A, Intziegianni K. An Exploratory Study of Biceps Brachii Electromyographic Activity During Traditional Dumbbell Versus Bayesian Cable Curls. Muscles. 2025;4(4):45. doi:10.3390/muscles4040045. CC BY 4.0. Trecho selecionado em inglês; resposta em português resume o protocolo do estudo.",
+    "content_note": "Procedimento selecionado para rosca bilateral em pé com halteres e pegada supinada; a amostra analisada reuniu onze homens saudáveis e treinados, de 20 a 40 anos. O protocolo não é orientação individual, técnica universal ou recomendação de carga.",
+    "limitations": [
+      "O estudo analisou onze homens fisicamente ativos e treinados, de 20 a 40 anos, sem lesões relatadas na parte superior do corpo; não demonstra adequação para outras pessoas.",
+      "O trecho descreve rosca em pé com dois halteres e pegada supinada; não cobre barra, cabo, pegada martelo ou variações sentadas.",
+      "A adaptação explicativa em português ainda precisa de revisão independente por profissional qualificado."
+    ]
+  },
+  "selection": {
+    "id": "parpa-dumbbell-curl-2025-procedure",
+    "section_type": "METHODS",
+    "locator": "Métodos — Rosca direta em pé com halteres / traditional dumbbell biceps curl",
+    "start_marker": "For the appropriate execution of the biceps curl",
+    "end_marker": "Regarding the execution of the Bayesian cable biceps curl",
+    "paragraph_sha256": "41f1bd003227efc552d51e8ce0188c28cc4afb957030267cab1d8515353c8fd1",
+    "text_sha256": "f9aa98c3a456d120ffd773c1d0615cec6afad685d1f93f8969382bee314e634e"
+  }
+}

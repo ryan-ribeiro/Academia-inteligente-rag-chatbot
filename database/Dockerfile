@@ -20,3 +20,5 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/*
 COPY 02-knowledge-extension.sh /docker-entrypoint-initdb.d/02-knowledge-extension.sh
 COPY ensure-knowledge-extension.sh /usr/local/bin/ensure-knowledge-extension.sh
+RUN sed -i 's/\r$//' /docker-entrypoint-initdb.d/02-knowledge-extension.sh \
+    /usr/local/bin/ensure-knowledge-extension.sh

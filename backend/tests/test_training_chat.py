@@ -64,6 +64,28 @@ class RetryProvider(FakeProvider):
 
 
 @pytest.fixture
+def supported_questions(monkeypatch):
+    from app.modules.knowledge.service import KnowledgeContext, KnowledgeService
+
+    chunk = {"chunk_id": "test-evidence", "content": "Orientação geral revisada."}
+    monkeypatch.setattr(
+        KnowledgeService,
+        "retrieve",
+        lambda *args: KnowledgeContext((chunk,), "supported", ""),
+    )
+    for provider_type in (FakeProvider, RetryProvider):
+        original = provider_type.training_chat
+
+        def with_citation(self, context, original=original):
+            response = original(self, context)
+            if context.get("is_question"):
+                return response.model_copy(update={"citations": ["test-evidence"]})
+            return response
+
+        monkeypatch.setattr(provider_type, "training_chat", with_citation)
+
+
+@pytest.fixture
 def session() -> Generator[Session, None, None]:
     engine = create_engine(
         "sqlite://", connect_args={"check_same_thread": False}, poolclass=StaticPool
@@ -140,7 +162,9 @@ def complete_onboarding(session: Session, subject: str) -> None:
     service.complete_draft(session, scope)
 
 
-def test_chat_is_client_scoped_persisted_and_never_mutates_plan(session: Session) -> None:
+def test_chat_is_client_scoped_persisted_and_never_mutates_plan(
+    session: Session, supported_questions
+) -> None:
     ada = create_client(session, "ada", "ada@example.test")
     create_client(session, "grace", "grace@example.test")
     create_current_plan(session, ada)
@@ -151,7 +175,7 @@ def test_chat_is_client_scoped_persisted_and_never_mutates_plan(session: Session
     service = TrainingChatService(provider)
 
     state = service.submit_for_subject(
-        session, "ada", message="Como faço o agachamento?", client_request_id=uuid4()
+        session, "ada", message="O que diz a base sobre o movimento?", client_request_id=uuid4()
     )
 
     assert [message.role for message in state.messages] == ["user", "assistant"]
@@ -176,7 +200,9 @@ def test_chat_is_client_scoped_persisted_and_never_mutates_plan(session: Session
     assert service.state_for_subject(session, "grace").messages == []
 
 
-def test_idempotent_message_does_not_call_provider_or_create_duplicates(session: Session) -> None:
+def test_idempotent_message_does_not_call_provider_or_create_duplicates(
+    session: Session, supported_questions
+) -> None:
     create_client(session, "ada", "ada@example.test")
     provider = FakeProvider(AiTrainingChatResponse(assistant_message="Resposta em português."))
     service = TrainingChatService(provider)
@@ -354,7 +380,9 @@ def test_chat_can_update_an_instructor_draft(session: Session) -> None:
     assert provider.contexts[0]["editable_training_draft"] is not None
 
 
-def test_retry_and_failure_leave_training_plan_unchanged(session: Session) -> None:
+def test_retry_and_failure_leave_training_plan_unchanged(
+    session: Session, supported_questions
+) -> None:
     ada = create_client(session, "ada", "ada@example.test")
     create_current_plan(session, ada)
     retry = RetryProvider()
@@ -393,7 +421,9 @@ def test_expired_raw_chat_is_purged_without_deleting_training_plan(session: Sess
     assert session.scalar(select(TrainingAiConversation)).summary is None
 
 
-def test_health_context_is_minimized_to_relevant_client_question(session: Session) -> None:
+def test_health_context_is_minimized_to_relevant_client_question(
+    session: Session, supported_questions
+) -> None:
     create_client(session, "ada", "ada@example.test")
     complete_onboarding(session, "ada")
     provider = FakeProvider(AiTrainingChatResponse(assistant_message="Converse com seu instrutor."))
@@ -472,7 +502,9 @@ def test_raw_training_chat_endpoint_requires_the_client_role(
     app.dependency_overrides.clear()
 
 
-def test_memory_keeps_complete_client_corrections_and_excludes_assistant_claims(session):
+def test_memory_keeps_complete_client_corrections_and_excludes_assistant_claims(
+    session, supported_questions
+):
     import json
 
     create_client(session, "ada", "ada@example.test")
@@ -514,7 +546,9 @@ def test_active_chat_drops_expired_sources_and_summary(session):
     assert conversation.summary is None
 
 
-def test_followup_uses_relevant_user_context_without_mutating_completed_onboarding(session):
+def test_followup_uses_relevant_user_context_without_mutating_completed_onboarding(
+    session, supported_questions
+):
     from app.modules.onboarding.models import Onboarding
 
     create_client(session, "ada", "ada@example.test")
@@ -524,7 +558,7 @@ def test_followup_uses_relevant_user_context_without_mutating_completed_onboardi
     for message in [
         "Tenho dor no joelho e só treino dois dias.",
         "Na verdade, é no ombro, não no joelho.",
-        "E como faço nesse caso?",
+        "O que você recomenda neste caso?",
     ]:
         service.submit_for_subject(session, "ada", message=message, client_request_id=uuid4())
     context = provider.contexts[-1]
@@ -559,7 +593,7 @@ def test_failed_retry_uses_original_message_and_stale_retry_is_rejected(session)
         service.submit_for_subject(session, "ada", message="Três dias", client_request_id=stale)
 
 
-def test_hallucinated_save_without_patch_is_not_presented_as_success(session):
+def test_hallucinated_save_without_patch_is_not_presented_as_success(session, supported_questions):
     create_client(session, "ada", "ada@example.test")
     service = TrainingChatService(
         FakeProvider(AiTrainingChatResponse(assistant_message="Atualizei seu treino."))

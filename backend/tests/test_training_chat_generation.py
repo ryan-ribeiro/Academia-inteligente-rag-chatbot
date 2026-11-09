@@ -13,6 +13,7 @@ from test_training_chat import (
 from test_training_chat import (
     session as session,
 )
+from test_training_chat import supported_questions as supported_questions
 from test_training_generation import FakeProvider as GenerationProvider
 from test_training_generation import proposal
 
@@ -112,7 +113,9 @@ def test_incomplete_onboarding_explains_required_step_without_generating(session
 
 
 @pytest.mark.parametrize("completed", [False, True])
-def test_model_offer_is_grounded_in_onboarding_and_confirmation_is_actionable(session, completed):
+def test_model_offer_is_grounded_in_onboarding_and_confirmation_is_actionable(
+    session, completed, supported_questions
+):
     create_client(session, "ada", "ada@example.test")
     if completed:
         complete_onboarding(session, "ada")

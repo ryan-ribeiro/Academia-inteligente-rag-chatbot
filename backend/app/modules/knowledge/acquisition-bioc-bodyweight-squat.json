@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "pmc": "PMC11991476",
+  "doi": "10.3390/s25072018",
+  "source": {
+    "id": "santarem-bodyweight-squat-2025",
+    "title": "Acute Physiological and Perceptual Responses to Six Body-Weight Squat Exercise Variations",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11991476/",
+    "authors": [
+      "Santarém, Daniel",
+      "Teixeira, Andreia",
+      "Amaral, António",
+      "Sampaio, Jaime",
+      "Abrantes, Catarina"
+    ],
+    "language": "en",
+    "license": "CC-BY-4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "license_review_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11991476/",
+    "commercial_use_allowed": true,
+    "review_status": "approved",
+    "reviewed_by": "Repository source identity, item licence and pinned extraction review; article-authored study protocol; independent Portuguese instruction review pending",
+    "reviewed_at": "2026-11-08",
+    "review_due_at": "2027-11-08",
+    "attribution": "Santarém D, Teixeira A, Amaral A, Sampaio J, Abrantes C. Acute Physiological and Perceptual Responses to Six Body-Weight Squat Exercise Variations. Sensors. 2025;25(7):2018. doi:10.3390/s25072018. CC BY 4.0. Trecho selecionado em inglês; resposta em português resume o protocolo do estudo.",
+    "content_note": "O trecho descreve o agachamento profundo com peso corporal usado em um estudo com quinze adultos recreacionalmente ativos. Trata-se de um protocolo de laboratório com fita de referência e ângulo de quadril, sem definir amplitude adequada para cada pessoa.",
+    "limitations": [
+      "Estudo com quinze adultos recreacionalmente ativos; não determina a amplitude ou a técnica adequada para cada pessoa.",
+      "O trecho se refere ao agachamento profundo com peso corporal em superfície estável; não descreve o retorno em detalhes nem cobre barra, goblet, Smith ou outras variações.",
+      "A adaptação explicativa em português ainda precisa de revisão independente por profissional qualificado."
+    ]
+  },
+  "selection": {
+    "id": "santarem-bodyweight-squat-2025-deep-procedure",
+    "section_type": "METHODS",
+    "locator": "Métodos — Agachamento profundo com peso corporal / deep body-weight squat",
+    "text_sha256": "533e41da860ee89f89ecc14423b4353f9e38ce9d243a736b25b8f732e4e58c71"
+  }
+}

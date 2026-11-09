@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "pmc": "PMC11587132",
+  "doi": "10.3390/jfmk9040224",
+  "source": {
+    "id": "papadakis-back-squat-older-adults-2024",
+    "title": "Addressing Biomechanical Errors in the Back Squat for Older Adults: A Clinical Perspective for Maintaining Neutral Spine and Knee Alignment",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11587132/",
+    "authors": [
+      "Papadakis, Zacharias",
+      "Stamatis, Andreas",
+      "Almajid, Rania",
+      "Appiah-Kubi, Kwadwo",
+      "Smith, Matthew Lee",
+      "Parnes, Nata",
+      "Boolani, Ali"
+    ],
+    "language": "en",
+    "license": "CC-BY-4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "license_review_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11587132/",
+    "commercial_use_allowed": true,
+    "review_status": "approved",
+    "reviewed_by": "Repository source identity, item licence and pinned extraction review; article-authored exercise procedure; no independent review of Portuguese adaptation",
+    "reviewed_at": "2026-11-08",
+    "review_due_at": "2027-11-08",
+    "attribution": "Papadakis Z, Stamatis A, Almajid R, Appiah-Kubi K, Smith ML, Parnes N, Boolani A. Addressing Biomechanical Errors in the Back Squat for Older Adults: A Clinical Perspective for Maintaining Neutral Spine and Knee Alignment. J Funct Morphol Kinesiol. 2024;9(4):224. doi:10.3390/jfmk9040224. CC BY 4.0. Resposta explicativa adaptada para português; revisão independente por profissional ainda pendente.",
+    "content_note": "Trecho original em inglês da seção 2. O artigo apresenta uma perspectiva clínica sobre adultos mais velhos. A resposta descreve parcialmente o procedimento, sem estabelecer adequação individual ou segurança universal.",
+    "limitations": [
+      "A perspectiva clínica trata de adultos mais velhos; não estabelece adequação individual nem permite generalizar para todas as pessoas.",
+      "O artigo descreve agachamento posterior com barra; não oferece suporte para agachamento com peso corporal, goblet, Smith, frontal ou outras variações.",
+      "O procedimento em português ainda precisa de revisão independente por profissional qualificado antes de ser considerado uma instrução geral."
+    ]
+  },
+  "selection": {
+    "id": "papadakis-back-squat-older-adults-2024-procedure",
+    "section_type": "INTRO",
+    "locator": "Seção 2 — Agachamento posterior com barra / The Back Squat; trecho do procedimento",
+    "text_sha256": "1756744faa2bd4f272c74e93115b90d14c377add293a6df0e3b7df4c1297c9a0"
+  }
+}

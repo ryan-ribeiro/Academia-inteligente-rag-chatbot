@@ -235,6 +235,30 @@ def test_ollama_training_chat_maps_plain_shared_response(monkeypatch: pytest.Mon
     assert result.assistant_message == "Faça com calma."
 
 
+def test_ollama_question_uses_bounded_direct_grounded_response(monkeypatch):
+    captured = {}
+
+    def respond(request, timeout):
+        captured.update(json.loads(request.data))
+        return BytesIO(ollama_response({"assistant_message": "Deite no banco."}))
+
+    monkeypatch.setattr(ai, "urlopen", respond)
+    provider = OllamaOnboardingProvider(OllamaConfig("http://ollama:11434", "qwen3:4b", 30))
+    provider.training_chat(
+        {
+            "current_user_message": "Como fazer supino?",
+            "is_question": True,
+            "rules": {"may_update_ai_draft": False},
+            "knowledge": {"chunks": [{"chunk_id": "bench-1"}]},
+        }
+    )
+    assert captured["think"] is False
+    assert captured["options"]["num_predict"] == 512
+    assert captured["format"]["properties"]["assistant_message"]["maxLength"] == 650
+    assert captured["format"]["properties"]["draft_update"] == {"type": "null"}
+    assert "Não repita a pergunta" in captured["messages"][0]["content"]
+
+
 @pytest.mark.parametrize("provider", ["openai", "ollama"])
 def test_adaptation_uses_the_same_provider_neutral_contract(
     monkeypatch: pytest.MonkeyPatch, provider: str

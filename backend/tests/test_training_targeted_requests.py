@@ -371,6 +371,7 @@ def test_generic_adaptation_question_keeps_the_confirmation_flow(session):
         assistant_message="Posso preparar uma adaptação para você conferir.",
         adaptation_suggested=True,
         adaptation_reason="Dor relatada pelo cliente.",
+        citations=[CHUNK_ID],
     )
     result = service.submit_for_subject(
         session,

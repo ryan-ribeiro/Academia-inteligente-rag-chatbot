@@ -3,6 +3,38 @@
   "review_note": "Technical review of selected content and reuse terms on 2026-10-13; no individual clinical approval. All candidate metadata is retained; only allowed, reviewed selections are indexed. No third-party media.",
   "sources": [
     {
+      "id": "muyor-bench-press-2023",
+      "title": "Comparison of Muscle Activity between the Horizontal Bench Press and the Seated Chest Press Exercises Using Several Grips",
+      "url": "https://doi.org/10.5114/jhk/161468",
+      "authors": [
+        "José M. Muyor",
+        "David Rodríguez-Ridao",
+        "José M. Oliva-Lozano"
+      ],
+      "language": "en",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_review_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10203828/",
+      "commercial_use_allowed": true,
+      "review_status": "approved",
+      "reviewed_by": "repository-content-license-review",
+      "reviewed_at": "2026-11-08",
+      "review_due_at": "2027-11-08",
+      "captured_at": "2026-11-08",
+      "attribution": "Muyor JM, Rodríguez-Ridao D, Oliva-Lozano JM. Journal of Human Kinetics 87:23–34 (2023), doi:10.5114/jhk/161468. CC BY 4.0; adapted and translated into Portuguese.",
+      "content_note": "Síntese traduzida do procedimento do estudo; não inclui figuras nem reproduz recomendações de carga.",
+      "limitations": [
+        "Estudo experimental com 20 adultos fisicamente ativos; descreve um procedimento de pesquisa, não uma prescrição individual ou avaliação de segurança para todas as pessoas e variações de supino."
+      ],
+      "chunks": [
+        {
+          "id": "muyor-bench-press-2023-technique",
+          "section": "Procedimentos — execução do supino horizontal com barra / barbell bench press technique",
+          "content": "No estudo de supino horizontal com barra (bench press), os participantes deitaram de costas no banco e seguraram a barra com os polegares envolvendo-a e com mãos e antebraços em pronação. Na descida, levaram a barra até próximo do peito, mantendo os ombros aproximadamente a 45 graus do tronco; em seguida elevaram a barra até estender os cotovelos. Esta descrição corresponde ao protocolo observado no estudo e não define carga, amplitude ou técnica adequada para todas as pessoas. Para adaptar a execução a limitações individuais, procure orientação de um instrutor."
+        }
+      ]
+    },
+    {
       "id": "nhs-strength",
       "title": "Strength exercises",
       "url": "https://www.nhs.uk/live-well/exercise/strength-exercises/",
@@ -1562,6 +1594,274 @@
             "id": "price-asthma-2025-06",
             "locator": "PMC12186601 JATS all16573-sec-0017 blocks 1; all16573-sec-0002; all16573-sec-0019",
             "text_sha256": "e3a5f2dd064721f939769b0e7ff484342fd90498acde74f59bec5eedb9a2b33c"
+          }
+        ]
+      }
+    },
+    {
+      "id": "papadakis-back-squat-older-adults-2024",
+      "title": "Addressing Biomechanical Errors in the Back Squat for Older Adults: A Clinical Perspective for Maintaining Neutral Spine and Knee Alignment",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11587132/",
+      "authors": [
+        "Papadakis, Zacharias",
+        "Stamatis, Andreas",
+        "Almajid, Rania",
+        "Appiah-Kubi, Kwadwo",
+        "Smith, Matthew Lee",
+        "Parnes, Nata",
+        "Boolani, Ali"
+      ],
+      "language": "en",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_review_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11587132/",
+      "commercial_use_allowed": true,
+      "review_status": "approved",
+      "reviewed_by": "Repository source identity, item licence and pinned extraction review; article-authored exercise procedure; no independent review of Portuguese adaptation",
+      "reviewed_at": "2026-11-08",
+      "review_due_at": "2027-11-08",
+      "attribution": "Papadakis Z, Stamatis A, Almajid R, Appiah-Kubi K, Smith ML, Parnes N, Boolani A. Addressing Biomechanical Errors in the Back Squat for Older Adults: A Clinical Perspective for Maintaining Neutral Spine and Knee Alignment. J Funct Morphol Kinesiol. 2024;9(4):224. doi:10.3390/jfmk9040224. CC BY 4.0. Resposta explicativa adaptada para português; revisão independente por profissional ainda pendente.",
+      "content_note": "Trecho original em inglês da seção 2. O artigo apresenta uma perspectiva clínica sobre adultos mais velhos. A resposta descreve parcialmente o procedimento, sem estabelecer adequação individual ou segurança universal.",
+      "limitations": [
+        "A perspectiva clínica trata de adultos mais velhos; não estabelece adequação individual nem permite generalizar para todas as pessoas.",
+        "O artigo descreve agachamento posterior com barra; não oferece suporte para agachamento com peso corporal, goblet, Smith, frontal ou outras variações.",
+        "O procedimento em português ainda precisa de revisão independente por profissional qualificado antes de ser considerado uma instrução geral."
+      ],
+      "chunks": [
+        {
+          "id": "papadakis-back-squat-older-adults-2024-procedure",
+          "section": "Seção 2 — Agachamento posterior com barra / The Back Squat; trecho do procedimento",
+          "content": "The proper back squat technique is essential for maximizing performance and minimizing injury risk. This technique can be broken down into three main phases: the starting position, the descent phase, and the upward recovery phase. In the starting position, the individual stands with the barbell resting across the upper back, near the C7 vertebrae and trapezius muscles. A shoulder-width or slightly wider handgrip is maintained, ensuring comfort and security. It is crucial to align the head, shoulders, hips, knees, and ankles vertically to establish a stable and balanced foundation. During the descent phase, the torso remains rigid as the hips, knees, and ankles flex in a controlled manner. The individual lowers themselves until the thighs are parallel to the ground or slightly below. To maintain proper form, the shins and torso should remain parallel, avoiding any rounding of the thoracic or lumbar spine, bending forward at the waist, or allowing the knees to drift inward. The upward recovery phase begins once the individual reaches the lowest point of the squat. The hips, knees, and ankles extend while maintaining a rigid torso. It is important that the hips and shoulders rise at the same rate until the knees are fully extended. Throughout this phase, the individual should avoid rounding the back, bending forward, raising the heels, or looking down, as these errors can compromise the effectiveness of the squat and increase the risk of injury."
+        }
+      ],
+      "captured_at": "2026-11-09",
+      "provenance": {
+        "version": 1,
+        "source_id": "papadakis-back-squat-older-adults-2024",
+        "doi": "10.3390/jfmk9040224",
+        "repository_identifier": "PMC11587132",
+        "requested_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/PMC11587132/unicode",
+        "captured_at": "2026-11-09T01:25:41.177525+00:00",
+        "artifact_file": "f5064671d5fca89ad368954ba10970c19aba430917438f30a2caf21e014f90df.json",
+        "artifact_sha256": "f5064671d5fca89ad368954ba10970c19aba430917438f30a2caf21e014f90df",
+        "artifact_bytes": 95904,
+        "media_type": "application/json",
+        "extractor": "ncbi-pmc-bioc-pinned-passage/1",
+        "license": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "license_evidence": "Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https://creativecommons.org/licenses/by/4.0/).",
+        "license_evidence_sha256": "ca838ad6efff7132773a1acf46b8822bcb496722ad995a52eb8738e200108d75",
+        "recipe_sha256": "422c11b50bd7452f6685cda7e6dcc36f22cc491c42b1af986004f7a3b2a34771",
+        "scientific_approval": "source-authored-procedure; independent-translation-review-pending",
+        "chunks": [
+          {
+            "id": "papadakis-back-squat-older-adults-2024-procedure",
+            "locator": "Seção 2 — Agachamento posterior com barra / The Back Squat; trecho do procedimento",
+            "text_sha256": "1756744faa2bd4f272c74e93115b90d14c377add293a6df0e3b7df4c1297c9a0"
+          }
+        ]
+      }
+    },
+    {
+      "id": "oliva-lozano-muyor-core-exercise-procedures-2020",
+      "title": "Core Muscle Activity during Physical Fitness Exercises: A Systematic Review",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7345922/",
+      "authors": [
+        "José M. Oliva-Lozano",
+        "José M. Muyor"
+      ],
+      "language": "en",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_review_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7345922/",
+      "commercial_use_allowed": true,
+      "review_status": "approved",
+      "reviewed_by": "Repository item-license, source-identity and text-extraction review; source is a peer-reviewed systematic review; no independent Portuguese exercise-instruction review",
+      "reviewed_at": "2026-11-08",
+      "review_due_at": "2027-11-08",
+      "attribution": "Oliva-Lozano JM, Muyor JM. Core Muscle Activity during Physical Fitness Exercises: A Systematic Review. Int J Environ Res Public Health. 2020;17(12):4306. doi:10.3390/ijerph17124306. CC BY 4.0. Trechos selecionados em inglês; respostas em português resumem os procedimentos e as limitações dos estudos.",
+      "content_note": "Descrições da tabela 2 sobre procedimentos usados em estudos com adultos saudáveis. A revisão avalia atividade muscular e apresenta protocolos de pesquisa; não é um manual completo de execução nem orientação individual.",
+      "limitations": [
+        "Os procedimentos foram compilados de estudos de adultos saudáveis e podem variar entre protocolos; não constituem prescrição individual nem consenso de técnica.",
+        "As descrições não incluem avaliação de adequação, carga, respiração, supervisão ou todas as etapas de cada movimento.",
+        "A adaptação explicativa em português ainda precisa de revisão independente por profissional qualificado."
+      ],
+      "chunks": [
+        {
+          "id": "oliva-lozano-muyor-core-2020-curlup",
+          "section": "Tabela 2 — Abdominal curto / Curl-Up or Crunch; trecho do procedimento",
+          "content": "Participant is in a supine position with feet on the floor (hip-width apart) and knee flexion. Upper body is lifted with hands behind the neck and then returned to the starting position."
+        },
+        {
+          "id": "oliva-lozano-muyor-core-2020-bridge",
+          "section": "Tabela 2 — Elevação de quadril no solo / Bridge; trecho do procedimento",
+          "content": "Participant laid in a supine position with knees flexed (90°) and feet on the floor. The hip is lifted in a hip extension movement, keeping a straight line between the shoulders and the knees."
+        },
+        {
+          "id": "oliva-lozano-muyor-core-2020-pushup",
+          "section": "Tabela 2 — Flexão de braços / Push-Up; trecho do procedimento",
+          "content": "Participant is in a prone position with shoulders abducted and elbows extended. The toes are placed shoulder-width apart. When flexing the elbows, the participant lowers the body and pushes back up by extending the elbows."
+        }
+      ],
+      "captured_at": "2026-11-09",
+      "provenance": {
+        "version": 1,
+        "source_id": "oliva-lozano-muyor-core-exercise-procedures-2020",
+        "doi": "10.3390/ijerph17124306",
+        "repository_identifier": "PMC7345922",
+        "requested_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/PMC7345922/unicode",
+        "captured_at": "2026-11-09T01:36:10.498638+00:00",
+        "artifact_file": "9646508b37ab110a5f1bca8f8f2e93e92c2c4e635dec0d79b8c1b388bfc923ad.json",
+        "artifact_sha256": "9646508b37ab110a5f1bca8f8f2e93e92c2c4e635dec0d79b8c1b388bfc923ad",
+        "artifact_bytes": 558183,
+        "media_type": "application/json",
+        "extractor": "ncbi-pmc-bioc-table-rows/1",
+        "license": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "license_evidence": "Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (http://creativecommons.org/licenses/by/4.0/).",
+        "license_evidence_sha256": "fe5e19487af168143062b7d5676c94a3f5f3979e8c690574ed3035df8fcddbce",
+        "recipe_sha256": "75d531385b8d7364e5e81cc9d7b6483bbb48db0aa79d3698447a17a167f8c3a4",
+        "scientific_approval": "peer-reviewed-review-table; exercise-specific-translation-review-pending",
+        "chunks": [
+          {
+            "id": "oliva-lozano-muyor-core-2020-curlup",
+            "locator": "Tabela 2 — Abdominal curto / Curl-Up or Crunch; trecho do procedimento",
+            "text_sha256": "cfc372d9b65b22ec09110369b48fe27a8b3e8db6870df9dcd54a79b7c6f7814f"
+          },
+          {
+            "id": "oliva-lozano-muyor-core-2020-bridge",
+            "locator": "Tabela 2 — Elevação de quadril no solo / Bridge; trecho do procedimento",
+            "text_sha256": "fb16e999a340c8deadab273e0b81a741d2c0bfbc0fed8c34caae20dab9b27795"
+          },
+          {
+            "id": "oliva-lozano-muyor-core-2020-pushup",
+            "locator": "Tabela 2 — Flexão de braços / Push-Up; trecho do procedimento",
+            "text_sha256": "d394f426cb88ce176597d221d459fa03f840045cc39575849602268d13a945f8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "parpa-dumbbell-curl-2025",
+      "title": "An Exploratory Study of Biceps Brachii Electromyographic Activity During Traditional Dumbbell Versus Bayesian Cable Curls",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12550948/",
+      "authors": [
+        "Parpa, Koulla",
+        "Vasiliou, Antreas",
+        "Michaelides, Marcos",
+        "Govindasamy, Karuppasamy",
+        "Chernov, Anton",
+        "Intziegianni, Konstantina"
+      ],
+      "language": "en",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_review_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12550948/",
+      "commercial_use_allowed": true,
+      "review_status": "approved",
+      "reviewed_by": "Repository identity, item licence and pinned extraction review; article-authored study procedure; independent Portuguese instruction review pending",
+      "reviewed_at": "2026-11-08",
+      "review_due_at": "2027-11-08",
+      "attribution": "Parpa K, Vasiliou A, Michaelides M, Govindasamy K, Chernov A, Intziegianni K. An Exploratory Study of Biceps Brachii Electromyographic Activity During Traditional Dumbbell Versus Bayesian Cable Curls. Muscles. 2025;4(4):45. doi:10.3390/muscles4040045. CC BY 4.0. Trecho selecionado em inglês; resposta em português resume o protocolo do estudo.",
+      "content_note": "Procedimento selecionado para rosca bilateral em pé com halteres e pegada supinada; a amostra analisada reuniu onze homens saudáveis e treinados, de 20 a 40 anos. O protocolo não é orientação individual, técnica universal ou recomendação de carga.",
+      "limitations": [
+        "O estudo analisou onze homens fisicamente ativos e treinados, de 20 a 40 anos, sem lesões relatadas na parte superior do corpo; não demonstra adequação para outras pessoas.",
+        "O trecho descreve rosca em pé com dois halteres e pegada supinada; não cobre barra, cabo, pegada martelo ou variações sentadas.",
+        "A adaptação explicativa em português ainda precisa de revisão independente por profissional qualificado."
+      ],
+      "chunks": [
+        {
+          "id": "parpa-dumbbell-curl-2025-procedure",
+          "section": "Métodos — Rosca direta em pé com halteres / traditional dumbbell biceps curl",
+          "content": "For the appropriate execution of the biceps curl, participants performed the exercise while standing upright, with feet shoulder-width apart, holding a dumbbell in each hand in a supinated grip, as presented by previous investigators. The arms were fully extended at the sides, with the elbows kept close to the torso throughout the whole movement. From this position, participants flexed their elbows to lift the dumbbells towards their shoulders in a controlled manner, avoiding trunk movements and jerky motions. The eccentric phase also involved a slow, controlled lowering of the dumbbells back to the starting position through the full range of motion."
+        }
+      ],
+      "captured_at": "2026-11-09",
+      "provenance": {
+        "version": 1,
+        "source_id": "parpa-dumbbell-curl-2025",
+        "doi": "10.3390/muscles4040045",
+        "repository_identifier": "PMC12550948",
+        "requested_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/PMC12550948/unicode",
+        "captured_at": "2026-11-09T02:38:33.951259+00:00",
+        "artifact_file": "0fb95bbd7736615774857700f35d4d48cf8e25fa9c3bc5aee3b0245cc2d0acf7.json",
+        "artifact_sha256": "0fb95bbd7736615774857700f35d4d48cf8e25fa9c3bc5aee3b0245cc2d0acf7",
+        "artifact_bytes": 55857,
+        "media_type": "application/json",
+        "extractor": "ncbi-pmc-bioc-pinned-passage/1",
+        "license": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "license_evidence": "Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https://creativecommons.org/licenses/by/4.0/).",
+        "license_evidence_sha256": "ca838ad6efff7132773a1acf46b8822bcb496722ad995a52eb8738e200108d75",
+        "recipe_sha256": "2646f32c5824013f3a794d7e9d7949b0789b5d5a75b7d4ad99d37573af763b16",
+        "scientific_approval": "source-authored-procedure; independent-translation-review-pending",
+        "chunks": [
+          {
+            "id": "parpa-dumbbell-curl-2025-procedure",
+            "locator": "Métodos — Rosca direta em pé com halteres / traditional dumbbell biceps curl",
+            "text_sha256": "f9aa98c3a456d120ffd773c1d0615cec6afad685d1f93f8969382bee314e634e"
+          }
+        ]
+      }
+    },
+    {
+      "id": "santarem-bodyweight-squat-2025",
+      "title": "Acute Physiological and Perceptual Responses to Six Body-Weight Squat Exercise Variations",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11991476/",
+      "authors": [
+        "Santarém, Daniel",
+        "Teixeira, Andreia",
+        "Amaral, António",
+        "Sampaio, Jaime",
+        "Abrantes, Catarina"
+      ],
+      "language": "en",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_review_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11991476/",
+      "commercial_use_allowed": true,
+      "review_status": "approved",
+      "reviewed_by": "Repository source identity, item licence and pinned extraction review; article-authored study protocol; independent Portuguese instruction review pending",
+      "reviewed_at": "2026-11-08",
+      "review_due_at": "2027-11-08",
+      "attribution": "Santarém D, Teixeira A, Amaral A, Sampaio J, Abrantes C. Acute Physiological and Perceptual Responses to Six Body-Weight Squat Exercise Variations. Sensors. 2025;25(7):2018. doi:10.3390/s25072018. CC BY 4.0. Trecho selecionado em inglês; resposta em português resume o protocolo do estudo.",
+      "content_note": "O trecho descreve o agachamento profundo com peso corporal usado em um estudo com quinze adultos recreacionalmente ativos. Trata-se de um protocolo de laboratório com fita de referência e ângulo de quadril, sem definir amplitude adequada para cada pessoa.",
+      "limitations": [
+        "Estudo com quinze adultos recreacionalmente ativos; não determina a amplitude ou a técnica adequada para cada pessoa.",
+        "O trecho se refere ao agachamento profundo com peso corporal em superfície estável; não descreve o retorno em detalhes nem cobre barra, goblet, Smith ou outras variações.",
+        "A adaptação explicativa em português ainda precisa de revisão independente por profissional qualificado."
+      ],
+      "chunks": [
+        {
+          "id": "santarem-bodyweight-squat-2025-deep-procedure",
+          "section": "Métodos — Agachamento profundo com peso corporal / deep body-weight squat",
+          "content": "Deep squat: cadence—60 beats per minute (bpm); body position—trunk parallel to tibia, upper limbs follow the movement, at the end of the descending phase the glutes touch the tape, the chest must be kept up, and the knees pointing outward; foot position—shoulder-width apart; hip angle—110°; surface—stable; and contraction type—dynamic."
+        }
+      ],
+      "captured_at": "2026-11-09",
+      "provenance": {
+        "version": 1,
+        "source_id": "santarem-bodyweight-squat-2025",
+        "doi": "10.3390/s25072018",
+        "repository_identifier": "PMC11991476",
+        "requested_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/PMC11991476/unicode",
+        "captured_at": "2026-11-09T02:46:50.788512+00:00",
+        "artifact_file": "a7c8de718b8a646ab17586ff319d884441004db6940a8d4b915dadff86e130d8.json",
+        "artifact_sha256": "a7c8de718b8a646ab17586ff319d884441004db6940a8d4b915dadff86e130d8",
+        "artifact_bytes": 90208,
+        "media_type": "application/json",
+        "extractor": "ncbi-pmc-bioc-pinned-passage/1",
+        "license": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "license_evidence": "Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https://creativecommons.org/licenses/by/4.0/).",
+        "license_evidence_sha256": "ca838ad6efff7132773a1acf46b8822bcb496722ad995a52eb8738e200108d75",
+        "recipe_sha256": "1cddfed851ebc6ae53360a8249f945cd378fb3a38b658a8f7bdddf5dbce5c962",
+        "scientific_approval": "source-authored-procedure; independent-translation-review-pending",
+        "chunks": [
+          {
+            "id": "santarem-bodyweight-squat-2025-deep-procedure",
+            "locator": "Métodos — Agachamento profundo com peso corporal / deep body-weight squat",
+            "text_sha256": "533e41da860ee89f89ecc14423b4353f9e38ce9d243a736b25b8f732e4e58c71"
           }
         ]
       }

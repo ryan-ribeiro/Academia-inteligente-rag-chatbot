@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "pmc": "PMC7345922",
+  "doi": "10.3390/ijerph17124306",
+  "title": "Core Muscle Activity during Physical Fitness Exercises: A Systematic Review",
+  "author_surnames": ["Oliva-Lozano", "Muyor"],
+  "source": {
+    "id": "oliva-lozano-muyor-core-exercise-procedures-2020",
+    "title": "Core Muscle Activity during Physical Fitness Exercises: A Systematic Review",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7345922/",
+    "authors": ["José M. Oliva-Lozano", "José M. Muyor"],
+    "language": "en",
+    "license": "CC-BY-4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "license_review_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7345922/",
+    "commercial_use_allowed": true,
+    "review_status": "approved",
+    "reviewed_by": "Repository item-license, source-identity and text-extraction review; source is a peer-reviewed systematic review; no independent Portuguese exercise-instruction review",
+    "reviewed_at": "2026-11-08",
+    "review_due_at": "2027-11-08",
+    "attribution": "Oliva-Lozano JM, Muyor JM. Core Muscle Activity during Physical Fitness Exercises: A Systematic Review. Int J Environ Res Public Health. 2020;17(12):4306. doi:10.3390/ijerph17124306. CC BY 4.0. Trechos selecionados em inglês; respostas em português resumem os procedimentos e as limitações dos estudos.",
+    "content_note": "Descrições da tabela 2 sobre procedimentos usados em estudos com adultos saudáveis. A revisão avalia atividade muscular e apresenta protocolos de pesquisa; não é um manual completo de execução nem orientação individual.",
+    "limitations": [
+      "Os procedimentos foram compilados de estudos de adultos saudáveis e podem variar entre protocolos; não constituem prescrição individual nem consenso de técnica.",
+      "As descrições não incluem avaliação de adequação, carga, respiração, supervisão ou todas as etapas de cada movimento.",
+      "A adaptação explicativa em português ainda precisa de revisão independente por profissional qualificado."
+    ]
+  },
+  "selections": [
+    {
+      "exercise": "Curl-Up or Crunch",
+      "id": "oliva-lozano-muyor-core-2020-curlup",
+      "locator": "Tabela 2 — Abdominal curto / Curl-Up or Crunch; trecho do procedimento",
+      "row_sha256": "a91e48f38ea75abd94dd624d9b6c6cdf6943f12af996b8aaf0dd28c381fc8593",
+      "text_sha256": "cfc372d9b65b22ec09110369b48fe27a8b3e8db6870df9dcd54a79b7c6f7814f"
+    },
+    {
+      "exercise": "Bridge",
+      "id": "oliva-lozano-muyor-core-2020-bridge",
+      "locator": "Tabela 2 — Elevação de quadril no solo / Bridge; trecho do procedimento",
+      "row_sha256": "4dc83c22867672e801535a98c4c4c31476fad0f645fe3024a3ca98149b3829af",
+      "text_sha256": "fb16e999a340c8deadab273e0b81a741d2c0bfbc0fed8c34caae20dab9b27795"
+    },
+    {
+      "exercise": "Push-Up",
+      "id": "oliva-lozano-muyor-core-2020-pushup",
+      "locator": "Tabela 2 — Flexão de braços / Push-Up; trecho do procedimento",
+      "row_sha256": "b932479fbd405c3b047be4f08f555c73174375236ded07aa7318123d3043f117",
+      "text_sha256": "d394f426cb88ce176597d221d459fa03f840045cc39575849602268d13a945f8"
+    }
+  ]
+}

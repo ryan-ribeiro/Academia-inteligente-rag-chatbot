@@ -87,12 +87,26 @@ def test_initial_catalogue_contains_all_candidates_but_embeds_only_reviewed_allo
     data = json.loads(CATALOG_PATH.read_text(encoding="utf-8"))
     provider = FakeEmbeddings()
     count = seed_catalog(session, provider, data)
-    assert len(session.scalars(select(KnowledgeSource)).all()) == 24
+    assert len(session.scalars(select(KnowledgeSource)).all()) == 29
     assert count == len(provider.calls) > 0
     rows = session.execute(select(KnowledgeChunk, KnowledgeSource).join(KnowledgeSource)).all()
     assert all(
         source.review_status == "approved" and "NC" not in source.license for _, source in rows
     )
+
+
+def test_bench_press_question_finds_reviewed_technique_and_canonical_source(session):
+    catalog = json.loads(CATALOG_PATH.read_text(encoding="utf-8"))
+    source = next(item for item in catalog["sources"] if item["id"] == "muyor-bench-press-2023")
+    seed_catalog(session, FakeEmbeddings(), {"version": 1, "sources": [source]})
+    result = KnowledgeService(today=date(2026, 11, 8)).retrieve(
+        session, client_id(session), "Como fazer supino corretamente?"
+    )
+    assert result.knowledge_status == "supported"
+    assert result.chunks[0]["chunk_id"] == "muyor-bench-press-2023-technique"
+    resolved = result.resolve_citations([result.chunks[0]["chunk_id"]], "supported")
+    assert resolved.citations[0]["url"] == "https://doi.org/10.5114/jhk/161468"
+    assert "20 adultos" in resolved.knowledge_limitations
 
 
 def test_retrieval_limits_matches_and_never_leaks_private_client_sources(session):

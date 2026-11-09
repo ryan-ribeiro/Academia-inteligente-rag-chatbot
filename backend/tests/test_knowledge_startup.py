@@ -55,8 +55,8 @@ def test_fresh_interpreter_initializes_catalogue_after_migrations_and_on_restart
                 assert events.count("embed") == embedding_calls
 
                 with Session(engine) as session:
-                    assert session.scalar(select(func.count()).select_from(KnowledgeSource)) == 24
-                    assert session.scalar(select(func.count()).select_from(KnowledgeChunk)) == 66
+                    assert session.scalar(select(func.count()).select_from(KnowledgeSource)) == 29
+                    assert session.scalar(select(func.count()).select_from(KnowledgeChunk)) == 73
                 """
             ),
         ],

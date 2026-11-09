@@ -109,7 +109,7 @@ def run_flow(session, flow, *, knowledge, citations, writer_status=None):
         state = TrainingChatService(writer, knowledge_service=knowledge).submit_for_subject(
             session,
             "ada",
-            message="Como faço o agachamento?",
+            message="O que diz a base sobre o agachamento?",
             client_request_id=uuid4(),
         )
         result = session.scalar(

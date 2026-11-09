@@ -30,6 +30,10 @@ PROVENANCE_REQUIRED = frozenset(
         "lafontant-body-fat-2025",
         "bao-depp-2026",
         "price-asthma-2025",
+        "papadakis-back-squat-older-adults-2024",
+        "oliva-lozano-muyor-core-exercise-procedures-2020",
+        "parpa-dumbbell-curl-2025",
+        "santarem-bodyweight-squat-2025",
     )
 )
 CACHE_PATH = Path(__file__).resolve().parents[3] / ".cache" / "training-evidence"

@@ -23,7 +23,12 @@ from app.integrations.ai import (
 from app.integrations.ai_diagnostics import observe_turn, record_retry, record_turn
 from app.modules.clients.models import Account, Client
 from app.modules.equipment.service import EquipmentService
-from app.modules.knowledge.service import KnowledgeCitationError, KnowledgeResult, KnowledgeService
+from app.modules.knowledge.service import (
+    KnowledgeCitationError,
+    KnowledgeContext,
+    KnowledgeResult,
+    KnowledgeService,
+)
 from app.modules.onboarding.draft_service import OnboardingDraftService
 from app.modules.onboarding.models import Onboarding
 from app.modules.training import owner_rag
@@ -127,6 +132,12 @@ class TrainingChatService:
             )
         )
         if reply is not None:
+            original = session.scalar(
+                select(TrainingAiMessage).where(
+                    TrainingAiMessage.conversation_id == conversation.id,
+                    TrainingAiMessage.client_request_id == client_request_id,
+                )
+            )
             if owner_rag.enabled():
                 proposal = self._lifecycle.find_proposal(session, client_id=client_id)
                 if proposal is not None and any(c.get("owner_rag") for c in proposal.citations):
@@ -136,7 +147,29 @@ class TrainingChatService:
                         self._lifecycle.content(session, proposal),
                         onboarding=owner_rag.current_onboarding(session, client_id),
                     )
-            if enforcement_enabled():
+            original_text = original.content if original is not None else message
+            if original is not None:
+                previous = session.scalar(
+                    select(TrainingAiMessage)
+                    .where(
+                        TrainingAiMessage.conversation_id == conversation.id,
+                        TrainingAiMessage.sequence < original.sequence,
+                    )
+                    .order_by(TrainingAiMessage.sequence.desc())
+                    .limit(1)
+                )
+                if previous is not None and previous.role == "assistant":
+                    from app.modules.knowledge.applicability import resolve_variant_reply
+
+                    original_text = (
+                        resolve_variant_reply(original_text, previous.content) or original_text
+                    )
+            if enforcement_enabled() and (
+                not self._is_question(original_text)
+                or self._requests_initial_plan(original_text, [])
+                or self._requests_exercise_suggestion(original_text)
+                or self._requests_draft_change(original_text, [], [])
+            ):
                 from app.modules.training.prescription_chat import replay_reply
 
                 content = replay_reply(self, session, subject, client_id, client_request_id)
@@ -185,10 +218,19 @@ class TrainingChatService:
 
         message = request_text(user.content)
         context = self._context(session, client_id, conversation, message, user.id)
+        previous_messages = context["recent_messages"]
+        if previous_messages and previous_messages[-1]["role"] == "assistant":
+            from app.modules.knowledge.applicability import resolve_variant_reply
+
+            resolved = resolve_variant_reply(message, previous_messages[-1]["content"])
+            if resolved:
+                message = resolved
+                context = self._context(session, client_id, conversation, message, user.id)
+        record_turn(question=context["is_question"])
         editable_draft = self._editable_ai_draft(session, client_id)
         draft_revision = editable_draft.revision if editable_draft else None
         try:
-            if enforcement_enabled():
+            if enforcement_enabled() and not context["is_question"]:
                 from app.modules.training.prescription_chat import operational_reply
 
                 initial_reply = operational_reply(
@@ -212,15 +254,92 @@ class TrainingChatService:
                 )
             else:
                 # Retrieval uses only this client's message and scoped plan context.
-                evidence = self._knowledge.retrieve(session, client_id, message)
+                retrieved_evidence = self._knowledge.retrieve(session, client_id, message)
+                from app.modules.knowledge.applicability import apply_procedural_applicability
+
+                evidence = apply_procedural_applicability(retrieved_evidence, message)
+                record_turn(
+                    knowledge_status=evidence.knowledge_status,
+                    passage_count=len(evidence.chunks),
+                    citation_state="not_attempted",
+                )
                 context["knowledge"] = evidence.as_context()
+                if context["is_question"] and self._missing_exercise_name(message):
+                    response = AiTrainingChatResponse(
+                        assistant_message="Qual exercício você gostaria de aprender a fazer?"
+                    )
+                    knowledge = evidence.resolve_citations([])
+                elif context["is_question"] and evidence.knowledge_status != "supported":
+                    record_turn(fallback=True)
+                    from app.modules.knowledge.applicability import (
+                        exercise_variant_clarification,
+                    )
+
+                    clarification = exercise_variant_clarification(
+                        message, list(retrieved_evidence.chunks)
+                    )
+                    fallback_message = {
+                        "outdated": (
+                            "As fontes relacionadas precisam de revisão antes de eu "
+                            "poder responder. Consulte seu instrutor."
+                        ),
+                        "unavailable": (
+                            "Não consegui consultar as fontes agora. Tente novamente "
+                            "mais tarde ou consulte seu instrutor."
+                        ),
+                    }.get(
+                        evidence.knowledge_status,
+                        "Não encontrei fundamentação suficiente para esclarecer sua "
+                        "pergunta. Consulte seu instrutor para uma orientação adequada.",
+                    )
+                    clarification_ids = []
+                    if evidence.knowledge_status == "insufficient_evidence" and clarification:
+                        fallback_message, clarification_ids = clarification
+                    response = AiTrainingChatResponse(
+                        assistant_message=fallback_message
+                    )
+                    knowledge = retrieved_evidence.resolve_citations(clarification_ids)
+                elif context["is_question"]:
+                    from app.modules.knowledge.procedural_answers import reviewed_procedural_answer
+
+                    response = reviewed_procedural_answer(
+                        message, evidence.chunks, context["relevant_onboarding"]
+                    )
+                    knowledge = (
+                        evidence.resolve_citations(response.citations)
+                        if response is not None
+                        else None
+                    )
+                else:
+                    response = None
                 if owner_rag.enabled() and context["rules"]["may_update_ai_draft"]:
                     context = owner_rag.prepare(
                         context, evidence, owner_rag.current_onboarding(session, client_id)
                     )
-                record_turn(path="model")
+                record_turn(
+                    path=(
+                        "reviewed_procedure"
+                        if response is not None
+                        and any(
+                            citation.get("chunk_id")
+                            in {
+                                "muyor-bench-press-2023-technique",
+                                "papadakis-back-squat-older-adults-2024-procedure",
+                                "santarem-bodyweight-squat-2025-deep-procedure",
+                                "oliva-lozano-muyor-core-2020-curlup",
+                                "oliva-lozano-muyor-core-2020-bridge",
+                                "oliva-lozano-muyor-core-2020-pushup",
+                                "parpa-dumbbell-curl-2025-procedure",
+                            }
+                            for citation in knowledge.citations
+                        )
+                        else "model"
+                    )
+                )
                 try:
-                    if context["rules"]["may_update_ai_draft"]:
+                    if response is not None:
+                        pass
+                    elif context["rules"]["may_update_ai_draft"]:
 
                         def write_chat(selected_context):
                             result = self._retry(
@@ -253,12 +372,60 @@ class TrainingChatService:
                         )
                     else:
                         response = self._retry(lambda: self._provider.training_chat(context))
-                    knowledge = evidence.resolve_citations(
-                        response.citations,
-                        response.knowledge_status
-                        if "knowledge_status" in response.model_fields_set
-                        else None,
-                    )
+                        if (
+                            context["is_question"]
+                            and evidence.knowledge_status == "supported"
+                            and not response.citations
+                        ):
+                            # Ask the writer to reassess rather than attaching a source
+                            # the backend cannot establish supports its response.
+                            correction_context = {
+                                **context,
+                                "citation_reassessment": (
+                                    "Confira se os trechos fornecidos respondem à pergunta. "
+                                    "Se sustentarem sua orientação, cite seus chunk_id; "
+                                    "se não sustentarem, indique a limitação sem inventar fontes."
+                                ),
+                            }
+                            record_turn(citation_reassessment=True, citation_state="missing")
+                            response = self._retry(
+                                lambda: self._provider.training_chat(correction_context)
+                            )
+                    if context["is_question"] and self._looks_like_prompt_echo(
+                        response.assistant_message, evidence.chunks
+                    ):
+                        record_turn(fallback=True, reason="invalid_model_output")
+                        evidence = KnowledgeContext.empty("insufficient_evidence")
+                        knowledge = evidence.resolve_citations([])
+                        response = AiTrainingChatResponse(
+                            assistant_message=(
+                                "Não consegui formular uma resposta confiável com as fontes "
+                                "consultadas. Tente novamente ou consulte seu instrutor."
+                            )
+                        )
+                    if response is not None and self._missing_exercise_name(message):
+                        pass
+                    elif evidence.knowledge_status == "supported" or not context["is_question"]:
+                        record_turn(citation_state="provided" if response.citations else "missing")
+                        knowledge = evidence.resolve_citations(
+                            response.citations,
+                            response.knowledge_status
+                            if "knowledge_status" in response.model_fields_set
+                            else None,
+                        )
+                    if (
+                        context["is_question"]
+                        and evidence.knowledge_status == "supported"
+                        and knowledge.knowledge_status != "supported"
+                        and not self._missing_exercise_name(message)
+                    ):
+                        record_turn(fallback=True, knowledge_status=knowledge.knowledge_status)
+                        response = AiTrainingChatResponse(
+                            assistant_message=(
+                                "Não encontrei fundamentação suficiente para esclarecer sua "
+                                "pergunta. Consulte seu instrutor."
+                            )
+                        )
                     if response.draft_update is not None and owner_rag.enabled():
                         from types import SimpleNamespace
 
@@ -276,6 +443,8 @@ class TrainingChatService:
                     RedundantTrainingExerciseError,
                     IncompleteTrainingPlanError,
                 ) as error:
+                    if isinstance(error, KnowledgeCitationError):
+                        record_turn(citation_state="invalid")
                     record_turn(
                         reason=(
                             "incomplete_training_plan"
@@ -335,6 +504,11 @@ class TrainingChatService:
             # Ground an offer in real capabilities; the next confirmation is
             # handled by the backend, never sent back to the model to ask again.
             content = self._initial_plan_guidance(context)
+        if context["is_question"] and not context["onboarding_completed"]:
+            content += (
+                "\n\nSeu onboarding ainda não está completo; por isso, não pude considerar "
+                "os dados do onboarding nesta resposta."
+            )
         can_suggest_adaptation = context["current_training_plan"] is not None
         assistant = TrainingAiMessage(
             conversation_id=conversation.id,
@@ -414,15 +588,28 @@ class TrainingChatService:
         )
         return {
             "current_user_message": message,
+            "is_question": self._is_question(message)
+            and not may_update
+            and not self._requests_exercise_suggestion(message)
+            and not self._requests_initial_plan(
+                message, [{"role": item.role, "content": item.content} for item in history]
+            ),
             "conversation_summary": self._bounded_summary(session, conversation.id, message_id),
             "recent_messages": [{"role": item.role, "content": item.content} for item in history],
             "current_training_plan": current_plan,
+            "matching_assigned_exercises": self._matching_assigned_exercises(
+                session, client_id, message
+            )
+            if self._exercise_question(message)
+            else [],
             "active_equipment_models": EquipmentService().training_context(session)
             if draft
             else [],
             "editable_training_draft": draft_content,
             "relevant_onboarding": self._onboarding_context(
-                session, client_id, "saude" if may_update else health_context
+                session,
+                client_id,
+                "saude" if may_update or self._exercise_question(message) else health_context,
             ),
             "onboarding_completed": OnboardingDraftService().has_valid_completed_onboarding(
                 session, client_id
@@ -562,6 +749,56 @@ class TrainingChatService:
             re.search(r"\b(?:prepar\w*|gerar|gere|montar|monte|criar|crie|elabor\w*)\b", text)
             and re.search(r"\b(?:plano|treino|rascunho|ficha|proposta)\b", text)
             and re.search(r"\b(?:quer|quero|deseja|gostaria|posso|vou|vamos)\b", text)
+        )
+
+    @classmethod
+    def _is_question(cls, message: str) -> bool:
+        text = cls._normalized(message).strip()
+        return bool(
+            "?" in text
+            or re.search(
+                r"\b(?:como|qual|quais|porque|por que|quando|onde|o que|"
+                r"explique|explica|explicar|esclareca|esclarecer|saber|duvida|"
+                r"entender|ensine|ensina|ensinar|me diga|me conte|"
+                r"pode me dizer|poderia me dizer|e seguro|e normal)\b",
+                text,
+            )
+        )
+
+    @classmethod
+    def _looks_like_prompt_echo(cls, message: str, chunks=()) -> bool:
+        normalized = cls._normalized(message)
+        return any(
+            marker in normalized
+            for marker in (
+                "responda diretamente ao cliente",
+                "use somente os trechos",
+                "nao inclua ids tecnicos",
+                "knowledge.chunks",
+                "citation_reassessment",
+                "citations:",
+            )
+        ) or any(
+            str(chunk.get("chunk_id", "")).casefold() in normalized
+            for chunk in chunks
+            if chunk.get("chunk_id")
+        )
+
+    def _exercise_question(cls, message: str) -> bool:
+        text = cls._normalized(message)
+        return cls._is_question(message) and bool(
+            re.search(r"\b(?:exercicio|movimento|executar|execucao|fazer|faco|realizar)\b", text)
+        )
+
+    @classmethod
+    def _missing_exercise_name(cls, message: str) -> bool:
+        text = cls._normalized(message).strip(" ?.!\t\n")
+        return bool(
+            re.fullmatch(
+                r"(?:como (?:fazer|faco|executar|realizar)|me explique) "
+                r"(?:o |esse |este |um )?(?:exercicio|movimento)",
+                text,
+            )
         )
 
     @classmethod
@@ -767,6 +1004,34 @@ class TrainingChatService:
                 )
             ],
         }
+
+    @classmethod
+    def _matching_assigned_exercises(
+        cls, session: Session, client_id: UUID, message: str
+    ) -> list[dict[str, object]]:
+        text = cls._normalized(message)
+        rows = session.execute(
+            select(TrainingPlanItem, TrainingPlanVersion.status)
+            .join(TrainingPlanVersion, TrainingPlanItem.version_id == TrainingPlanVersion.id)
+            .join(TrainingPlan, TrainingPlanVersion.plan_id == TrainingPlan.id)
+            .where(TrainingPlan.client_id == client_id)
+            .order_by(TrainingPlanVersion.version_number.desc(), TrainingPlanItem.position)
+        )
+        matches = []
+        seen = set()
+        for item, status in rows:
+            name = cls._normalized(item.exercise_name).strip()
+            if (
+                not name
+                or name in seen
+                or not re.search(r"(?<!\w)" + re.escape(name) + r"(?!\w)", text)
+            ):
+                continue
+            seen.add(name)
+            matches.append({"exercise_name": item.exercise_name, "status": status})
+            if len(matches) == 6:
+                break
+        return matches
 
     @staticmethod
     def _onboarding_context(session: Session, client_id: UUID, message: str) -> dict[str, object]:
