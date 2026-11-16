@@ -40,6 +40,20 @@ services:
         condition: service_healthy
     restart: "no"
 
+  ollama-translation-model:
+    image: ollama/ollama:${OLLAMA_DOCKER_TAG:-0.34.1}
+    profiles: ["ollama"]
+    entrypoint: ["/bin/ollama"]
+    command: ["pull", "${EXERCISE_TRANSLATION_MODEL:-translategemma:4b}"]
+    environment:
+      OLLAMA_HOST: http://ollama:11434
+    volumes:
+      - ollama_data:/root/.ollama
+    depends_on:
+      ollama:
+        condition: service_healthy
+    restart: "no"
+
   compreface-postgres-db:
     image: exadel/compreface-postgres-db:1.2.0@sha256:fe898d327bc3dd738513ef7cafcbe97da51ac10d2542493141ac7878d3bc9f3a
     profiles: [biometrics]

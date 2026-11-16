@@ -46,6 +46,12 @@ services:
       OLLAMA_BASE_URL: ${OLLAMA_BASE_URL:-http://host.docker.internal:11434}
       OLLAMA_MODEL: ${OLLAMA_MODEL:-qwen3:8b}
       OLLAMA_TIMEOUT_SECONDS: ${OLLAMA_TIMEOUT_SECONDS:-120}
+      EXERCISE_EMBEDDING_URL: ${EXERCISE_EMBEDDING_URL:-http://rag-ollama:11434}
+      EXERCISE_EMBEDDING_MODEL: ${EXERCISE_EMBEDDING_MODEL:-embeddinggemma:300m-qat-q4_0}
+      EXERCISE_EMBEDDING_TIMEOUT: ${EXERCISE_EMBEDDING_TIMEOUT:-60}
+      EXERCISE_TRANSLATION_MODEL: ${EXERCISE_TRANSLATION_MODEL:-translategemma:4b}
+      EXERCISE_REVOKED_SOURCES: ${EXERCISE_REVOKED_SOURCES:-}
+      EXERCISE_SIMILARITY_THRESHOLD: ${EXERCISE_SIMILARITY_THRESHOLD:-0.55}
       KEYCLOAK_ADMIN_URL: http://keycloak:8080
       KEYCLOAK_REALM: academia
       KEYCLOAK_PROVISIONING_CLIENT_ID: academia-provisioner
@@ -111,6 +117,45 @@ services:
       - "1025"
     ports:
       - "127.0.0.1:8025:8025"
+
+  rag-ollama:
+    image: ollama/ollama:${OLLAMA_DOCKER_TAG:-0.34.1}
+    profiles: ["rag"]
+    environment:
+      OLLAMA_HOST: 0.0.0.0:11434
+    ports:
+      - "127.0.0.1:11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    healthcheck:
+      test: ["CMD-SHELL", "OLLAMA_HOST=http://127.0.0.1:11434 ollama list >/dev/null"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+
+  rag-embedding-model:
+    image: ollama/ollama:${OLLAMA_DOCKER_TAG:-0.34.1}
+    profiles: ["rag"]
+    entrypoint: ["/bin/ollama"]
+    command: ["pull", "${EXERCISE_EMBEDDING_MODEL:-embeddinggemma:300m-qat-q4_0}"]
+    environment:
+      OLLAMA_HOST: http://rag-ollama:11434
+    depends_on:
+      rag-ollama:
+        condition: service_healthy
+    restart: "no"
+
+  rag-translation-model:
+    image: ollama/ollama:${OLLAMA_DOCKER_TAG:-0.34.1}
+    profiles: ["rag"]
+    entrypoint: ["/bin/ollama"]
+    command: ["pull", "${EXERCISE_TRANSLATION_MODEL:-translategemma:4b}"]
+    environment:
+      OLLAMA_HOST: http://rag-ollama:11434
+    depends_on:
+      rag-ollama:
+        condition: service_healthy
+    restart: "no"
 
   ollama:
     image: ollama/ollama:${OLLAMA_DOCKER_TAG:-0.34.1}

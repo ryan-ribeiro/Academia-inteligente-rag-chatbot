@@ -1,0 +1,2092 @@
+# Exercise names in the assistant index
+
+This catalog contains 2082 exercise titles from the two exercise datasets in the semantic index. The English title is retained alongside a suggested Brazilian Portuguese equivalent, generated automatically and not standardized.
+
+Portuguese names are automatic translation aids for finding an exercise, not standardized exercise nomenclature. The original English title is preserved because some variations have no common Portuguese name. An indexed title does not guarantee enough source material for a complete answer.
+
+Use either title in a clear question, for example: “Como faço **Rosca com haltere alternada**?”.
+
+## Full title list
+
+- 3/4 Sit-Up — **Abdominal parcial 3/4**
+- 45° side bend — **Flexão lateral do tronco 45°**
+- 90/90 Hamstring — **Alongamento do posterior da coxa 90/90**
+- Ab Crunch Machine — **Máquina de abdominal**
+- Ab Roller — **Rolo abdominal**
+- Adductor — **Adutor**
+- Adductor/Groin — **Adutor/coxa**
+- Advanced Kettlebell Windmill — **Windmill avançado com kettlebell**
+- Air Bike — **Bicicleta ergométrica de resistência a ar**
+- All Fours Quad Stretch — **Alongamento de quadríceps em quatro apoios**
+- all fours squad stretch — **Alongamento em posição de agachamento, em quatro apoios**
+- Alternate Hammer Curl — **Rosca com halter alternada**
+- Alternate Heel Touchers — **Toque de calcanhar alternado**
+- Alternate Incline Dumbbell Curl — **Rosca com halter inclinado alternada**
+- alternate lateral pulldown — **Puxada lateral com cabo alternada**
+- Alternate Leg Diagonal Bound — **Salto diagonal alternado com uma perna**
+- Alternating Cable Shoulder Press — **Desenvolvimento para ombros com cabo alternado**
+- Alternating Deltoid Raise — **Elevação lateral do ombro alternada**
+- Alternating Floor Press — **Supino alternado no chão**
+- Alternating Hang Clean — **Levantamento alternado**
+- Alternating Kettlebell Press — **Press alternado com kettlebell**
+- Alternating Kettlebell Row — **Remada alternada com kettlebell**
+- Alternating Renegade Row — **Remada renegade alternada**
+- Ankle Circles — **Círculos de tornozelo**
+- Ankle On The Knee — **Tornozelo no joelho**
+- Anterior Tibialis-SMR — **Smr na panturrilha anterior**
+- Anti-Gravity Press — **Press anti-gravidade**
+- archer pull up — **Pull-up arqueiro**
+- archer push up — **Flexão arqueiro**
+- Arm Circles — **Círculos de braço**
+- arm slingers hanging bent knee legs — **Pernas dobradas, suspensão**
+- arm slingers hanging straight legs — **Pernas retas, suspensão**
+- arms apart circular toe touch (male) — **Toque de pé circular (masculino)**
+- arms overhead full sit-up (male) — **Abdominal completo (masculino)**
+- Arnold Dumbbell Press — **Supino com halter arnold**
+- Around The Worlds — **Ao redor do mundo**
+- assisted chest dip (kneeling) — **Dip no peito (joelhos) assistido**
+- assisted hanging knee raise — **Elevação de perna suspensa assistida**
+- assisted hanging knee raise with throw down — **Elevação de perna suspensa com peso assistida**
+- assisted lying calves stretch — **Alongamento de panturrilha em decúbito assistido**
+- assisted lying glutes stretch — **Alongamento de glúteos em decúbito assistido**
+- assisted lying gluteus and piriformis stretch — **Alongamento de glúteo e piriforme em decúbito assistido**
+- assisted lying leg raise with lateral throw down — **Alongamento de perna com peso lateral assistido**
+- assisted lying leg raise with throw down — **Alongamento de perna com peso assistido**
+- assisted motion russian twist — **Rotação russa assistida**
+- assisted parallel close grip pull-up — **Puxada paralela assistida**
+- assisted prone hamstring — **Alongamento posterior da coxa em decúbito assistido**
+- assisted prone lying quads stretch — **Alongamento quadríceps em decúbito assistido**
+- assisted prone rectus femoris stretch — **Alongamento reto femoral em decúbito assistido**
+- assisted pull-up — **Puxada assistida**
+- assisted seated pectoralis major stretch with stability ball — **Alongamento de peitoral maior sentado com bola**
+- assisted side lying adductor stretch — **Alongamento de adutor em decúbito lateral assistido**
+- assisted sit-up — **Abdominal assistido**
+- assisted standing chin-up — **Pull-up em pé assistido**
+- assisted standing pull-up — **Puxada em pé assistida**
+- assisted standing triceps extension (with towel) — **Extensão de tríceps com toalha assistida**
+- assisted triceps dip (kneeling) — **Dip no peito (joelhos) assistido**
+- assisted wide-grip chest dip (kneeling) — **Dip no peito (joelhos) amplo assistido**
+- astride jumps (male) — **Saltos astrides (masculino)**
+- Atlas Stone Trainer — **Treinador atlas stone**
+- Atlas Stones — **Pedras atlas**
+- Axle Deadlift — **Deadlift com barra**
+- back and forth step — **Passo para frente e para trás**
+- back extension on exercise ball — **Extensão lombar no esférico**
+- Back Flyes - With Bands — **Flyes para a parte alta do peitoral - com elásticos**
+- back lever — **Barra fixa**
+- back pec stretch — **Alongamento peitoral**
+- Backward Drag — **Arrastar para trás**
+- backward jump — **Salto para trás**
+- Backward Medicine Ball Throw — **Arremesso com bola medicinal para trás**
+- Balance Board — **Prancha de equilíbrio**
+- Ball Leg Curl — **Flexora de pernas com elástico**
+- band alternating biceps curl — **Rosca alternada com elástico**
+- band alternating v-up — **V-up alternado com elástico**
+- Band Assisted Pull-Up — **Barra fixa assistida com elástico**
+- band assisted wheel rollerout — **Rolo com elástico**
+- band bench press — **Supino com elástico**
+- band bent-over hip extension — **Extensão de quadril com elástico**
+- band bicycle crunch — **Crunch bicicleta com elástico**
+- band close-grip pulldown — **Puxada na barra com elástico**
+- band close-grip push-up — **Flexão na barra com elástico**
+- band concentration curl — **Rosca concentrada com elástico**
+- band fixed back close grip pulldown — **Puxada na barra fixa com elástico**
+- band fixed back underhand pulldown — **Puxada na barra com elástico**
+- band front lateral raise — **Elevação lateral com elástico**
+- band front raise — **Elevação frontal com elástico**
+- Band Good Morning — **Good morning com elástico**
+- Band Good Morning (Pull Through) — **Good morning com elástico (puxando)**
+- Band Hip Adductions — **Abdução de quadril com elástico**
+- band hip lift — **Elevação de quadril com elástico**
+- band horizontal pallof press — **Press horizontal com kettlebell**
+- band jack knife sit-up — **Crunch de abdominal com elástico**
+- band kneeling one arm pulldown — **Puxada na barra com elástico (joelho)**
+- band kneeling twisting crunch — **Crunch com elástico (joelho)**
+- band lying hip internal rotation — **Rotação interna do quadril deitado com elástico**
+- band lying straight leg raise — **Elevação de pernas deitado com elástico**
+- band one arm overhead biceps curl — **Rosca bíceps com elástico**
+- band one arm single leg split squat — **Agachamento unilateral com elástico**
+- band one arm standing low row — **Remada unilateral com elástico**
+- band one arm twisting chest press — **Press de peito unilateral com elástico**
+- band one arm twisting seated row — **Remada unilateral sentada com elástico**
+- Band Pull Apart — **Puxar para frente**
+- band pull through — **Puxar para trás**
+- band push sit-up — **Crunch de abdominal com elástico**
+- band reverse fly — **Flyes com elástico**
+- band reverse wrist curl — **Rosca de punho com elástico**
+- band seated hip internal rotation — **Rotação interna do quadril sentado com elástico**
+- band seated twist — **Rotação sentada com elástico**
+- band shoulder press — **Desenvolvimento para ombros com elástico**
+- band shrug — **Elevação de ombros com elástico**
+- band side triceps extension — **Extensão de tríceps com elástico**
+- band single leg calf raise — **Elevação de panturrilha unilateral com elástico**
+- band single leg reverse calf raise — **Elevação de panturrilha unilateral inversa com elástico**
+- band single leg split squat — **Agachamento unilateral com elástico**
+- Band Skull Crusher — **Rosca skull crusher com elástico**
+- band squat — **Agachamento com elástico**
+- band squat row — **Remada com elástico**
+- band standing crunch — **Crunch de abdominal com elástico**
+- band standing rear delt row — **Remada para as costas com elástico**
+- band standing twisting crunch — **Crunch com elástico**
+- band step-up — **Band step-up**
+- band stiff leg deadlift — **Band stiff leg deadlift**
+- band straight back stiff leg deadlift — **Band straight back stiff leg deadlift**
+- band straight leg deadlift — **Band straight leg deadlift**
+- band twisting overhead press — **Band twisting overhead press**
+- band two legs calf raise - (band under both legs) v. 2 — **Band two legs calf raise - (band under both legs) v. 2**
+- band underhand pulldown — **Band underhand pulldown**
+- band v-up — **Band v-up**
+- band vertical pallof press — **Band vertical pallof press**
+- band wrist curl — **Band wrist curl**
+- band y-raise — **Band y-raise**
+- Barbell Ab Rollout — **Ab rollout com barra**
+- Barbell Ab Rollout - On Knees — **Ab rollout com barra - sobre as joelhos**
+- barbell alternate biceps curl — **Rosca com barra alternada para bíceps**
+- barbell bench front squat — **Agachamento com barra na frente**
+- barbell bench press — **Supino com barra**
+- Barbell Bench Press - Medium Grip — **Supino com barra - pegada média**
+- barbell bench squat — **Agachamento com barra**
+- barbell bent arm pullover — **Remada com barra e braço estendido**
+- barbell bent over row — **Remada com barra curvada**
+- barbell biceps curl (with arm blaster) — **Rosca com barra (com braço blaster)**
+- barbell clean and press — **Limpeza e press com barra**
+- barbell clean-grip front squat — **Agachamento com barra na frente com pegada**
+- barbell close-grip bench press — **Supino com barra e pegada fechada**
+- Barbell Curl — **Rosca com barra**
+- Barbell Curls Lying Against An Incline — **Roscas com barra deitado em inclinação**
+- Barbell Deadlift — **Levantamento terra com barra**
+- barbell decline bench press — **Supino com barra em inclinação**
+- barbell decline bent arm pullover — **Remada com barra e braço estendido em inclinação**
+- barbell decline close grip to skull press — **Press com barra close grip até a cabeça**
+- barbell decline pullover — **Remada com barra em inclinação**
+- barbell decline wide-grip press — **Press com barra em inclinação**
+- barbell decline wide-grip pullover — **Remada com barra em inclinação**
+- barbell drag curl — **Rosca com barra**
+- barbell floor calf raise — **Levantamento terra com barra**
+- barbell front chest squat — **Agachamento com barra para peito**
+- barbell front raise — **Elevação frontal com barra**
+- barbell front raise and pullover — **Elevação frontal e remada com barra**
+- barbell front squat — **Agachamento com barra**
+- Barbell Full Squat — **Agachamento completo**
+- barbell full squat (back pov) — **Agachamento completo (vista da trás)**
+- barbell full squat (side pov) — **Agachamento completo (vista lateral)**
+- barbell full zercher squat — **Agachamento completo com barra zercher**
+- Barbell Glute Bridge — **Ponte glútea**
+- barbell glute bridge two legs on bench (male) — **Ponte glútea com duas pernas no banco (masculino)**
+- barbell good morning — **Bom dia com barra**
+- Barbell Guillotine Bench Press — **Supino com barra na frente (guillotine)**
+- Barbell Hack Squat — **Agachamento hack com barra**
+- barbell high bar squat — **Agachamento com barra alta**
+- Barbell Hip Thrust — **Ponte glútea**
+- barbell incline bench press — **Supino com barra em inclinação**
+- Barbell Incline Bench Press - Medium Grip — **Supino com barra em inclinação - pegada média**
+- barbell incline close grip bench press — **Supino inclinado com barra e pegada fechada**
+- barbell incline reverse-grip press — **Press com barra em inclinação com pegada reversa**
+- barbell incline row — **Remada com barra em inclinação**
+- Barbell Incline Shoulder Raise — **Elevação lateral com barra em inclinação**
+- barbell jefferson squat — **Agachamento jefferson**
+- barbell jm bench press — **Supino com barra jm**
+- barbell jump squat — **Agachamento com salto**
+- barbell lateral lunge — **Afundo com barra**
+- barbell low bar squat — **Agachamento com barra**
+- Barbell Lunge — **Afundo com barra**
+- barbell lying back of the head tricep extension — **Extensão de tríceps com barra, deitado**
+- barbell lying close-grip press — **Supino com barra, deitado**
+- barbell lying close-grip triceps extension — **Extensão de tríceps com barra, deitado, pegada fechada**
+- barbell lying extension — **Extensão com barra, deitado**
+- barbell lying lifting (on hip) — **Levantamento com barra, deitado (no quadril)**
+- barbell lying preacher curl — **Rosca com barra, deitado, pregador**
+- barbell lying triceps extension — **Extensão de tríceps com barra, deitado**
+- barbell lying triceps extension skull crusher — **Extensão de tríceps com barra, deitado, "skullcrusher**
+- barbell narrow stance squat — **Agachamento com barra, postura estreita**
+- barbell one arm bent over row — **Remada com barra, uma mão, curvado**
+- barbell one arm floor press — **Supino com barra, uma mão, no chão**
+- barbell one arm side deadlift — **Levantamento terra com barra, uma mão, lateral**
+- barbell one arm snatch — **Levantamento com barra, uma mão, "snatch**
+- barbell one leg squat — **Agachamento com barra, uma perna**
+- barbell overhead squat — **Agachamento com barra, acima da cabeça**
+- barbell palms down wrist curl over a bench — **Rosca com barra, punho, sobre banco**
+- barbell palms up wrist curl over a bench — **Rosca com barra, punho, sobre banco**
+- barbell pendlay row — **Remada com barra, "pendlay**
+- barbell pin presses — **Supino parcial com barra a partir dos pinos**
+- barbell preacher curl — **Rosca com barra, pregador**
+- barbell press sit-up — **Abdominal com barra**
+- barbell prone incline curl — **Rosca com barra, inclinação**
+- barbell pullover — **Rosca com barra, "pullover**
+- barbell pullover to press — **Rosca com barra, "pullover" para supino**
+- barbell rack pull — **Agachamento com barra, "rack pull**
+- barbell rear delt raise — **Elevação lateral com barra, ombro**
+- Barbell Rear Delt Row — **Remada com barra, ombro**
+- barbell rear lunge — **Afundo com barra, ombro**
+- barbell rear lunge v. 2 — **Afundo com barra, ombro, versão 2**
+- barbell revers wrist curl v. 2 — **Rosca com barra, punho, versão 2**
+- barbell reverse close-grip bench press — **Supino com barra, pegada fechada, deitado**
+- barbell reverse curl — **Rosca com barra, reverso**
+- barbell reverse grip bent over row — **Remada com barra, pegada fechada, curvado**
+- barbell reverse grip decline bench press — **Supino com barra, pegada fechada, inclinação**
+- barbell reverse grip incline bench press — **Supino com barra, pegada fechada, inclinação**
+- barbell reverse grip incline bench row — **Remada com barra, pegada fechada, inclinação**
+- barbell reverse grip skullcrusher — **Extensão de tríceps com barra, pegada fechada, "skullcrusher**
+- barbell reverse preacher curl — **Rosca com barra, pregador, pegada fechada**
+- barbell reverse wrist curl — **Rosca com barra, punho, reverso**
+- barbell rollerout — **Kettlebell" rollout**
+- barbell rollerout from bench — **Kettlebell" rollout, deitado**
+- Barbell Rollout from Bench — **Kettlebell" rollout, deitado**
+- barbell romanian deadlift — **Levantamento terra com "kettlebell", romeno**
+- barbell seated behind head military press — **Press militar com barra, sentado, atrás da cabeça**
+- barbell seated bradford rocky press — **Press militar com barra, sentado, "bradford rocky**
+- Barbell Seated Calf Raise — **Elevação de panturrilha sentada com barra**
+- barbell seated close grip behind neck triceps extension — **Extensão de tríceps com barra, sentado, atrás do pescoço**
+- barbell seated close-grip concentration curl — **Rosca com barra, concentração, sentado**
+- barbell seated good morning — **Good morning" com barra, sentado**
+- barbell seated overhead press — **Press militar com barra, sentado, acima da cabeça**
+- barbell seated overhead triceps extension — **Extensão de tríceps com barra, sentado, acima da cabeça**
+- barbell seated twist — **Rotação sentada com barra**
+- Barbell Shoulder Press — **Desenvolvimento com barra, ombros**
+- Barbell Shrug — **Shrug" com barra**
+- Barbell Shrug Behind The Back — **Shrug" com barra, atrás**
+- Barbell Side Bend — **Flexão lateral do tronco com barra**
+- barbell side bent v. 2 — **Flexão lateral do tronco com barra, versão 2**
+- Barbell Side Split Squat — **Agachamento lateral com barra**
+- barbell side split squat v. 2 — **Barbell, agachamento lateral dividido v. 2**
+- barbell single leg deadlift — **Barbell, levantamento terra com uma perna**
+- barbell single leg split squat — **Barbell, agachamento lateral com uma perna**
+- barbell sitted alternate leg raise — **Barbell, elevação alternada sentada da perna**
+- barbell sitted alternate leg raise (female) — **Barbell, elevação alternada sentada da perna (feminino)**
+- barbell skier — **Barbell, esqui**
+- barbell speed squat — **Barbell, agachamento rápido**
+- barbell split squat v. 2 — **Barbell, agachamento lateral v. 2**
+- Barbell Squat — **Barbell, agachamento**
+- barbell squat (on knees) — **Barbell, agachamento (nos joelhos)**
+- barbell squat jump step rear lunge — **Barbell, agachamento saltado para frente, agachamento reverso**
+- Barbell Squat To A Bench — **Barbell, agachamento para banco**
+- barbell standing ab rollerout — **Barbell, rolar abdominal em pé**
+- barbell standing back wrist curl — **Barbell, rolar de braço em pé**
+- barbell standing bradford press — **Barbell, supino bradford**
+- barbell standing calf raise — **Barbell, elevação de panturrilha em pé**
+- barbell standing close grip curl — **Barbell, rosca com pegada estreita em pé**
+- barbell standing close grip military press — **Barbell, desenvolvimento para ombros com pegada estreita em pé**
+- barbell standing concentration curl — **Barbell, rosca de braço concentrada em pé**
+- barbell standing front raise over head — **Barbell, elevação frontal sobre a cabeça**
+- barbell standing leg calf raise — **Barbell, elevação de panturrilha em pé**
+- barbell standing overhead triceps extension — **Barbell, extensão de tríceps sobre a cabeça**
+- barbell standing reverse grip curl — **Barbell, rosca com pegada reversa em pé**
+- barbell standing rocking leg calf raise — **Barbell, elevação de panturrilha com perna balançante**
+- barbell standing twist — **Barbell, torção em pé**
+- barbell standing wide grip biceps curl — **Barbell, rosca de bíceps com pegada larga**
+- barbell standing wide military press — **Barbell, desenvolvimento para ombros com pegada larga**
+- barbell standing wide-grip curl — **Barbell, rosca com pegada larga**
+- Barbell Step Ups — **Barbell, step-ups**
+- barbell step-up — **Barbell, step-up**
+- barbell stiff leg good morning — **Barbell, good morning com perna reta**
+- barbell straight leg deadlift — **Barbell, levantamento terra com perna reta**
+- barbell sumo deadlift — **Barbell, levantamento terra sumo**
+- barbell thruster — **Barbell, thruster**
+- barbell upright row — **Barbell, remada alta**
+- barbell upright row v. 2 — **Barbell, remada alta v. 2**
+- barbell upright row v. 3 — **Barbell, remada alta v. 3**
+- Barbell Walking Lunge — **Barbell, agachamento reverso**
+- barbell wide bench press — **Barbell, supino com pegada aberta**
+- barbell wide reverse grip bench press — **Barbell, supino com pegada reversa larga**
+- barbell wide squat — **Barbell, agachamento largo**
+- barbell wide-grip upright row — **Barbell, remada alta com pegada larga**
+- barbell wrist curl — **Barbell, rolar de braço**
+- barbell wrist curl v. 2 — **Barbell, rolar de braço v. 2**
+- barbell zercher squat — **Barbell, agachamento zercher**
+- basic toe touch (male) — **Toque de pés básico (masculino)**
+- Battling Ropes — **Cordas de batalha**
+- bear crawl — **Crawl de urso**
+- Bear Crawl Sled Drags — **Arraste de esteira com barra**
+- Behind Head Chest Stretch — **Alongamento do peito atrás da cabeça**
+- bench dip (knees bent) — **Dip no banco (com joelhos flexionados)**
+- bench dip on floor — **Dip no banco no chão**
+- Bench Dips — **Dips no banco**
+- bench hip extension — **Extensão do quadril no banco**
+- Bench Jump — **Salto no banco**
+- Bench Press - Powerlifting — **Supino - powerlifting**
+- Bench Press - With Bands — **Supino - com bandas**
+- Bench Press with Chains — **Supino com correntes**
+- bench pull-ups — **Barra fixa**
+- Bench Sprint — **Supino**
+- bent knee lying twist (male) — **Abdominal com perna flexionada (masculino)**
+- Bent Over Barbell Row — **Remada com barra, posição agachada**
+- Bent Over Dumbbell Rear Delt Raise With Head On Bench — **Desenvolvimento para ombros com barra, posição agachada**
+- Bent Over Low-Pulley Side Lateral — **Flexão lateral do tronco com barra, posição agachada**
+- Bent Over One-Arm Long Bar Row — **Remada com barra, uma mão**
+- Bent Over Two-Arm Long Bar Row — **Remada com barra, duas mãos**
+- Bent Over Two-Dumbbell Row — **Remada com duas halteres, posição agachada**
+- Bent Over Two-Dumbbell Row With Palms In — **Remada com dois halteres, palmas para dentro**
+- Bent Press — **Supino, posição agachada**
+- Bent-Arm Barbell Pullover — **Supino com barra, braços flexionados**
+- Bent-Arm Dumbbell Pullover — **Supino com halter, braços flexionados**
+- Bent-Knee Hip Raise — **Elevação de quadril, perna flexionada**
+- biceps leg concentration curl — **Rosca de bíceps com perna flexionada**
+- biceps narrow pull-ups — **Barra fixa com pegada fechada**
+- biceps pull-up — **Barra fixa**
+- Bicycling — **Ciclismo**
+- Bicycling, Stationary — **Ciclismo, bicicleta fixa**
+- Board Press — **Supino com barra**
+- Body Tricep Press — **Supino com halteres, tríceps**
+- Body-Up — **Flexão**
+- bodyweight drop jump squat — **Agachamento com salto, peso corporal**
+- Bodyweight Flyes — **Desenvolvimento para ombros, peso corporal**
+- bodyweight incline side plank — **Prancha lateral inclinada com peso corporal**
+- bodyweight kneeling triceps extension — **Extensão de tríceps, peso corporal**
+- Bodyweight Mid Row — **Remada, peso corporal**
+- bodyweight side lying biceps curl — **Rosca de bíceps, peso corporal**
+- Bodyweight Squat — **Agachamento, peso corporal**
+- bodyweight squatting row — **Remada, agachamento, peso corporal**
+- bodyweight squatting row (with towel) — **Remada, agachamento, peso corporal (com toalha)**
+- bodyweight standing calf raise — **Elevação de panturrilha, peso corporal**
+- bodyweight standing close-grip one arm row — **Remada, uma mão, peso corporal**
+- bodyweight standing close-grip row — **Remada, uma mão, peso corporal**
+- bodyweight standing one arm row — **Remada, uma mão, peso corporal (com toalha)**
+- bodyweight standing one arm row (with towel) — **Remada, peso corporal (com toalha)**
+- bodyweight standing row — **Remada, peso corporal (com toalha)**
+- bodyweight standing row (with towel) — **Afundo, peso corporal**
+- Bodyweight Walking Lunge — **Afundo, peso corporal**
+- Bosu Ball Cable Crunch With Side Bends — **Crunch com laterais, bola bosu**
+- Bottoms Up — **Bottoms up**
+- bottoms-up — **Bottoms up**
+- Bottoms-Up Clean From The Hang Position — **Limpeza com barra, posição pendurada**
+- Box Jump (Multiple Response) — **Salto na caixa (múltiplas respostas)**
+- box jump down with one leg stabilization — **Salto na caixa, estabilização com uma perna**
+- Box Skip — **Salto na caixa**
+- Box Squat — **Agachamento na caixa**
+- Box Squat with Bands — **Agachamento na caixa, com elásticos**
+- Box Squat with Chains — **Agachamento na caixa, com correntes**
+- Brachialis-SMR — **Smr de brachialis**
+- Bradford/Rocky Presses — **Presses bradford/rocky**
+- bridge - mountain climber (cross body) — **Ponte - mountain climber (cruzando o corpo)**
+- burpee — **Burpee**
+- Butt Lift (Bridge) — **Elevação de nádegas (bridge)**
+- Butt-Ups — **Butt-ups**
+- Butterfly — **Butterfly**
+- butterfly yoga pose — **Posição butterfly de yoga**
+- cable alternate shoulder press — **Desenvolvimento para ombros com cabo**
+- cable alternate triceps extension — **Extensão de tríceps com cabo**
+- cable assisted inverse leg curl — **Flexora de pernas com cabo, inversão**
+- cable bar lateral pulldown — **Puxada alta com barra, cabo**
+- cable bench press — **Supino com cabo**
+- Cable Chest Press — **Supino com cabo**
+- cable close grip curl — **Rosca com cabo, pegada fechada**
+- cable concentration curl — **Rosca com cabo, concentração**
+- cable concentration extension (on knee) — **Rosca com cabo, extensão (no joelho)**
+- cable cross-over lateral pulldown — **Rosca com cabo, crossover lateral**
+- cable cross-over revers fly — **Rosca com cabo, revers fly**
+- cable cross-over variation — **Variação de rosca com cabo**
+- Cable Crossover — **Rosca com cabo, crossover**
+- Cable Crunch — **Abdominal com cabo**
+- cable curl — **Rosca com cabo**
+- cable deadlift — **Levantamento terra com cabo**
+- Cable Deadlifts — **Levantamento terra com cabo**
+- cable decline fly — **Supino inclinado com cabo**
+- cable decline one arm press — **Supino inclinado com cabo, uma mão**
+- cable decline press — **Supino inclinado com cabo**
+- cable decline seated wide-grip row — **Remada com cabo, inclinado, ampla pegada**
+- cable drag curl — **Rosca com cabo, drag**
+- cable floor seated wide-grip row — **Remada com cabo, sentada, ampla pegada**
+- cable forward raise — **Elevação com cabo, frontal**
+- cable front raise — **Elevação com cabo, frontal**
+- cable front shoulder raise — **Elevação com cabo, frontal, ombros**
+- cable hammer curl (with rope) — **Rosca com cabo, martelo (com corda)**
+- Cable Hammer Curls - Rope Attachment — **Rosca com cabo, martelo - fixação com corda**
+- cable high pulley overhead tricep extension — **Extensão de tríceps com cabo, alta**
+- cable high row (kneeling) — **Remada com cabo, alta (agachado)**
+- Cable Hip Adduction — **Adução do quadril com cabo**
+- cable incline bench press — **Supino inclinado com cabo**
+- cable incline bench row — **Remada inclinado com cabo**
+- cable incline fly — **Supino inclinado com cabo, crossover**
+- cable incline fly (on stability ball) — **Supino inclinado com cabo, crossover (em bola)**
+- Cable Incline Pushdown — **Supino inclinado com cabo, down**
+- Cable Incline Triceps Extension — **Extensão de tríceps com cabo, inclinado**
+- Cable Internal Rotation — **Rotação interna com cabo**
+- Cable Iron Cross — **Cross com cabo**
+- Cable Judo Flip — **Flip com cabo**
+- cable kickback — **Extensão com cabo**
+- cable kneeling crunch — **Abdominal com cabo, joelho**
+- cable kneeling rear delt row (with rope) (male) — **Remada dorsal com cabo, joelho, com corda (masculino)**
+- cable kneeling triceps extension — **Extensão de tríceps com cabo, joelho**
+- cable lat pulldown full range of motion — **Puxada alta com cabo, amplitude total**
+- cable lateral pulldown (with rope attachment) — **Puxada lateral com cabo (com fixação de corda)**
+- cable lateral pulldown with v-bar — **Puxada lateral com barra v**
+- cable lateral raise — **Elevação lateral com cabo**
+- cable low fly — **Supino com cabo, baixo**
+- cable low seated row — **Remada sentada com cabo**
+- cable lying bicep curl — **Rosca com cabo, deitado, bíceps**
+- cable lying close-grip curl — **Rosca com cabo, deitado, pegada fechada**
+- cable lying extension pullover (with rope attachment) — **Extensão com cabo, deitado, pullover (com fixação de corda)**
+- cable lying fly — **Supino com cabo, deitado**
+- Cable Lying Triceps Extension — **Extensão de tríceps com cabo, deitado**
+- cable lying triceps extension v. 2 — **Extensão de tríceps com cabo, deitado, versão 2**
+- cable middle fly — **Supino com cabo, crossover**
+- cable one arm bent over row — **Remada com uma mão, curvado**
+- cable one arm curl — **Rosca com uma mão**
+- cable one arm decline chest fly — **Supino com cabo, decline, peito**
+- cable one arm fly on exercise ball — **Supino com cabo, crossover em bola de exercício**
+- cable one arm incline fly on exercise ball — **Supino com cabo, incline, crossover em bola de exercício**
+- cable one arm incline press — **Supino com cabo, incline**
+- cable one arm incline press on exercise ball — **Supino com cabo, incline em bola de exercício**
+- cable one arm lateral bent-over — **Rosca com cabo, incline, uma mão**
+- cable one arm lateral raise — **Vação lateral com cabo para um braço**
+- cable one arm preacher curl — **Rosca com cabo para um braço**
+- cable one arm press on exercise ball — **Supino com bola e cabo para um braço**
+- cable one arm pulldown — **Barra fixa com cabo para um braço**
+- cable one arm reverse preacher curl — **Rosca com cabo para um braço (preacher)**
+- cable one arm straight back high row (kneeling) — **Vação lateral com cabo para um braço (joelhos)**
+- Cable One Arm Tricep Extension — **Extensão de tríceps com cabo para um braço**
+- cable one arm tricep pushdown — **Rosca de tríceps com cabo para um braço**
+- cable overhead curl — **Rosca com cabo para um braço (acima da cabeça)**
+- cable overhead curl on exercise ball — **Rosca com cabo para um braço (acima da cabeça)**
+- cable overhead triceps extension (rope attachment) — **Extensão de tríceps com cabo (corda)**
+- cable palm rotational row — **Remada com cabo (rotação da palma)**
+- Cable Preacher Curl — **Rosca com cabo (preacher)**
+- cable press on exercise ball — **Supino com bola e cabo para um braço**
+- cable pull through (with rope) — **Barra fixa com corda**
+- cable pulldown — **Barra fixa com cabo**
+- cable pulldown (pro lat bar) — **Barra fixa com cabo (barra)**
+- cable pulldown bicep curl — **Rosca com barra fixa e bíceps**
+- cable pushdown — **Rosca com cabo**
+- cable pushdown (straight arm) v. 2 — **Rosca com cabo (braço reto) v. 2**
+- cable pushdown (with rope attachment) — **Rosca com corda**
+- Cable Rear Delt Fly — **Vação para deltoides posteriores**
+- cable rear delt row (stirrups) — **Vação para deltoides posteriores (sapata)**
+- cable rear delt row (with rope) — **Vação para deltoides posteriores (corda)**
+- cable rear drive — **Vação para deltoides posteriores**
+- cable rear pulldown — **Barra fixa para deltoides posteriores**
+- Cable Reverse Crunch — **Abdominal reverso**
+- cable reverse curl — **Rosca reverso**
+- cable reverse grip triceps pushdown (sz-bar) (with arm blaster) — **Rosca de tríceps com cabo (sz-bar) (com braço blaster)**
+- cable reverse one arm curl — **Rosca reverso para um braço**
+- cable reverse preacher curl — **Rosca reverso (preacher)**
+- cable reverse wrist curl — **Rosca de pulso reverso**
+- cable reverse-grip pushdown — **Rosca reverso com cabo**
+- cable reverse-grip straight back seated high row — **Vação para deltoides posteriores sentada**
+- cable rope crossover seated row — **Vação sentada com corda**
+- cable rope elevated seated row — **Vação sentada com corda**
+- cable rope extension incline bench row — **Vação sentada com corda**
+- cable rope hammer preacher curl — **Rosca com corda (preacher)**
+- cable rope high pulley overhead tricep extension — **Extensão de tríceps com corda (acima da cabeça)**
+- cable rope incline tricep extension — **Extensão de tríceps com corda (inclinada)**
+- cable rope lying on floor tricep extension — **Extensão de tríceps com corda (deitado)**
+- cable rope one arm hammer preacher curl — **Rosca com corda para um braço (preacher)**
+- Cable Rope Overhead Triceps Extension — **Extensão de tríceps com corda (acima da cabeça)**
+- Cable Rope Rear-Delt Rows — **Vação para deltoides posteriores com corda**
+- cable rope seated row — **Vação sentada com corda**
+- Cable Russian Twists — **Abdominal russo**
+- cable russian twists (on stability ball) — **Abdominal russo (em bola de estabilidade)**
+- cable seated chest press — **Supino sentado com cabo**
+- Cable Seated Crunch — **Abdominal sentado**
+- cable seated curl — **Rosca sentado**
+- cable seated high row (v-bar) — **Vação para deltoides com barra (v)**
+- Cable Seated Lateral Raise — **Vação lateral sentada**
+- cable seated one arm alternate row — **Vação sentada alternada**
+- cable seated one arm concentration curl — **Rosca de bíceps concentrado sentado**
+- cable seated overhead curl — **Rosca sentado (acima da cabeça)**
+- cable seated rear lateral raise — **Vação lateral sentada**
+- cable seated row — **Vação sentada**
+- cable seated shoulder internal rotation — **Rotação interna do ombro sentado**
+- cable seated twist — **Giro sentado**
+- cable seated wide-grip row — **Vação sentada ampla**
+- Cable Shoulder Press — **Desenvolvimento para ombros com cabo**
+- cable shrug — **Elevação lateral com cabo**
+- Cable Shrugs — **Elevações laterais com cabo**
+- cable side bend — **Flexão lateral do tronco com cabo**
+- cable side bend crunch (bosu ball) — **Flexão lateral do tronco com cabo e bola bosu**
+- cable side crunch — **Flexão lateral do tronco com cabo**
+- cable squat row (with rope attachment) — **Agachamento com cabo e corda**
+- cable squatting curl — **Rosca com cabo**
+- cable standing back wrist curl — **Rosca de pulso com cabo**
+- cable standing calf raise — **Elevação de panturrilha com cabo**
+- cable standing cross-over high reverse fly — **Elevação de panturrilha com cabo**
+- cable standing crunch — **Flexão lateral do tronco com cabo**
+- cable standing crunch (with rope attachment) — **Flexão lateral do tronco com cabo e corda**
+- cable standing fly — **Elevação lateral com cabo**
+- cable standing hip extension — **Extensão de quadril com cabo**
+- cable standing inner curl — **Rosca interna com cabo**
+- cable standing lift — **Elevação com cabo**
+- cable standing one arm triceps extension — **Extensão de tríceps com cabo**
+- cable standing one leg calf raise — **Elevação de panturrilha com uma perna**
+- cable standing pulldown (with rope) — **Puxada com cabo**
+- cable standing rear delt row (with rope) — **Remada com cabo**
+- cable standing reverse grip one arm overhead tricep extension — **Extensão de tríceps com cabo**
+- cable standing row (v-bar) — **Remada com barra v**
+- cable standing shoulder external rotation — **Rotação externa do ombro com cabo**
+- cable standing twist row (v-bar) — **Remada com barra v**
+- cable standing up straight crossovers — **Elevação de pernas com cabo**
+- cable straight arm pulldown — **Puxada com cabo**
+- cable straight arm pulldown (with rope) — **Puxada com cabo e corda**
+- cable straight back seated row — **Remada sentada com cabo**
+- cable supine reverse fly — **Elevação de ombros com cabo**
+- cable thibaudeau kayak row — **Remada de kayak com cabo**
+- cable triceps pushdown (v-bar) — **Extensão de tríceps com barra v**
+- cable triceps pushdown (v-bar) (with arm blaster) — **Extensão de tríceps com barra v e braço blaster**
+- cable tuck reverse crunch — **Flexão lateral do tronco com cabo**
+- cable twist — **Rotação com cabo**
+- cable twist (up-down) — **Rotação com cabo (para cima e para baixo)**
+- cable twisting pull — **Puxada com cabo**
+- cable two arm curl on incline bench — **Rosca com duas mãos em banco inclinado**
+- cable two arm tricep kickback — **Extensão de tríceps com cabo**
+- cable underhand pulldown — **Puxada com cabo**
+- cable upper chest crossovers — **Elevação de peito com cabo**
+- cable upper row — **Remada com cabo**
+- cable upright row — **Remada com cabo**
+- cable wide grip rear pulldown behind neck — **Puxada com cabo atrás do pescoço**
+- Cable Wrist Curl — **Rosca de pulso com cabo**
+- Calf Press — **Pressão na panturrilha**
+- Calf Press On The Leg Press Machine — **Panturrilha no leg press**
+- calf push stretch with hands against wall — **Alongamento de panturrilha com mãos contra a parede**
+- Calf Raise On A Dumbbell — **Pressão na panturrilha com halter**
+- Calf Raises - With Bands — **Pressão na panturrilha com faixas**
+- Calf Stretch Elbows Against Wall — **Alongamento de panturrilha com cotovelos contra a parede**
+- Calf Stretch Hands Against Wall — **Alongamento de panturrilha com mãos contra a parede**
+- calf stretch with hands against wall — **Alongamento de panturrilha com mãos contra a parede**
+- calf stretch with rope — **Alongamento de panturrilha com corda**
+- Calf-Machine Shoulder Shrug — **Elevação lateral com cabo**
+- Calves-SMR — **Alongamento smr**
+- cambered bar lying row — **Remada na barra inclinada**
+- captains chair straight leg raise — **Elevação da perna sentada**
+- Car Deadlift — **Levantamento terra**
+- Car Drivers — **Levantamento terra**
+- Carioca Quick Step — **Agachamento carioca**
+- Cat Stretch — **Alongamento gato**
+- Catch and Overhead Throw — **Arremesso com a mão**
+- Chain Handle Extension — **Extensão com barra**
+- Chain Press — **Pressão com barra**
+- Chair Leg Extended Stretch — **Alongamento de pernas na cadeira**
+- Chair Lower Back Stretch — **Alongamento da parte inferior das costas na cadeira**
+- Chair Squat — **Agachamento na cadeira**
+- Chair Upper Body Stretch — **Alongamento do corpo superior na cadeira**
+- Chest And Front Of Shoulder Stretch — **Alongamento peito e parte frontal do ombro**
+- chest dip — **Flexão peito**
+- chest dip (on dip-pull-up cage) — **Flexão peito (na barra)**
+- chest dip on straight bar — **Flexão peito (na barra reta)**
+- Chest Push (multiple response) — **Supino (múltiplas respostas)**
+- Chest Push (single response) — **Supino (resposta única)**
+- Chest Push from 3 point stance — **Supino de 3 pontos**
+- Chest Push with Run Release — **Supino com liberação**
+- Chest Stretch on Stability Ball — **Alongamento peito na bola de exercício**
+- chest stretch with exercise ball — **Alongamento peito com bola de exercício**
+- chest tap push-up (male) — **Flexão peito com toque (masculino)**
+- Child's Pose — **Posição da criança**
+- Chin To Chest Stretch — **Alongamento peito para o peito**
+- Chin-Up — **Barra fixa**
+- chin-ups (narrow parallel grip) — **Barra fixa (pequena barra)**
+- circles knee stretch — **Alongamento de joelho em círculos**
+- Circus Bell — **Campainha**
+- clap push up — **Flexão com palmas**
+- Clean — **Clean**
+- Clean and Jerk — **Clean e arremesso**
+- Clean and Press — **Clean e press**
+- Clean Deadlift — **Clean deadlift**
+- Clean from Blocks — **Clean das plataformas**
+- Clean Pull — **Clean**
+- Clean Shrug — **Shrug**
+- Clock Push-Up — **Supino em relógio**
+- close grip chin-up — **Barra fixa close grip**
+- Close-Grip Barbell Bench Press — **Supino com barra close grip**
+- Close-Grip Dumbbell Press — **Supino com halteres close grip**
+- Close-Grip EZ Bar Curl — **Rosca close grip com halter ez**
+- Close-Grip EZ-Bar Curl with Band — **Rosca close grip com halter ez e banda**
+- Close-Grip EZ-Bar Press — **Supino close grip com halter ez**
+- Close-Grip Front Lat Pulldown — **Rosca close grip na barra**
+- close-grip push-up — **Flexão close grip**
+- close-grip push-up (on knees) — **Flexão close grip (no chão)**
+- Close-Grip Push-Up off of a Dumbbell — **Flexão close grip com halter**
+- Close-Grip Standing Barbell Curl — **Rosca close grip com halter**
+- Cocoons — **Babados**
+- Conan's Wheel — **Roda de conan**
+- Concentration Curls — **Rosca concentrada**
+- crab twist toe touch — **Torção de braço e pé**
+- cross body crunch — **Abdominal cruzado**
+- Cross Body Hammer Curl — **Rosca martelo cruzada**
+- Cross Over - With Bands — **Com banda**
+- Cross-Body Crunch — **Abdominal cruzado**
+- Crossover Reverse Lunge — **Afundo reverso cruzado**
+- Crucifix — **Crucifixo**
+- crunch (hands overhead) — **Abdominal (mãos acima da cabeça)**
+- crunch (on stability ball) — **Abdominal (na bola de exercício)**
+- crunch (on stability ball, arms straight) — **Abdominal (na bola de exercício, braços estendidos)**
+- Crunch - Hands Overhead — **Abdominal - mãos acima da cabeça**
+- Crunch - Legs On Exercise Ball — **Abdominal com bola**
+- crunch floor — **Abdominal no chão**
+- Crunches — **Abdominais**
+- Cuban Press — **Supino cubano**
+- curl-up — **Abdominal**
+- curtsey squat — **Agachamento curtsy**
+- cycle cross trainer — **Bicicleta no cross trainer**
+- Dancer's Stretch — **Alongamento bailarino**
+- Dead Bug — **Dead bug**
+- Deadlift with Bands — **Levantamento terra com elásticos**
+- Deadlift with Chains — **Levantamento terra com correntes**
+- Decline Barbell Bench Press — **Supino inclinado com barra**
+- Decline Close-Grip Bench To Skull Crusher — **Supino inclinado com barra close grip**
+- Decline Crunch — **Abdominal inclinado**
+- Decline Dumbbell Bench Press — **Supino inclinado com halteres**
+- Decline Dumbbell Flyes — **Halteres flyes**
+- Decline Dumbbell Triceps Extension — **Extensão tríceps com halter**
+- Decline EZ Bar Triceps Extension — **Extensão tríceps com halter ez**
+- Decline Oblique Crunch — **Abdominal inclinado obliquo**
+- Decline Push-Up — **Flexão inclinada**
+- Decline Reverse Crunch — **Abdominal inclinado reverso**
+- decline sit-up — **Abdominal inclinado**
+- Decline Smith Press — **Supino smith inclinado**
+- deep push up — **Flexão profunda**
+- Deficit Deadlift — **Levantamento terra deficit**
+- Depth Jump Leap — **Salto de profundidade**
+- diamond push-up — **Flexão diamante**
+- Dip Machine — **Máquina de dips**
+- Dips - Chest Version — **Dips - versão peito**
+- Dips - Triceps Version — **Dips - versão tríceps**
+- donkey calf raise — **Elevação de panturrilha burro**
+- Donkey Calf Raises — **Elevação de panturrilha burro**
+- Double Kettlebell Alternating Hang Clean — **Kettlebell duplo alternado hang clean**
+- Double Kettlebell Jerk — **Kettlebell duplo jerk**
+- Double Kettlebell Push Press — **Kettlebell duplo push press**
+- Double Kettlebell Snatch — **Kettlebell duplo snatch**
+- Double Kettlebell Windmill — **Kettlebell duplo windmill**
+- Double Leg Butt Kick — **Agachamento duplo**
+- Downward Facing Balance — **Equilíbrio com braços baixos**
+- Drag Curl — **Rosca drag**
+- Drop Push — **Flexão drop**
+- drop push up — **Flexão drop**
+- Dumbbell Alternate Bicep Curl — **Rosca bicep alternada com halter**
+- dumbbell alternate biceps curl — **Rosca bicep alternada com halter**
+- dumbbell alternate biceps curl (with arm blaster) — **Rosca bicep alternada com halter (com arm blaster)**
+- dumbbell alternate hammer preacher curl — **Rosca hammer preacher com halter**
+- dumbbell alternate preacher curl — **Rosca preacher com halter**
+- dumbbell alternate seated hammer curl — **Rosca bicep sentada com halter**
+- dumbbell alternate side press — **Press lateral com halter**
+- dumbbell alternating bicep curl with leg raised on exercise ball — **Rosca bicep alternada com halter e perna elevada na bola**
+- dumbbell alternating seated bicep curl on exercise ball — **Rosca bicep sentada alternada com halter na bola**
+- dumbbell arnold press — **Press arnold com halter**
+- dumbbell arnold press v. 2 — **Press arnold com halter v. 2**
+- dumbbell around pullover — **Pullover com halter**
+- Dumbbell Bench Press — **Supino com halter**
+- Dumbbell Bench Press with Neutral Grip — **Supino com halter com pegada neutra**
+- dumbbell bench seated press — **Supino sentado com halter**
+- dumbbell bench squat — **Agachamento com halter**
+- dumbbell bent over row — **Remada bent over com halter**
+- Dumbbell Bicep Curl — **Rosca bicep com halter**
+- dumbbell bicep curl lunge with bowling motion — **Rosca de bíceps com halter e movimento de bowling**
+- dumbbell bicep curl on exercise ball with leg raised — **Rosca de bíceps com halter em bola de exercício e perna elevada**
+- dumbbell bicep curl with stork stance — **Rosca de bíceps com halter em posição de gracios**
+- dumbbell biceps curl — **Rosca de bíceps com halter**
+- dumbbell biceps curl (with arm blaster) — **Rosca de bíceps com halter (com blaster de braço)**
+- dumbbell biceps curl reverse — **Rosca de bíceps com halter, inversão**
+- dumbbell biceps curl squat — **Rosca de bíceps com halter e agachamento**
+- dumbbell biceps curl v sit on bosu ball — **Rosca de bíceps com halter em posição de v em bola de bosu**
+- dumbbell burpee — **Burpee**
+- Dumbbell Clean — **Limpeza com halter**
+- dumbbell close grip press — **Supino com halter, pegada fechada**
+- dumbbell close-grip press — **Supino com halter, pegada fechada**
+- dumbbell concentration curl — **Rosca de bíceps com halter, concentração**
+- dumbbell contralateral forward lunge — **Afundo com halter, contra lateral**
+- dumbbell cross body hammer curl — **Rosca de halter, cruzando o corpo**
+- dumbbell cross body hammer curl v. 2 — **Rosca de halter, cruzando o corpo v. 2**
+- dumbbell cuban press — **Supino cubano**
+- dumbbell cuban press v. 2 — **Supino cubano v. 2**
+- dumbbell deadlift — **Levantamento terra com halter**
+- dumbbell decline bench press — **Supino inclinado com halter**
+- dumbbell decline fly — **Desenvolvimento inclinado**
+- dumbbell decline hammer press — **Press de halter inclinado**
+- dumbbell decline one arm fly — **Desenvolvimento com halter, uma mão**
+- dumbbell decline one arm hammer press — **Press de halter, uma mão**
+- dumbbell decline shrug — **Elevação de ombros com halter inclinado**
+- dumbbell decline shrug v. 2 — **Elevação de ombros com halter inclinado v. 2**
+- dumbbell decline triceps extension — **Extensão de tríceps com halter inclinado**
+- dumbbell decline twist fly — **Twist fly com halter inclinado**
+- dumbbell finger curls — **Rosca de dedos com halter**
+- Dumbbell Floor Press — **Press no chão com halter**
+- dumbbell fly — **Desenvolvimento**
+- dumbbell fly on exercise ball — **Desenvolvimento em bola de exercício**
+- Dumbbell Flyes — **Desenvolvimento**
+- dumbbell forward lunge triceps extension — **Extensão de tríceps com afundo e halter**
+- dumbbell front raise — **Elevação frontal com halter**
+- dumbbell front raise v. 2 — **Elevação frontal v. 2**
+- dumbbell full can lateral raise — **Elevação lateral com halter, can inteiro**
+- dumbbell goblet squat — **Agachamento com halter**
+- dumbbell hammer curl — **Rosca de halter**
+- dumbbell hammer curl on exercise ball — **Rosca de halter em bola de exercício**
+- dumbbell hammer curl v. 2 — **Rosca de halter v. 2**
+- dumbbell hammer curls (with arm blaster) — **Roscas de halter (com blaster de braço)**
+- dumbbell high curl — **Rosca alta com halter**
+- dumbbell incline alternate press — **Press alternado inclinado com halter**
+- dumbbell incline bench press — **Supino inclinado com halter**
+- dumbbell incline biceps curl — **Rosca de bíceps inclinado com halter**
+- dumbbell incline breeding — **Desenvolvimento inclinado**
+- dumbbell incline curl — **Rosca de bíceps inclinado**
+- dumbbell incline curl v. 2 — **Rosca de bíceps inclinado v. 2**
+- dumbbell incline fly — **Desenvolvimento inclinado**
+- dumbbell incline fly on exercise ball — **Desenvolvimento em bola de exercício**
+- dumbbell incline hammer curl — **Rosca de bíceps inclinado com halter**
+- dumbbell incline hammer press — **Press de halter inclinado**
+- dumbbell incline hammer press on exercise ball — **Press de halter inclinado em bola de exercício**
+- dumbbell incline inner biceps curl — **Rosca interna de bíceps inclinado**
+- dumbbell incline one arm fly — **Desenvolvimento com uma mão**
+- dumbbell incline one arm fly on exercise ball — **Desenvolvimento com uma mão em bola de exercício**
+- dumbbell incline one arm hammer press — **Press de halter com uma mão**
+- dumbbell incline one arm hammer press on exercise ball — **Press de halter com uma mão em bola de exercício**
+- dumbbell incline one arm lateral raise — **Elevação lateral**
+- dumbbell incline one arm press — **Supino com halteres inclinado, uma mão**
+- dumbbell incline one arm press on exercise ball — **Supino com halteres inclinado, uma mão no exercício ball**
+- dumbbell incline palm-in press — **Supino com halteres inclinado, palma para dentro**
+- dumbbell incline press on exercise ball — **Supino com halteres inclinado, no exercício ball**
+- dumbbell incline raise — **Supino com halteres inclinado, elevação**
+- dumbbell incline rear lateral raise — **Supino com halteres inclinado, elevação lateral traseira**
+- Dumbbell Incline Row — **Remada com halteres inclinado**
+- Dumbbell Incline Shoulder Raise — **Desenvolvimento com halteres inclinado**
+- dumbbell incline shrug — **Elevação com halteres inclinado**
+- dumbbell incline t-raise — **Elevação com halteres inclinado, t**
+- dumbbell incline triceps extension — **Extensão com halteres inclinado, tríceps**
+- dumbbell incline twisted flyes — **Elevação lateral com halteres inclinado, asas**
+- dumbbell incline two arm extension — **Extensão com halteres inclinado, duas mãos**
+- dumbbell incline y-raise — **Elevação com halteres inclinado, y**
+- dumbbell iron cross — **Cross com halteres**
+- dumbbell kickback — **Extensão com halteres**
+- dumbbell kickbacks on exercise ball — **Extensão com halteres no exercício ball**
+- dumbbell kneeling bicep curl exercise ball — **Rosca com halteres, exercício ball**
+- dumbbell lateral raise — **Elevação lateral com halteres**
+- dumbbell lateral to front raise — **Elevação lateral para frente com halteres**
+- dumbbell lunge — **Afundo com halteres**
+- dumbbell lunge with bicep curl — **Afundo com halteres, rosca**
+- Dumbbell Lunges — **Afundo com halteres**
+- dumbbell lying alternate extension — **Extensão deitada alternada**
+- dumbbell lying elbow press — **Supino deitado com halteres**
+- dumbbell lying extension (across face) — **Extensão deitada (em frente ao rosto)**
+- dumbbell lying external shoulder rotation — **Rotação externa com halteres deitado**
+- dumbbell lying femoral — **Elevação femoral deitado**
+- dumbbell lying hammer press — **Supino com halteres deitado**
+- dumbbell lying on floor rear delt raise — **Elevação posterior com halteres deitado**
+- dumbbell lying one arm deltoid rear — **Elevação posterior com halteres deitado, uma mão**
+- dumbbell lying one arm press — **Supino deitado com halteres, uma mão**
+- dumbbell lying one arm press v. 2 — **Supino deitado com halteres, uma mão, versão 2**
+- dumbbell lying one arm pronated triceps extension — **Extensão com halteres deitado, tríceps pronado**
+- dumbbell lying one arm rear lateral raise — **Elevação lateral traseira com halteres deitado**
+- dumbbell lying one arm supinated triceps extension — **Extensão com halteres deitado, supinação**
+- Dumbbell Lying One-Arm Rear Lateral Raise — **Elevação lateral traseira com halteres deitado, uma mão**
+- Dumbbell Lying Pronation — **Supinação deitada**
+- dumbbell lying pronation on floor — **Supinação deitada no chão**
+- dumbbell lying pullover on exercise ball — **Remada com halteres deitado no exercício ball**
+- dumbbell lying rear delt row — **Remada com halteres deitado**
+- Dumbbell Lying Rear Lateral Raise — **Elevação lateral traseira com halteres deitado**
+- dumbbell lying single extension — **Extensão deitada**
+- Dumbbell Lying Supination — **Extensão deitada**
+- dumbbell lying supination on floor — **Extensão deitada no chão**
+- dumbbell lying supine biceps curl — **Rosca com halteres deitado, bíceps**
+- dumbbell lying supine curl — **Rosca com halteres deitado**
+- dumbbell lying triceps extension — **Extensão com halteres deitado, tríceps**
+- dumbbell lying wide curl — **Rosca com halteres deitado, ampla**
+- dumbbell neutral grip bench press — **Supino com halteres, pegada neutra**
+- dumbbell one arm bench fly — **Rosca com halteres, uma mão**
+- dumbbell one arm bent-over row — **Remada com halteres, uma mão, curvado**
+- dumbbell one arm chest fly on exercise ball — **Rosca com halteres, uma mão, supino no exercício ball**
+- dumbbell one arm concentration curl (on stability ball) — **Rosca com halteres, uma mão, concentração (em bola de estabilidade)**
+- dumbbell one arm decline chest press — **Supino com halteres, uma mão, inclinado**
+- dumbbell one arm fly on exercise ball — **Rosca com halteres, supino no exercício ball**
+- dumbbell one arm french press on exercise ball — **Rosca com halteres, francesa no exercício ball**
+- dumbbell one arm hammer preacher curl — **Rosca com halteres, martelo, pregador**
+- dumbbell one arm hammer press on exercise ball — **Supino com halteres, martelo, no exercício ball**
+- dumbbell one arm incline chest press — **Supino com halteres, inclinado**
+- dumbbell one arm kickback — **Extensão de tríceps para trás com um halter**
+- dumbbell one arm lateral raise — **Elevação lateral com halter (uma mão)**
+- dumbbell one arm lateral raise with support — **Elevação lateral com halter (uma mão) com apoio**
+- dumbbell one arm press on exercise ball — **Supino com halter (uma mão) em bola de exercício**
+- dumbbell one arm prone curl — **Rosca de bíceps com halter (uma mão) em posição prono**
+- dumbbell one arm prone hammer curl — **Rosca de halter (uma mão) em posição prono com martelo**
+- dumbbell one arm pullover on exercise ball — **Rosca de halter (uma mão) em posição prono em bola de exercício**
+- dumbbell one arm reverse fly (with support) — **Rosca de halter (uma mão) com pegada reversa (com apoio)**
+- dumbbell one arm reverse grip press — **Supino com pegada reversa com halter**
+- dumbbell one arm reverse preacher curl — **Rosca de bíceps com pegada reversa com halter**
+- dumbbell one arm reverse spider curl — **Rosca de bíceps com pegada reversa com halter**
+- dumbbell one arm reverse wrist curl — **Rosca de pulso com halter (uma mão)**
+- dumbbell one arm seated bicep curl on exercise ball — **Rosca de bíceps com halter (uma mão) em bola de exercício**
+- dumbbell one arm seated hammer curl — **Rosca de halter (uma mão) com martelo em bola de exercício**
+- dumbbell one arm seated neutral wrist curl — **Rosca de pulso com halter (uma mão) em bola de exercício**
+- dumbbell one arm shoulder press — **Desenvolvimento com halter (uma mão)**
+- dumbbell one arm shoulder press v. 2 — **Desenvolvimento com halter (uma mão) - versão 2**
+- dumbbell one arm snatch — **Arremesso com halter (uma mão)**
+- dumbbell one arm standing curl — **Rosca de bíceps com halter (uma mão)**
+- dumbbell one arm standing hammer curl — **Rosca de halter (uma mão) com martelo**
+- dumbbell one arm triceps extension (on bench) — **Extensão de tríceps com halter (no banco)**
+- dumbbell one arm upright row — **Remada com halter (uma mão)**
+- dumbbell one arm wrist curl — **Rosca de pulso com halter (uma mão)**
+- dumbbell one arm zottman preacher curl — **Rosca de bíceps com halter (uma mão) em banco de preação**
+- dumbbell one leg fly on exercise ball — **Rosca de halter (uma mão) em bola de exercício**
+- Dumbbell One-Arm Shoulder Press — **Desenvolvimento unilateral para ombros com halter**
+- Dumbbell One-Arm Triceps Extension — **Extensão de tríceps com halter (uma mão)**
+- Dumbbell One-Arm Upright Row — **Remada com halter (uma mão)**
+- dumbbell over bench neutral wrist curl — **Rosca de pulso com halter (uma mão) em banco**
+- dumbbell over bench one arm neutral wrist curl — **Rosca de pulso com halter (uma mão) em banco - uma mão**
+- dumbbell over bench one arm reverse wrist curl — **Rosca de pulso com halter (uma mão) em banco - pegada reversa**
+- dumbbell over bench one arm wrist curl — **Rosca de pulso com halter (uma mão) em banco**
+- dumbbell over bench revers wrist curl — **Rosca de pulso com halter (uma mão) em banco - pegada reversa**
+- dumbbell over bench wrist curl — **Rosca de pulso com halter (uma mão) em banco**
+- dumbbell palm rotational bent over row — **Rosca de halter com pegada rotativa**
+- dumbbell palms in incline bench press — **Supino com halter em banco inclinado**
+- dumbbell peacher hammer curl — **Rosca de halter em banco com martelo**
+- dumbbell plyo squat — **Agachamento pliométrico com halter**
+- dumbbell preacher curl — **Rosca de bíceps com halter**
+- dumbbell preacher curl over exercise ball — **Rosca de bíceps com halter em bola de exercício**
+- dumbbell press on exercise ball — **Supino em bola de exercício**
+- dumbbell pronate-grip triceps extension — **Extensão de tríceps com pegada pronada**
+- Dumbbell Prone Incline Curl — **Rosca de halter em banco inclinado**
+- dumbbell prone incline hammer curl — **Rosca de halter em banco com martelo**
+- dumbbell pullover — **Rosca de halter**
+- dumbbell pullover hip extension on exercise ball — **Rosca de halter com extensão de quadril em bola de exercício**
+- dumbbell pullover on exercise ball — **Rosca de halter em bola de exercício**
+- dumbbell push press — **Supino com halter**
+- Dumbbell Raise — **Elevação com halter**
+- dumbbell rear delt raise — **Elevação de deltói posterior com halter**
+- dumbbell rear delt row_shoulder — **Remada com halter - deltói posterior**
+- dumbbell rear fly — **Rosca de halter**
+- dumbbell rear lateral raise — **Elevação lateral com halter (com apoio)**
+- dumbbell rear lateral raise (support head) — **Elevação lateral com halter (com apoio) - apoio na cabeça**
+- Dumbbell Rear Lunge — **Afundo com halter**
+- dumbbell revers grip biceps curl — **Rosca de bíceps com pegada reversa com halter**
+- dumbbell reverse bench press — **Supino com halter com pegada reversa**
+- dumbbell reverse fly — **Rosca de halter**
+- dumbbell reverse grip incline bench one arm row — **Rosca de halter com pegada reversa em banco inclinado**
+- dumbbell reverse grip incline bench two arm row — **Rosca de halter com pegada reversa em banco**
+- dumbbell reverse grip row (female) — **Remada com halteres, pegada reversa (feminino)**
+- dumbbell reverse preacher curl — **Rosca com halteres, pegada reversa, posição precha**
+- dumbbell reverse spider curl — **Rosca com halteres, pegada reversa, posição spider**
+- dumbbell reverse wrist curl — **Rosca com halteres, pegada reversa, punho**
+- dumbbell romanian deadlift — **Levantamento terra com halteres, romeno**
+- dumbbell rotation reverse fly — **Rotação com halteres, pegada reversa, fly**
+- Dumbbell Scaption — **Desenvolvimento com halteres, scaption**
+- dumbbell scott press — **Supino com halteres, scott**
+- dumbbell seated alternate front raise — **Supino com halteres, sentado, elevação alternada**
+- dumbbell seated alternate hammer curl on exercise ball — **Supino com halteres, sentado, elevação alternada, rosca com halteres em bola**
+- dumbbell seated alternate press — **Supino com halteres, sentado, alternado**
+- dumbbell seated alternate shoulder — **Desenvolvimento com halteres, sentado, alternado**
+- dumbbell seated bench extension — **Extensão de perna com halteres, sentado**
+- dumbbell seated bent arm lateral raise — **Elevação lateral com halteres, sentado, braço flexionado**
+- dumbbell seated bent over alternate kickback — **Elevação lateral com halteres, sentado, flexionado, kickback**
+- dumbbell seated bent over triceps extension — **Extensão de tríceps com halteres, sentado, flexionado**
+- dumbbell seated bicep curl — **Rosca com halteres, sentado, bíceps**
+- dumbbell seated biceps curl (on stability ball) — **Rosca com halteres, sentado, bíceps (em bola de estabilidade)**
+- dumbbell seated biceps curl to shoulder press — **Desenvolvimento para ombros com halteres sentado**
+- Dumbbell Seated Box Jump — **Salto na caixa com halteres, sentado**
+- dumbbell seated calf raise — **Elevação de panturrilha com halteres, sentado**
+- dumbbell seated curl — **Rosca com halteres, sentado**
+- dumbbell seated front raise — **Elevação frontal com halteres, sentado**
+- dumbbell seated hammer curl — **Rosca com halteres, sentado, hammer**
+- dumbbell seated inner biceps curl — **Rosca com halteres, sentado, bíceps interno**
+- dumbbell seated kickback — **Kickback com halteres, sentado**
+- dumbbell seated lateral raise — **Elevação lateral com halteres, sentado**
+- dumbbell seated lateral raise v. 2 — **Elevação lateral com halteres, sentado, versão 2**
+- dumbbell seated neutral wrist curl — **Rosca com halteres, punho, neutro**
+- dumbbell seated one arm bicep curl on exercise ball with leg raised — **Rosca com halteres, braço, bíceps, em bola, perna elevada**
+- dumbbell seated one arm kickback — **Kickback com halteres, braço, alternado**
+- dumbbell seated one arm rotate — **Rotação com halteres, braço, alternado**
+- dumbbell seated one leg calf raise — **Elevação de panturrilha com halteres, uma perna**
+- dumbbell seated one leg calf raise - hammer grip — **Elevação de panturrilha com halteres, uma perna, pegada martelo**
+- dumbbell seated one leg calf raise - palm up — **Elevação de panturrilha com halteres, uma perna, palma para cima**
+- Dumbbell Seated One-Leg Calf Raise — **Elevação de panturrilha com halteres, uma perna**
+- dumbbell seated palms up wrist curl — **Rosca com halteres, punho, palma para cima**
+- dumbbell seated preacher curl — **Rosca com halteres, precha**
+- dumbbell seated revers grip concentration curl — **Rosca com halteres, pegada reversa, concentração**
+- dumbbell seated reverse grip one arm overhead tricep extension — **Extensão de tríceps com halteres, pegada reversa, uma mão, overhead**
+- dumbbell seated shoulder press — **Desenvolvimento com halteres**
+- dumbbell seated shoulder press (parallel grip) — **Desenvolvimento com halteres, pegada paralela**
+- dumbbell seated triceps extension — **Extensão de tríceps com halteres**
+- Dumbbell Shoulder Press — **Desenvolvimento com halteres**
+- Dumbbell Shrug — **Elevação de ombros com halteres**
+- Dumbbell Side Bend — **Flexão lateral com halteres**
+- dumbbell side lying one hand raise — **Elevação lateral com halteres, uma mão**
+- dumbbell side plank with rear fly — **Plancha lateral com fly**
+- dumbbell single arm overhead carry — **Carregamento com halteres, uma mão**
+- dumbbell single leg calf raise — **Elevação de panturrilha com halteres, uma perna**
+- dumbbell single leg deadlift — **Levantamento terra com halteres, uma perna**
+- dumbbell single leg deadlift with stepbox support — **Levantamento terra com halteres, uma perna, com suporte de caixa**
+- dumbbell single leg split squat — **Afundo com halteres, uma perna**
+- dumbbell single leg squat — **Agachamento com halteres, uma perna**
+- Dumbbell Squat — **Agachamento com halteres**
+- Dumbbell Squat To A Bench — **Agachamento com halteres, para banco**
+- dumbbell standing alternate hammer curl and press — **Rosca com halteres, alternada, hammer e supino**
+- dumbbell standing alternate overhead press — **Supino com halteres, alternado, overhead**
+- dumbbell standing alternate raise — **Elevação com halteres, alternada**
+- dumbbell standing alternating tricep kickback — **Extensão de tríceps para trás com halter**
+- dumbbell standing around world — **Circundução com halteres em pé (Around the World)**
+- dumbbell standing bent over one arm triceps extension — **Extensão de tríceps**
+- dumbbell standing bent over two arm triceps extension — **Extensão de tríceps**
+- dumbbell standing biceps curl — **Rosca de bíceps**
+- dumbbell standing calf raise — **Elevação de panturrilha**
+- dumbbell standing concentration curl — **Rosca de concentração**
+- dumbbell standing front raise above head — **Elevação frontal**
+- dumbbell standing inner biceps curl v. 2 — **Rosca de bíceps v. 2**
+- dumbbell standing kickback — **Extensão de tríceps para trás com halter**
+- dumbbell standing one arm concentration curl — **Rosca de concentração**
+- dumbbell standing one arm curl (over incline bench) — **Rosca de bíceps (em banco inclinado)**
+- dumbbell standing one arm curl over incline bench — **Rosca de bíceps (em banco inclinado)**
+- dumbbell standing one arm extension — **Extensão de bíceps**
+- dumbbell standing one arm palm in press — **Rosca de palma**
+- dumbbell standing one arm reverse curl — **Rosca reverso**
+- dumbbell standing overhead press — **Desenvolvimento para ombros**
+- dumbbell standing palms in press — **Rosca de palma**
+- dumbbell standing preacher curl — **Rosca de bíceps**
+- dumbbell standing reverse curl — **Rosca reverso**
+- dumbbell standing triceps extension — **Extensão de tríceps**
+- dumbbell standing zottman preacher curl — **Rosca zottman**
+- dumbbell step up single leg balance with bicep curl — **Subida no banco com halteres**
+- Dumbbell Step Ups — **Afundo**
+- dumbbell step-up — **Subida no banco com halteres**
+- dumbbell step-up lunge — **Subida no banco com halteres**
+- dumbbell step-up split squat — **Subida no banco com halteres e agachamento dividido**
+- dumbbell stiff leg deadlift — **Polo**
+- dumbbell straight arm pullover — **Levantamento terra com perna esticada**
+- dumbbell straight leg deadlift — **Levantamento terra sumo**
+- dumbbell sumo pull through — **Agachamento com apoio**
+- dumbbell supported squat — **Press tate**
+- dumbbell tate press — **Extensão de tríceps - pegada pronada**
+- Dumbbell Tricep Extension -Pronated Grip — **Rosca de tríceps com postura de gracios**
+- dumbbell tricep kickback with stork stance — **Press de braço giratório**
+- dumbbell twisting bench press — **Supino com halteres e rotação**
+- dumbbell upright row — **Remada alta (vista traseira)**
+- dumbbell upright row (back pov) — **Rotação externa do ombro**
+- dumbbell upright shoulder external rotation — **Press em "w**
+- dumbbell w-press — **Rosca de bíceps**
+- dumbbell waiter biceps curl — **Rosca zottman**
+- dumbbell zottman curl — **Rosca zottman em banco**
+- dumbbell zottman preacher curl — **Extensão de tríceps sentado**
+- dumbbells seated triceps extension — **Alongamento dorsal dinâmico**
+- Dynamic Back Stretch — **Alongamento dorsal**
+- Dynamic Chest Stretch — **Alongamento dorsal (masculino)**
+- dynamic chest stretch (male) — **Círculos com os cotovelos**
+- Elbow Circles — **Flexões com cotovelos**
+- elbow dips — **Flexão reverso - empurrar**
+- elbow lift - reverse push-up — **Cotovelo para joelho**
+- Elbow to Knee — **Cotovelo para joelho**
+- elbow-to-knee — **Cotovelos para trás**
+- Elbows Back — **Afundo elevado**
+- Elevated Back Lunge — **Remada com cabo**
+- Elevated Cable Rows — **Elevador**
+- elevator — **Esteira**
+- Elliptical Trainer — **Elevação de braços alternada em bola**
+- exercise ball alternating arm ups — **Extensão dorsal com braços estendidos em bola**
+- exercise ball back extension with arms extended — **Extensão dorsal com mãos atrás da cabeça**
+- exercise ball back extension with hands behind head — **Extensão dorsal com pernas no chão**
+- exercise ball back extension with knees off ground — **Bola de exercício**
+- exercise ball back extension with rotation — **Alonga dorsal com bola e rotação**
+- Exercise Ball Crunch — **Crunch com bola**
+- exercise ball dip — **Dip com bola**
+- exercise ball hip flexor stretch — **Alongamento do flexor do quadril com bola**
+- exercise ball hug — **Abraço com bola**
+- exercise ball lat stretch — **Alongamento do dorsal com bola**
+- exercise ball lower back stretch (pyramid) — **Alongamento lombar com bola (pirâmide)**
+- exercise ball lying side lat stretch — **Alongamento lateral do dorsal em decúbito lateral com bola**
+- exercise ball on the wall calf raise — **Elevação de panturrilha na parede com bola**
+- exercise ball on the wall calf raise (tennis ball between ankles) — **Elevação de panturrilha na parede com bola (bola entre os tornozelos)**
+- exercise ball on the wall calf raise (tennis ball between knees) — **Elevação de panturrilha na parede com bola (bola entre as joelhos)**
+- exercise ball one leg prone lower body rotation — **Rotação do tronco em decúbito prono com bola**
+- exercise ball one legged diagonal kick hamstring curl — **Rotação do posterior da coxa com bola**
+- exercise ball pike push up — **Flexão pike com bola**
+- exercise ball prone leg raise — **Elevação da perna em decúbito prono com bola**
+- Exercise Ball Pull-In — **Puxada com bola**
+- exercise ball seated hamstring stretch — **Alongamento do posterior da coxa sentado com bola**
+- exercise ball seated triceps stretch — **Alongamento do tríceps sentado com bola**
+- exercise ball supine triceps extension — **Extensão do tríceps supino com bola**
+- Extended Range One-Arm Kettlebell Floor Press — **Press de chão com kettlebell de uma mão**
+- External Rotation — **Rotação externa**
+- External Rotation with Band — **Rotação externa com elástico**
+- External Rotation with Cable — **Rotação externa com cabo**
+- ez bar french press on exercise ball — **Press francês com barra ez em bola**
+- ez bar lying bent arms pullover — **Puxada com barra ez em decúbito**
+- ez bar lying close grip triceps extension behind head — **Extensão do tríceps com barra ez em decúbito**
+- ez bar reverse grip bent over row — **Remada com barra ez em decúbito**
+- ez bar seated close grip concentration curl — **Rosca com barra ez sentada**
+- ez bar standing french press — **Press francês com barra ez em pé**
+- ez barbell anti gravity press — **Press anti-gravidade com barra ez**
+- ez barbell close grip preacher curl — **Rosca com barra ez no banco**
+- ez barbell close-grip curl — **Rosca com barra ez**
+- ez barbell curl — **Rosca com barra ez**
+- ez barbell decline close grip face press — **Press face com barra ez, inclinação, close grip**
+- ez barbell decline triceps extension — **Extensão do tríceps com barra ez, inclinação**
+- ez barbell incline triceps extension — **Extensão do tríceps com barra ez, inclinação**
+- ez barbell jm bench press — **Press com barra ez**
+- ez barbell reverse grip curl — **Rosca com barra ez, inversão de pegada**
+- ez barbell reverse grip preacher curl — **Rosca com barra ez, inversão de pegada, no banco**
+- ez barbell seated curls — **Rosca com barra ez**
+- ez barbell seated triceps extension — **Ez barra sentada para tríceps**
+- ez barbell spider curl — **Ez barra espiral para bíceps**
+- ez-bar biceps curl (with arm blaster) — **Ez barra bíceps (com braço blaster)**
+- ez-bar close-grip bench press — **Ez barra supino com pegada fechada**
+- EZ-Bar Curl — **Ez barra curl**
+- EZ-Bar Skullcrusher — **Ez barra skullcrusher**
+- ez-barbell standing wide grip biceps curl — **Ez barra bíceps (com pegada larga em pé)**
+- Face Pull — **Face pull**
+- Farmer's Walk — **Caminhada com kettlebell**
+- farmers walk — **Caminhada com kettlebell**
+- Fast Skipping — **Corrida rápida**
+- Finger Curls — **Rosca com dedos**
+- flag — **Bandeira**
+- Flat Bench Cable Flyes — **Rosca na máquina (flat bench)**
+- Flat Bench Leg Pull-In — **Rosca na máquina (flat bench)**
+- Flat Bench Lying Leg Raise — **Rosca na máquina (flat bench)**
+- flexion leg sit up (bent knee) — **Abdominal com perna flexionada (joelho dobrado)**
+- flexion leg sit up (straight arm) — **Abdominal com perna flexionada (braço esticado)**
+- Flexor Incline Dumbbell Curls — **Rosca com halter inclinado**
+- floor fly (with barbell) — **Rosca na máquina (com barra)**
+- Floor Glute-Ham Raise — **Elevação de perna (glúteos e isquiotibiais)**
+- Floor Press — **Supino no chão**
+- Floor Press with Chains — **Supino no chão**
+- Flutter Kicks — **Pernada**
+- Foot-SMR — **Foot-smr**
+- Forward Drag with Press — **Arraste para frente com barra**
+- forward jump — **Salto para frente**
+- forward lunge (male) — **Afundo para frente (masculino)**
+- Frankenstein Squat — **Agachamento frankenstein**
+- Freehand Jump Squat — **Salto livre**
+- frog crunch — **Crunch de sapo**
+- Frog Hops — **Saltos de sapo**
+- frog planche — **Prancha de sapo**
+- Frog Sit-Ups — **Abdominal de sapo**
+- Front Barbell Squat — **Agachamento com barra**
+- Front Barbell Squat To A Bench — **Agachamento com barra para banco**
+- Front Box Jump — **Salto em caixa**
+- Front Cable Raise — **Elevação com cabo**
+- Front Cone Hops (or hurdle hops) — **Salto em cone (ou saltos em obstáculo)**
+- Front Dumbbell Raise — **Elevação com halter**
+- Front Incline Dumbbell Raise — **Elevação com halter inclinada frontal**
+- Front Leg Raises — **Elevação de pernas frontal**
+- front lever — **Barra fixa frontal**
+- front lever reps — **Repetições de barra fixa frontal**
+- front plank with twist — **Prancha frontal com torção**
+- Front Plate Raise — **Elevação de disco frontal**
+- Front Raise And Pullover — **Elevação e pollover frontal**
+- Front Squat (Clean Grip) — **Agachamento frontal (pegada limpa)**
+- Front Squats With Two Kettlebells — **Agachamento com duas kettlebells frontal**
+- Front Two-Dumbbell Raise — **Elevação com duas halteres frontal**
+- full maltese — **Maltês completo**
+- full planche — **Prancha completa**
+- full planche push-up — **Flexão prancha completa**
+- Full Range-Of-Motion Lat Pulldown — **Lat pulldown em amplitude completa**
+- gironda sternum chin — **Esterno gironda chin**
+- Gironda Sternum Chins — **Chin em esterno gironda**
+- glute bridge march — **Ponte glútea marcha**
+- glute bridge two legs on bench (male) — **Ponte glútea duas pernas no banco (masculino)**
+- Glute Ham Raise — **Elevação glúteo-posterior**
+- Glute Kickback — **Kickback glúteo**
+- glute-ham raise — **Elevação glúteo-posterior**
+- Goblet Squat — **Agachamento com halter goblet**
+- Good Morning — **Good morning**
+- Good Morning off Pins — **Good morning sem pins**
+- gorilla chin — **Chin de gorila**
+- Gorilla Chin/Crunch — **Chin/crunch de gorila**
+- Groin and Back Stretch — **Alongamento de quadril e costas**
+- groin crunch — **Crunch de quadril**
+- Groiners — **Abdução**
+- hack calf raise — **Elevação de panturrilha hack**
+- hack one leg calf raise — **Elevação de panturrilha hack com uma perna**
+- Hack Squat — **Agachamento hack**
+- half knee bends (male) — **Flexão de joelho (masculino)**
+- half sit-up (male) — **Flexão de joelho (masculino)**
+- Hammer Curls — **Rosca martelo**
+- Hammer Grip Incline DB Bench Press — **Supino inclinado com halteres e pegada neutra**
+- Hamstring Stretch — **Alongamento posterior da coxa**
+- Hamstring-SMR — **Smr posterior da coxa**
+- hands bike — **Bicicleta**
+- hands clasped circular toe touch (male) — **Toque de pé circular com mãos cruzadas (masculino)**
+- hands reversed clasped circular toe touch (male) — **Toque de pé circular com mãos invertidas cruzadas (masculino)**
+- handstand — **Handstand**
+- handstand push-up — **Flexão em handstand**
+- Handstand Push-Ups — **Flexões em handstand**
+- Hang Clean — **Hang clean**
+- Hang Clean - Below the Knees — **Hang clean - abaixo das coxas**
+- Hang Snatch — **Hang snatch**
+- Hang Snatch - Below Knees — **Hang snatch - abaixo das coxas**
+- Hanging Bar Good Morning — **Good morning na barra**
+- hanging leg hip raise — **Elevação de perna na barra**
+- Hanging Leg Raise — **Elevação de perna na barra**
+- hanging oblique knee raise — **Elevação de obliquo na barra**
+- Hanging Pike — **Prancha em pike**
+- hanging straight leg hip raise — **Elevação de perna em prancha**
+- hanging straight leg raise — **Elevação de perna em prancha**
+- hanging straight twisting leg hip raise — **Elevação de perna em prancha com torção**
+- Heaving Snatch Balance — **Equilíbrio hang snatch**
+- Heavy Bag Thrust — **Golpe em saco**
+- High Cable Curls — **Rosca em cabo alto**
+- high knee against wall — **Elevação de joelho contra a parede**
+- Hip Circles (prone) — **Círculos de quadril (deitado)**
+- Hip Extension with Bands — **Extensão de quadril com bandas**
+- Hip Flexion with Band — **Flexão de quadril com banda**
+- Hip Lift with Band — **Elevação de quadril com banda**
+- hip raise (bent knee) — **Elevação de quadril (com joelho dobrado)**
+- Hug A Ball — **Abra a bola**
+- hug keens to chest — **Abra os joelhos no peito**
+- Hug Knees To Chest — **Abra os joelhos no peito**
+- Hurdle Hops — **Saltos em barreira**
+- hyght dumbbell fly — **Elevação com halter**
+- hyperextension — **Hiperextensão**
+- hyperextension (on bench) — **Hiperextensão (no banco)**
+- Hyperextensions (Back Extensions) — **Hiperextensões (extensão lombar)**
+- Hyperextensions With No Hyperextension Bench — **Hiperextensões sem banco**
+- Iliotibial Tract-SMR — **Smr iliotibial**
+- impossible dips — **Dips impossíveis**
+- Inchworm — **Inchworm**
+- inchworm v. 2 — **Inchworm v. 2**
+- Incline Barbell Triceps Extension — **Extensão tríceps com halter inclinada**
+- Incline Bench Pull — **Supino inclinado**
+- Incline Cable Chest Press — **Supino inclinado com cabo**
+- Incline Cable Flye — **Supino inclinado com cabo**
+- incline close-grip push-up — **Flexão inclinada com pegada fechada**
+- Incline Dumbbell Bench With Palms Facing In — **Supino com halteres inclinado com palmas viradas**
+- Incline Dumbbell Curl — **Rosca inclinada com halteres**
+- Incline Dumbbell Flyes — **Rosca inclinada com halteres**
+- Incline Dumbbell Flyes - With A Twist — **Rosca inclinada com halteres - com rotação**
+- Incline Dumbbell Press — **Supino inclinado com halteres**
+- Incline Hammer Curls — **Rosca com halteres martelo**
+- Incline Inner Biceps Curl — **Rosca inclinada para bíceps interno**
+- incline leg hip raise (leg straight) — **Elevação de pernas inclinada (perna estendida)**
+- incline push up depth jump — **Flexão inclinada com salto**
+- Incline Push-Up — **Flexão inclinada**
+- incline push-up (on box) — **Flexão inclinada (em caixa)**
+- Incline Push-Up Close-Grip — **Flexão inclinada com pegada fechada**
+- Incline Push-Up Depth Jump — **Flexão inclinada com salto**
+- Incline Push-Up Medium — **Flexão inclinada média**
+- Incline Push-Up Reverse Grip — **Flexão inclinada com pegada reversa**
+- Incline Push-Up Wide — **Flexão inclinada ampla**
+- incline reverse grip push-up — **Flexão inclinada com pegada reversa**
+- incline scapula push up — **Flexão inclinada para escápulas**
+- incline twisting sit-up — **Abdominal inclinado com rotação**
+- Intermediate Groin Stretch — **Alongamento do adutor intermediário**
+- Intermediate Hip Flexor and Quad Stretch — **Alongamento do flexor do quadril e quadríceps**
+- Internal Rotation with Band — **Rotação interna com banda**
+- inverse leg curl (bench support) — **Flexora de pernas invertida (com apoio)**
+- inverse leg curl (on pull-up cable machine) — **Flexora de pernas invertida (na máquina)**
+- Inverted Row — **Remada invertida**
+- inverted row bent knees — **Remada invertida com joelhos dobrados**
+- inverted row on bench — **Remada invertida no banco**
+- inverted row v. 2 — **Remada invertida v. 2**
+- Inverted Row with Straps — **Remada invertida com alças**
+- Iron Cross — **Iron cross**
+- iron cross stretch — **Alongamento iron cross**
+- Iron Crosses (stretch) — **Iron crosses (alongamento)**
+- isometric chest squeeze — **Apertar peitoral isometrico**
+- Isometric Chest Squeezes — **Apertar peitoral isometrico**
+- Isometric Neck Exercise - Front And Back — **Exercício isometrico para o pescoço - frente e trás**
+- Isometric Neck Exercise - Sides — **Exercício isometrico para o pescoço - laterais**
+- Isometric Wipers — **Exercício isometrico wipers**
+- IT Band and Glute Stretch — **Alongamento it band e glúteos**
+- jack burpee — **Jack burpee**
+- jack jump (male) — **Salto jack (masculino)**
+- Jackknife Sit-Up — **Abdominal jackknife**
+- Janda Sit-Up — **Abdominal janda**
+- Jefferson Squats — **Agachamento jefferson**
+- Jerk Balance — **Equilibrio jerk**
+- Jerk Dip Squat — **Agachamento jerk dip**
+- JM Press — **Jm press**
+- Jogging, Treadmill — **Corrida, esteira**
+- jump rope — **Corda de saltar**
+- jump squat — **Agachamento salto**
+- jump squat v. 2 — **Agachamento salto v. 2**
+- Keg Load — **Carga de keg**
+- kettlebell advanced windmill — **Kettlebell windmill avançado**
+- kettlebell alternating hang clean — **Kettlebell limpeza alternada hang**
+- kettlebell alternating press — **Kettlebell press alternada**
+- kettlebell alternating press on floor — **Kettlebell press alternada no chão**
+- kettlebell alternating renegade row — **Kettlebell remada renegade alternada**
+- kettlebell alternating row — **Kettlebell remada alternada**
+- Kettlebell Arnold Press — **Kettlebell press arnold**
+- kettlebell bent press — **Kettlebell press invertida**
+- kettlebell bottoms up clean from the hang position — **Kettlebell limpeza invertida da posição hang**
+- Kettlebell Dead Clean — **Kettlebell limpeza morta**
+- kettlebell double alternating hang clean — **Kettlebell limpeza dupla alternada hang**
+- kettlebell double jerk — **Kettlebell duplo jerk**
+- kettlebell double push press — **Kettlebell duplo push press**
+- kettlebell double snatch — **Kettlebell duplo snatch**
+- kettlebell double windmill — **Kettlebell duplo windmill**
+- kettlebell extended range one arm press on floor — **Kettlebell press de uma mão no chão**
+- Kettlebell Figure 8 — **Kettlebell figura 8**
+- kettlebell front squat — **Kettlebell agachamento frontal**
+- kettlebell goblet squat — **Kettlebell agachamento goblet**
+- Kettlebell Halo — **Kettlebell halo**
+- Kettlebell Halo with Overhead Extension — **Kettlebell halo com extensão**
+- Kettlebell Hang Clean — **Kettlebell limpeza hang**
+- kettlebell lunge pass through — **Kettlebell passar agachamento**
+- kettlebell one arm clean and jerk — **Kettlebell limpeza de uma mão e jerk**
+- kettlebell one arm floor press — **Kettlebell press de uma mão no chão**
+- kettlebell one arm jerk — **Kettlebell jerk**
+- kettlebell one arm military press to the side — **Desenvolvimento militar unilateral com kettlebell para o lado**
+- kettlebell one arm push press — **Kettlebell imprensa unilateral com peso**
+- kettlebell one arm row — **Kettlebell remada unilateral**
+- kettlebell one arm snatch — **Kettlebell arremesso unilateral**
+- Kettlebell One-Legged Deadlift — **Kettlebell levantamento terra unilateral**
+- Kettlebell Overhead Triceps Extension — **Kettlebell extensão de tríceps acima da cabeça**
+- Kettlebell Pass Between The Legs — **Kettlebell passar entre as pernas**
+- Kettlebell Pirate Ships — **Kettlebell "pirate ships**
+- kettlebell pirate supper legs — **Kettlebell "pirate ships" pernas**
+- Kettlebell Pistol Squat — **Kettlebell agachamento pistol**
+- kettlebell plyo push-up — **Kettlebell flexão pliométrica**
+- Kettlebell Seated Press — **Kettlebell supino sentado**
+- kettlebell seated two arm military press — **Kettlebell supino sentado com duas mãos**
+- Kettlebell Seesaw Press — **Kettlebell supino "seesaw**
+- Kettlebell Sumo High Pull — **Kettlebell puxada alta unilateral**
+- kettlebell swing — **Kettlebell swing**
+- Kettlebell Thruster — **Kettlebell thruster**
+- kettlebell turkish get up (squat style) — **Kettlebell levantamento "turkish get-up" (estilo agachamento)**
+- Kettlebell Turkish Get-Up (Lunge style) — **Kettlebell "turkish get-up" (estilo agachamento)**
+- Kettlebell Turkish Get-Up (Squat style) — **Kettlebell "turkish get-up" (estilo agachamento)**
+- kettlebell two arm clean — **Kettlebell limpeza unilateral**
+- kettlebell two arm military press — **Desenvolvimento militar com kettlebell usando os dois braços**
+- kettlebell two arm row — **Kettlebell remada unilateral**
+- Kettlebell Windmill — **Kettlebell "windmill**
+- kick out sit — **Sentar e levantar**
+- Kipping Muscle Up — **Muscle up**
+- Knee Across The Body — **Joelho cruzado**
+- Knee Circles — **Círculos de joelho**
+- knee touch crunch — **Crunch com joelho**
+- Knee Tuck Jump — **Salto com joelho**
+- Knee/Hip Raise On Parallel Bars — **Elevação de perna e quadril na barra paralela**
+- Kneeling Arm Drill — **Exercício de braço no banco**
+- Kneeling Cable Crunch With Alternating Oblique Twists — **Abdominal com cabo e rotação oblíqua**
+- Kneeling Cable Triceps Extension — **Abdominal com cabo para tríceps**
+- Kneeling Forearm Stretch — **Alongamento de antebraço no banco**
+- Kneeling High Pulley Row — **Remada alta no cabo**
+- Kneeling Hip Flexor — **Alongamento flexor de quadril**
+- Kneeling Jump Squat — **Agachamento saltado**
+- kneeling lat stretch — **Alongamento lat no banco**
+- kneeling plank tap shoulder (male) — **Prancha com toque de ombro (masculino)**
+- kneeling push-up (male) — **Flexão (masculino)**
+- Kneeling Single-Arm High Pulley Row — **Remada alta no cabo unilateral**
+- Kneeling Squat — **Agachamento**
+- korean dips — **Dips**
+- l-pull-up — **Barra fixa**
+- l-sit on floor — **Prancha no chão**
+- landmine 180 — **Landmine 180**
+- Landmine 180's — **Landmine 180**
+- landmine lateral raise — **Landmine elevação lateral**
+- Landmine Linear Jammer — **Landmine "linear jammer**
+- Lateral Bound — **Salto lateral**
+- Lateral Box Jump — **Salto lateral na caixa**
+- Lateral Cone Hops — **Saltos laterais em cone**
+- Lateral Raise - With Bands — **Elevação lateral com elásticos**
+- Latissimus Dorsi-SMR — **Smr para dorsal**
+- lean planche — **Planche inclinado**
+- left hook. boxing — **Golpe de esquerda. boxe**
+- Leg Extensions — **Cadeira extensora**
+- Leg Lift — **Elevação de perna**
+- Leg Press — **Prensa de pernas**
+- leg pull in flat bench — **Puxar perna no banco**
+- Leg Pull-In — **Puxar perna**
+- leg up hamstring stretch — **Alongamento posterior da coxa**
+- Leg-Over Floor Press — **Supino com perna**
+- Leg-Up Hamstring Stretch — **Alongamento posterior da coxa**
+- lever alternate leg press — **Prensa de pernas alternada**
+- lever alternating narrow grip seated row — **Remada sentada com barra**
+- lever assisted chin-up — **Barra fixa assistida**
+- lever back extension — **Extensão lombar**
+- lever bent over row — **Remada curvado**
+- lever bent-over row with v-bar — **Remada curvado com barra v**
+- lever bicep curl — **Rosca com barra**
+- lever calf press — **Prensa de panturrilha**
+- lever chest press — **Supino com barra**
+- lever deadlift — **Levantamento terra**
+- lever decline chest press — **Supino inclinado**
+- lever donkey calf raise — **Elevação de panturrilha**
+- lever front pulldown — **Puxada alta**
+- lever gripless shrug — **Ombros sem peso**
+- lever gripless shrug v. 2 — **Ombros sem peso com barra v**
+- lever gripper hands — **Agarrador de poleira**
+- lever hammer grip preacher curl — **Agarrador de martelo, rosca preacher**
+- lever high row — **Agarrador de alta row**
+- lever hip extension v. 2 — **Extensão de quadril v. 2**
+- lever horizontal one leg press — **Agarrador de imprensa unilateral**
+- lever incline chest press — **Agarrador de supino inclinado**
+- lever incline chest press v. 2 — **Agarrador de supino inclinado v. 2**
+- lever kneeling leg curl — **Agarrador de flexora de pernas agachado**
+- lever kneeling twist — **Agarrador de torção agachado**
+- lever lateral raise — **Agarrador de elevação lateral**
+- lever leg extension — **Agarrador de cadeira extensora**
+- lever lying leg curl — **Agarrador de flexora de pernas deitado**
+- lever lying two-one leg curl — **Agarrador de flexora de pernas deitado (duplo)**
+- lever military press — **Agarrador de desenvolvimento para ombros**
+- lever narrow grip seated row — **Agarrador de remada estreita**
+- lever one arm bent over row — **Agarrador de remada sobre o corpo**
+- lever one arm lateral high row — **Agarrador de elevação lateral alta**
+- lever one arm lateral wide pulldown — **Agarrador de puxada ampla**
+- lever one arm shoulder press — **Agarrador de desenvolvimento para ombros**
+- lever overhand triceps dip — **Agarrador de dip triceps**
+- lever preacher curl — **Agarrador de rosca preacher**
+- lever preacher curl v. 2 — **Agarrador de rosca preacher v. 2**
+- lever pullover — **Agarrador de pullover**
+- lever reverse grip lateral pulldown — **Agarrador de puxada lateral com pegada reversa**
+- lever reverse grip preacher curl — **Agarrador de rosca preacher com pegada reversa**
+- lever reverse grip vertical row — **Agarrador de remada vertical com pegada reversa**
+- lever reverse hyperextension — **Agarrador de hiperextensão reversa**
+- lever reverse t-bar row — **Agarrador de remada t-bar reversa**
+- lever rotary calf — **Agarrador de panturrilha rotativa**
+- lever seated calf press — **Agarrador de panturrilha sentado**
+- lever seated calf raise — **Agarrador de panturrilha sentado**
+- lever seated crunch — **Agarrador de abdominal sentado**
+- lever seated crunch (chest pad) — **Agarrador de abdominal sentado (acolcho)**
+- lever seated crunch v. 2 — **Agarrador de abdominal sentado v. 2**
+- lever seated dip — **Agarrador de dip sentado**
+- lever seated fly — **Agarrador de fly sentado**
+- lever seated good morning — **Agarrador de good morning sentado**
+- lever seated hip abduction — **Agarrador de abdução de quadril sentado**
+- lever seated hip adduction — **Agarrador de adução de quadril sentado**
+- lever seated leg curl — **Agarrador de flexora de pernas sentado**
+- lever seated leg raise crunch — **Agarrador de elevação de pernas crunch sentado**
+- lever seated reverse fly — **Agarrador de fly inverso sentado**
+- lever seated reverse fly (parallel grip) — **Agarrador de fly inverso (pegada paralela)**
+- lever seated row — **Agarrador de remada sentado**
+- lever seated squat calf raise on leg press machine — **Agarrador de elevação de panturrilha na máquina de imprensa**
+- lever shoulder press — **Agarrador de desenvolvimento para ombros**
+- lever shoulder press v. 2 — **Agarrador de desenvolvimento para ombros v. 2**
+- lever shoulder press v. 3 — **Agarrador de desenvolvimento para ombros v. 3**
+- lever shrug — **Agarrador de shrug**
+- lever standing calf raise — **Agarrador de elevação de panturrilha em pé**
+- lever standing chest press — **Agarrador de supino em pé**
+- lever t bar row — **Agarrador de remada t-bar**
+- lever t-bar reverse grip row — **Agarrador de remada t-bar com pegada reversa**
+- lever triceps extension — **Agarrador de extensão de tríceps**
+- lever unilateral row — **Agarrador de remada unilateral**
+- Leverage Chest Press — **Supino**
+- Leverage Deadlift — **Levantamento terra**
+- Leverage Decline Chest Press — **Supino declinado**
+- Leverage High Row — **Alta row**
+- Leverage Incline Chest Press — **Supino inclinado**
+- Leverage Iso Row — **Row isometria**
+- Leverage Shoulder Press — **Desenvolvimento para ombros**
+- Leverage Shrug — **Shrug**
+- Linear 3-Part Start Technique — **Técnica de início linear 3 partes**
+- Linear Acceleration Wall Drill — **Exercício de parede de aceleração linear**
+- Linear Depth Jump — **Salto de profundidade linear**
+- Log Lift — **Levantamento de log**
+- london bridge — **London bridge**
+- London Bridges — **London bridges**
+- Looking At Ceiling — **Olhando para o teto**
+- Low Cable Crossover — **Crossover de cabo baixo**
+- Low Cable Triceps Extension — **Extensão de tríceps de cabo baixo**
+- low glute bridge on floor — **Ponte de glúteos baixa no chão**
+- Low Pulley Row To Neck — **Row de polia baixa até o pescoço**
+- Lower Back Curl — **Curl de lombar**
+- Lower Back-SMR — **Smr de lombar**
+- Lunge Pass Through — **Lunge pass through**
+- Lunge Sprint — **Lunge sprint**
+- lunge with jump — **Lunge com salto**
+- lunge with twist — **Lunge com torção**
+- lying (side) quads stretch — **Abdômen, perna estendida, alongamento**
+- Lying Bent Leg Groin — **Quadríceps, perna dobrada**
+- Lying Cable Curl — **Rotação de braço com cabo**
+- Lying Cambered Barbell Row — **Remada com barra inclinada**
+- Lying Close-Grip Bar Curl On High Pulley — **Rotação de braço com barra, alta polia**
+- Lying Close-Grip Barbell Triceps Extension Behind The Head — **Tríceps, barra inclinada, atrás da cabeça**
+- Lying Close-Grip Barbell Triceps Press To Chin — **Tríceps, barra inclinada, para o queixo**
+- Lying Crossover — **Cruzamento de pernas**
+- Lying Dumbbell Tricep Extension — **Tríceps, halter**
+- lying elbow to knee — **Cotovelo no joelho**
+- Lying Face Down Plate Neck Resistance — **Resistência no pescoço, prono**
+- Lying Face Up Plate Neck Resistance — **Resistência no pescoço, supino**
+- Lying Glute — **Glúteos**
+- Lying Hamstring — **Posterior da coxa**
+- Lying High Bench Barbell Curl — **Rotação de braço com barra, banco**
+- Lying Leg Curls — **Flexora de pernas**
+- lying leg raise flat bench — **Elevação da perna, banco reto**
+- lying leg-hip raise — **Elevação da perna e quadril**
+- Lying Machine Squat — **Agachamento na máquina**
+- Lying One-Arm Lateral Raise — **Elevação lateral com halter**
+- Lying Prone Quadriceps — **Quadríceps, prono**
+- Lying Rear Delt Raise — **Elevação ombro, prono**
+- Lying Supine Dumbbell Curl — **Rotação de braço com halter**
+- Lying T-Bar Row — **Remada com barra**
+- Lying Triceps Press — **Tríceps, banco**
+- Machine Bench Press — **Supino na máquina**
+- Machine Bicep Curl — **Rotação de braço com halter**
+- machine inner chest press — **Supino no peitoral**
+- Machine Preacher Curls — **Rotação de braço com halter**
+- Machine Shoulder (Military) Press — **Desenvolvimento para ombros, máquina**
+- Machine Triceps Extension — **Tríceps, máquina**
+- march sit (wall) — **Agachamento com sentar (parede)**
+- medicine ball catch and overhead throw — **Arremesso e arremesso com bola medicinal**
+- Medicine Ball Chest Pass — **Passe de peito com bola medicinal**
+- medicine ball chest push from 3 point stance — **Empurrão de peito com bola medicinal, posição 3**
+- medicine ball chest push multiple response — **Empurrão de peito com bola medicinal, múltiplas respostas**
+- medicine ball chest push single response — **Empurrão de peito com bola medicinal, resposta única**
+- medicine ball chest push with run release — **Empurrão de peito com bola medicinal, com liberação em corrida**
+- medicine ball close grip push up — **Empurrão de peito com halter, aperto fechado**
+- Medicine Ball Full Twist — **Torção completa com bola medicinal**
+- medicine ball overhead slam — **Arremesso de bola medicinal**
+- Medicine Ball Scoop Throw — **Arremesso de bola medicinal**
+- medicine ball supine chest throw — **Empurrão de peito, prono, com bola medicinal**
+- Middle Back Shrug — **Elevação das escápulas**
+- Middle Back Stretch — **Alongamento das escápulas**
+- Mixed Grip Chin — **Chin com pegada mista**
+- mixed grip chin-up — **Chin com pegada mista**
+- modified hindu push-up (male) — **Flexão modificada (masculina)**
+- modified push up to lower arms — **Flexão para os antebraços**
+- Monster Walk — **Caminhada com as mãos**
+- mountain climber — **Escalador**
+- Mountain Climbers — **Escaladores**
+- Moving Claw Series — **Série de garra**
+- Muscle Snatch — **Arremesso de força**
+- Muscle Up — **Muscle-up**
+- muscle-up (on vertical bar) — **Muscle-up (na barra vertical)**
+- narrow push-up on exercise ball — **Flexão com bola de exercício**
+- Narrow Stance Hack Squats — **Agachamento estreito**
+- Narrow Stance Leg Press — **Leg press estreito**
+- Narrow Stance Squats — **Agachamento estreito**
+- Natural Glute Ham Raise — **Elevação de perna e coxa**
+- Neck Press — **Press no ombro**
+- neck side stretch — **Alongamento lateral do pescoço**
+- Neck-SMR — **Smr no pescoço**
+- negative crunch — **Crunch negativo**
+- oblique crunch v. 2 — **Crunch oblíquo v. 2**
+- Oblique Crunches — **Crunch oblíquo**
+- Oblique Crunches - On The Floor — **Crunch oblíquo - no chão**
+- oblique crunches floor — **Crunch oblíquo, no chão**
+- olympic barbell hammer curl — **Rotação de braço com barra olímpica**
+- olympic barbell triceps extension — **Rotação de braço com barra olímpica**
+- Olympic Squat — **Agachamento olímpico**
+- On Your Side Quad Stretch — **Alongamento quadríceps lateral**
+- On-Your-Back Quad Stretch — **Alongamento quadríceps, supino**
+- One Arm Against Wall — **Contra a parede**
+- One Arm Chin-Up — **Chin-up com uma mão**
+- one arm dip — **Dip com uma mão**
+- One Arm Dumbbell Bench Press — **Supino com halter, uma mão**
+- One Arm Dumbbell Preacher Curl — **Rotação de braço com halter, pregueador**
+- One Arm Floor Press — **Rotação de braço com halter**
+- One Arm Lat Pulldown — **Lat pulldown com uma mão**
+- One Arm Pronated Dumbbell Triceps Extension — **Extensão de tríceps com halter de uma mão**
+- one arm slam (with medicine ball) — **Golpear com bola de medicine (uma mão)**
+- One Arm Supinated Dumbbell Triceps Extension — **Extensão de tríceps com halter de uma mão**
+- one arm towel row — **Remada com toalha e uma mão**
+- One Half Locust — **Um locust metade**
+- One Handed Hang — **Suspensão com uma mão**
+- One Knee To Chest — **Uma perna para o peito**
+- One Leg Barbell Squat — **Agachamento com barra e uma perna**
+- one leg donkey calf raise — **Elevação de panturrilha com uma perna**
+- one leg floor calf raise — **Elevação de panturrilha no chão com uma perna**
+- one leg squat — **Agachamento com uma perna**
+- One-Arm Dumbbell Row — **Remada com halter de uma mão**
+- One-Arm Flat Bench Dumbbell Flye — **Flye com halter no banco, uma mão**
+- One-Arm High-Pulley Cable Side Bends — **Elevação lateral com cabo e uma mão**
+- One-Arm Incline Lateral Raise — **Elevação lateral com halter, uma mão**
+- One-Arm Kettlebell Clean — **Limpeza com kettlebell, uma mão**
+- One-Arm Kettlebell Clean and Jerk — **Limpeza e arremesso com kettlebell, uma mão**
+- One-Arm Kettlebell Floor Press — **Press com kettlebell, uma mão**
+- One-Arm Kettlebell Jerk — **Arremesso com kettlebell, uma mão**
+- One-Arm Kettlebell Military Press To The Side — **Press militar com kettlebell, uma mão**
+- One-Arm Kettlebell Para Press — **Press com kettlebell, uma mão**
+- One-Arm Kettlebell Push Press — **Press com kettlebell, uma mão**
+- One-Arm Kettlebell Row — **Remada com kettlebell, uma mão**
+- One-Arm Kettlebell Snatch — **Arremesso com kettlebell, uma mão**
+- One-Arm Kettlebell Split Jerk — **Arremesso dividido com kettlebell, uma mão**
+- One-Arm Kettlebell Split Snatch — **Arremesso dividido com kettlebell, uma mão**
+- One-Arm Kettlebell Swings — **Arremessos com kettlebell**
+- One-Arm Long Bar Row — **Remada com barra longa, uma mão**
+- One-Arm Medicine Ball Slam — **Golpear com bola de medicine, uma mão**
+- One-Arm Open Palm Kettlebell Clean — **Limpeza com kettlebell, palma aberta, uma mão**
+- One-Arm Overhead Kettlebell Squats — **Agachamento com kettlebell, uma mão**
+- One-Arm Side Deadlift — **Levantamento lateral com kettlebell, uma mão**
+- One-Arm Side Laterals — **Elevação lateral com kettlebell, uma mão**
+- One-Legged Cable Kickback — **Kickback com cabo e uma perna**
+- Open Palm Kettlebell Clean — **Limpeza com kettlebell, palma aberta**
+- otis up — **Otis up**
+- Otis-Up — **Otis-up**
+- outside leg kick push-up — **Flexão com perna para fora**
+- Overhead Cable Curl — **Curl com cabo, overhead**
+- Overhead Lat — **Lat overhead**
+- Overhead Slam — **Golpear com bola de medicine, overhead**
+- Overhead Squat — **Agachamento overhead**
+- Overhead Stretch — **Alongamento overhead**
+- Overhead Triceps — **Tríceps overhead**
+- overhead triceps stretch — **Alongamento triceps overhead**
+- Pallof Press — **Press pallof**
+- Pallof Press With Rotation — **Press pallof com rotação**
+- Palms-Down Dumbbell Wrist Curl Over A Bench — **Curl de pulso com halter, palma para baixo, sobre banco**
+- Palms-Down Wrist Curl Over A Bench — **Curl de pulso com halter, palma para baixo, sobre banco**
+- Palms-Up Barbell Wrist Curl Over A Bench — **Curl de pulso com barra, palma para cima, sobre banco**
+- Palms-Up Dumbbell Wrist Curl Over A Bench — **Curl de pulso com halter, palma para cima, sobre banco**
+- Parallel Bar Dip — **Dip na barra paralela**
+- pelvic tilt — **Inclinação pélvica**
+- Pelvic Tilt Into Bridge — **Inclinação pélvica no bridge**
+- Peroneals Stretch — **Alongamento do perone**
+- Peroneals-SMR — **Smr do perone**
+- Physioball Hip Bridge — **Bridge com bola de pilates**
+- pike-to-cobra push-up — **Flexão pike-to-cobra**
+- Pin Presses — **Pin presses**
+- Piriformis-SMR — **Smr do piriforme**
+- Plank — **Prancha**
+- Plate Pinch — **Pinch de prato**
+- Plate Twist — **Twist de prato**
+- Platform Hamstring Slides — **Slides de panturrilha na plataforma**
+- Plie Dumbbell Squat — **Agachamento com halter, plie**
+- Plyo Kettlebell Pushups — **Flexões com kettlebell pliométricas**
+- plyo push up — **Flexão pliométrica**
+- Plyo Push-up — **Flexão pliométrica**
+- posterior step to overhead reach — **Passo posterior para alcance overhead**
+- Posterior Tibialis Stretch — **Alongamento do tendão de curta**
+- potty squat — **Agachamento "potty**
+- potty squat with support — **Agachamento "potty" com apoio**
+- Power Clean — **Power clean**
+- Power Clean from Blocks — **Power clean de blocos**
+- Power Jerk — **Power jerk**
+- Power Partials — **Power partiais**
+- power point plank — **Prancha "power point**
+- Power Snatch — **Power snatch**
+- Power Snatch from Blocks — **Power snatch de blocos**
+- Power Stairs — **Escada de força**
+- Preacher Curl — **Rosca no preacher**
+- Preacher Hammer Dumbbell Curl — **Rosca no preacher com halter**
+- Press Sit-Up — **Sit-up com press**
+- prisoner half sit-up (male) — **Abdominal sentado (masculino)**
+- Prone Manual Hamstring — **Rosca posterior da coxa**
+- prone twist on stability ball — **Torção pronada na bola de estabilização**
+- Prowler Sprint — **Sprint com prowler**
+- Pull Through — **Rosca em travessão**
+- pull up (neutral grip) — **Barra fixa (grip neutro)**
+- pull-in (on stability ball) — **Rosca na bola de estabilização**
+- pull-up — **Barra fixa**
+- Pullups — **Barras fixas**
+- push and pull bodyweight — **Exercício com peso corporal**
+- Push Press — **Press com peso**
+- Push Press - Behind the Neck — **Press com peso - atrás da cabeça**
+- push to run — **Press para correr**
+- push up on bosu ball — **Flexão na bola bosu**
+- Push Up to Side Plank — **Flexão para prancha lateral**
+- push-up — **Flexão**
+- push-up (bosu ball) — **Flexão (bola bosu)**
+- push-up (on stability ball) — **Flexão (bola de estabilização)**
+- push-up (wall) — **Flexão (na parede)**
+- push-up (wall) v. 2 — **Flexão (na parede) v. 2**
+- push-up close-grip off dumbbell — **Flexão com halter close grip**
+- push-up inside leg kick — **Flexão com kick interno da perna**
+- push-up medicine ball — **Flexão com bola medicinal**
+- push-up on lower arms — **Flexão nos braços inferiores**
+- push-up plus — **Flexão com adição**
+- push-up to side plank — **Flexão para prancha lateral**
+- Push-Up Wide — **Flexão wide**
+- Push-Ups - Close Triceps Position — **Flexões - posição tríceps fechada**
+- Push-Ups With Feet Elevated — **Flexões com pés elevados**
+- Push-Ups With Feet On An Exercise Ball — **Flexões com pés na bola de exercício**
+- Pushups — **Flexões**
+- Pushups (Close and Wide Hand Positions) — **Flexões (posições de mão fechada e wide)**
+- Pyramid — **Pirâmide**
+- Quad Stretch — **Alongamento quadríceps**
+- Quadriceps-SMR — **Smr quadríceps**
+- quads — **Quadríceps**
+- quarter sit-up — **Abdominal quarto**
+- quick feet v. 2 — **Pés rápidos v. 2**
+- Quick Leap — **Salto rápido**
+- Rack Delivery — **Entrega no rack**
+- Rack Pull with Bands — **Rack pull com bandas**
+- Rack Pulls — **Rack pulls**
+- raise single arm push-up — **Flexão com uma mão**
+- rear decline bridge — **Ponte decline rear**
+- rear deltoid stretch — **Alongamento deltoide posterior**
+- Rear Leg Raises — **Elevação posterior da perna**
+- rear pull-up — **Barra fixa posterior**
+- reclining big toe pose with rope — **Pose de dedão com corda**
+- Recumbent Bike — **Bicicleta reclinada**
+- resistance band hip thrusts on knees (female) — **Agachamento com banda no quadril (feminino)**
+- resistance band leg extension — **Extensor de pernas com banda**
+- resistance band seated biceps curl — **Rosca com banda no bíceps**
+- resistance band seated chest press — **Supino com banda no peito**
+- resistance band seated hip abduction — **Abdução de quadril com banda**
+- resistance band seated shoulder press — **Desenvolvimento com banda nos ombros**
+- resistance band seated straight back row — **Remada com banda na barra**
+- Return Push from Stance — **Press retorno da posição**
+- Reverse Band Bench Press — **Supino com banda invertido**
+- Reverse Band Box Squat — **Agachamento com banda invertido**
+- Reverse Band Deadlift — **Levantamento terra com banda invertido**
+- Reverse Band Power Squat — **Agachamento com banda invertido**
+- Reverse Band Sumo Deadlift — **Levantamento terra com banda invertido**
+- Reverse Barbell Curl — **Rosca com halter invertido**
+- Reverse Barbell Preacher Curls — **Rosca com halter no preacher invertido**
+- Reverse Cable Curl — **Rosca com cabo invertido**
+- Reverse Crunch — **Crunch invertido**
+- reverse dip — **Dip invertido**
+- Reverse Flyes — **Flyes invertidos**
+- Reverse Flyes With External Rotation — **Flyes invertidos com rotação externa**
+- Reverse Grip Bent-Over Rows — **Remada com halter invertido**
+- reverse grip machine lat pulldown — **Máquina lat pulldown com halter invertido**
+- reverse grip pull-up — **Barra fixa invertido**
+- Reverse Grip Triceps Pushdown — **Tríceps pushdown com halter invertido**
+- reverse hyper extension (on stability ball) — **Hyper extensão invertida (na bola de estabilização)**
+- reverse hyper on flat bench — **Hyper extensão no banco plano**
+- Reverse Hyperextension — **Hyper extensão**
+- Reverse Machine Flyes — **Voador de máquina invertido**
+- reverse plank with leg lift — **Prancha invertida com elevação da perna**
+- Reverse Plate Curls — **Rosca invertida com plata**
+- Reverse Triceps Bench Press — **Supino invertido para tríceps no banco**
+- Rhomboids-SMR — **Rosca para os ombros**
+- Rickshaw Carry — **Carregamento de rickshaw**
+- Rickshaw Deadlift — **Levantamento de rickshaw**
+- Ring Dips — **Flexão em barra**
+- Rocket Jump — **Salto de rocket**
+- rocking frog stretch — **Alongamento de sapo balanceado**
+- Rocking Standing Calf Raise — **Elevação de panturrilha em pé balanceado**
+- rocky pull-up pulldown — **Barra fixa com corda**
+- Rocky Pull-Ups/Pulldowns — **Barra fixa/puxada com corda**
+- roller back stretch — **Alongamento de volta**
+- roller body saw — **Alongamento de corpo em "t**
+- roller hip lat stretch — **Alongamento de quadril**
+- roller hip stretch — **Alongamento de quadril**
+- roller reverse crunch — **Abdominal invertido**
+- roller seated shoulder flexor depresor retractor — **Flexor do ombro sentado**
+- roller seated single leg shoulder flexor depresor retractor — **Flexor do ombro sentado com uma perna**
+- roller side lat stretch — **Alongamento lateral do ombro**
+- Romanian Deadlift — **Levantamento terra romeno**
+- Romanian Deadlift from Deficit — **Levantamento terra romeno do deficit**
+- Rope Climb — **Escalada com corda**
+- Rope Crunch — **Abdominal com corda**
+- Rope Jumping — **Corrida com corda**
+- Rope Straight-Arm Pulldown — **Puxada com corda**
+- Round The World Shoulder Stretch — **Alongamento do ombro "ao redor do mundo**
+- Rowing, Stationary — **Remada, estática**
+- run — **Corrida**
+- run (equipment) — **Corrida (equipamento)**
+- Runner's Stretch — **Alongamento do corredor**
+- runners stretch — **Alongamento do corredor**
+- Running, Treadmill — **Corrida, esteira**
+- Russian Twist — **Torção russa**
+- Sandbag Load — **Carga de sacola de areia**
+- scapula dips — **Flexão com barra**
+- scapula push-up — **Flexão com barra**
+- Scapular Pull-Up — **Barra fixa com barra**
+- scissor jumps (male) — **Salto de arco-íris (masculino)**
+- Scissor Kick — **Salto de arco**
+- Scissors Jump — **Salto de tesoura**
+- Seated Band Hamstring Curl — **Rosca de pernas com banda**
+- Seated Barbell Military Press — **Supino com barra**
+- Seated Barbell Twist — **Torção sentado**
+- Seated Bent-Over One-Arm Dumbbell Triceps Extension — **Rosca de tríceps com halter no banco**
+- Seated Bent-Over Rear Delt Raise — **Elevação para os ombros com halter**
+- Seated Bent-Over Two-Arm Dumbbell Triceps Extension — **Rosca de tríceps com halter**
+- Seated Biceps — **Bíceps sentado**
+- Seated Cable Rows — **Remada com cabo**
+- Seated Cable Shoulder Press — **Desenvolvimento sentado para ombros no cabo**
+- Seated Calf Raise — **Elevação de panturrilha sentado**
+- Seated Calf Stretch — **Alongamento de panturrilha sentado**
+- seated calf stretch (male) — **Alongamento de panturrilha sentado (masculino)**
+- Seated Close-Grip Concentration Barbell Curl — **Rosca de pernas com halter**
+- Seated Dumbbell Curl — **Rosca com halter**
+- Seated Dumbbell Inner Biceps Curl — **Rosca de bíceps com halter**
+- Seated Dumbbell Palms-Down Wrist Curl — **Rosca de punho com halter**
+- Seated Dumbbell Palms-Up Wrist Curl — **Rosca de punho com halter**
+- Seated Dumbbell Press — **Supino com halter**
+- Seated Flat Bench Leg Pull-In — **Rosca de pernas no banco**
+- Seated Floor Hamstring Stretch — **Alongamento de pernas para a coxa**
+- Seated Front Deltoid — **Alongamento do deltoide frontal**
+- Seated Glute — **Glúteos sentado**
+- seated glute stretch — **Alongamento de glúteos sentado**
+- Seated Good Mornings — **Alongamento de lomos sentado**
+- Seated Hamstring — **Pernas para a coxa**
+- Seated Hamstring and Calf Stretch — **Alongamento de pernas e panturrilha**
+- Seated Head Harness Neck Resistance — **Alongamento de pescoço com arnês**
+- Seated Leg Curl — **Flexora de pernas sentado**
+- seated leg raise — **Elevação da perna sentado**
+- Seated Leg Tucks — **Dobra de pernas sentado**
+- seated lower back stretch — **Alongamento de lomos sentado**
+- Seated One-arm Cable Pulley Rows — **Remada com cabo (uma mão)**
+- Seated One-Arm Dumbbell Palms-Down Wrist Curl — **Rosca de punho com halter (uma mão)**
+- Seated One-Arm Dumbbell Palms-Up Wrist Curl — **Rosca de punho com halter (uma mão)**
+- Seated Overhead Stretch — **Alongamento sobre a cabeça**
+- Seated Palm-Up Barbell Wrist Curl — **Rosca de punho com halter**
+- Seated Palms-Down Barbell Wrist Curl — **Rosca de punho com halter**
+- seated piriformis stretch — **Alongamento de piriformis**
+- seated side crunch (wall) — **Abdominal lateral crunch (na parede)**
+- Seated Side Lateral Raise — **Elevação lateral sentada**
+- Seated Triceps Press — **Supino tríceps sentado**
+- Seated Two-Arm Palms-Up Low-Pulley Wrist Curl — **Rotação de punho com corda**
+- seated wide angle pose sequence — **Sequência de pose sentada**
+- See-Saw Press (Alternating Side Press) — **Supino alternado lateral**
+- self assisted inverse leg curl — **Flexora de pernas invertida assistida**
+- self assisted inverse leg curl (on floor) — **Flexora de pernas invertida no chão**
+- semi squat jump (male) — **Agachamento saltado (masculino)**
+- short stride run — **Corrida curta**
+- Shotgun Row — **Remada**
+- Shoulder Circles — **Círculos de ombro**
+- shoulder grip pull-up — **Barra fixa com pegada**
+- Shoulder Press - With Bands — **Desenvolvimento para ombros com elásticos**
+- Shoulder Raise — **Elevação de ombros**
+- Shoulder Stretch — **Alongamento de ombros**
+- shoulder tap — **Toque no ombro**
+- shoulder tap push-up — **Flexão com toque no ombro**
+- Side Bridge — **Prancha lateral**
+- side bridge hip abduction — **Abdução de quadril na prancha**
+- side bridge v. 2 — **Prancha lateral v. 2**
+- side hip (on parallel bars) — **Abdução de quadril**
+- side hip abduction — **Abdução de quadril**
+- Side Hop-Sprint — **Salto lateral**
+- Side Jackknife — **Corte lateral**
+- Side Lateral Raise — **Elevação lateral**
+- Side Laterals to Front Raise — **Elevação lateral para frente**
+- Side Leg Raises — **Elevação de pernas**
+- side lying floor stretch — **Alongamento na prancha**
+- Side Lying Groin Stretch — **Alongamento de quadril na prancha**
+- side lying hip adduction (male) — **Adução de quadril (masculino)**
+- Side Neck Stretch — **Alongamento de pescoço**
+- side plank hip adduction — **Adução de quadril na prancha**
+- side push neck stretch — **Alongamento de pescoço**
+- side push-up — **Flexão lateral**
+- Side Standing Long Jump — **Salto longo lateral**
+- Side to Side Box Shuffle — **Deslocamento lateral na caixa**
+- Side To Side Chins — **Chin-ups laterais**
+- Side Wrist Pull — **Puxada com punho**
+- side wrist pull stretch — **Alongamento de punho**
+- Side-Lying Floor Stretch — **Alongamento na prancha**
+- side-to-side chin — **Chin-up lateral**
+- side-to-side toe touch (male) — **Toque nos dedos (masculino)**
+- single arm push-up — **Flexão unilateral**
+- Single Dumbbell Raise — **Elevação unilateral com halter**
+- single leg bridge with outstretched leg — **Ponte unilateral com perna estendida**
+- Single Leg Butt Kick — **Agachamento unilateral**
+- single leg calf raise (on a dumbbell) — **Elevação de panturrilha unilateral (com halter)**
+- Single Leg Glute Bridge — **Ponte unilateral**
+- single leg platform slide — **Deslizamento unilateral**
+- Single Leg Push-off — **Empurrão unilateral**
+- single leg squat (pistol) male — **Agachamento unilateral (pistol)**
+- Single-Arm Cable Crossover — **Crossover com cabo unilateral**
+- Single-Arm Linear Jammer — **Extensor unilateral**
+- Single-Arm Push-Up — **Flexão unilateral**
+- Single-Cone Sprint Drill — **Dril de corrida com cone**
+- Single-Leg High Box Squat — **Agachamento em caixa unilateral**
+- Single-Leg Hop Progression — **Progressão de salto unilateral**
+- Single-Leg Lateral Hop — **Salto lateral unilateral**
+- Single-Leg Leg Extension — **Extensor de perna unilateral**
+- Single-Leg Stride Jump — **Salto unilateral**
+- sissy squat — **Agachamento sissy**
+- Sit Squats — **Agachamento sentado**
+- Sit-Up — **Abdominal**
+- sit-up v. 2 — **Abdominal v. 2**
+- sit-up with arms on chest — **Abdominal com braços no peito**
+- skater hops — **Saltos de patada**
+- Skating — **Patada**
+- ski ergometer — **Ergometro de esqui**
+- ski step — **Passo de esqui**
+- skin the cat — **Skin the cat**
+- sled 45 degrees one leg press — **Leg press de 45 graus com esteira**
+- sled 45° leg press (side pov) — **Leg press de 45° (vista lateral)**
+- sled 45в° calf press — **Leg press de 45° (vista posterior)**
+- sled 45в° leg press — **Leg press de 45° (vista posterior)**
+- sled 45в° leg press (back pov) — **Leg press de 45° (vista lateral)**
+- sled 45в° leg wide press — **Leg press com panturrilha**
+- sled calf press on leg press — **Leg press close hack squat**
+- sled closer hack squat — **Sled drag - harness**
+- Sled Drag - Harness — **Arraste de esteira - arnês**
+- sled forward angled calf raise — **Sled forward angled calf raise**
+- sled hack squat — **Sled hack squat**
+- sled lying calf press — **Sled lying calf press**
+- sled lying squat — **Sled lying squat**
+- sled one leg calf press on leg press — **Sled one leg calf press on leg press**
+- Sled Overhead Backward Walk — **Sled overhead backward walk**
+- Sled Overhead Triceps Extension — **Sled overhead triceps extension**
+- Sled Push — **Sled push**
+- Sled Reverse Flye — **Sled reverse flye**
+- Sled Row — **Sled row**
+- sledge hammer — **Sledge hammer**
+- Sledgehammer Swings — **Sledgehammer swings**
+- smith back shrug — **Smith back shrug**
+- smith behind neck press — **Smith behind neck press**
+- smith bench press — **Smith bench press**
+- smith bent knee good morning — **Smith bent knee good morning**
+- smith bent over row — **Smith bent over row**
+- smith chair squat — **Smith chair squat**
+- smith close-grip bench press — **Smith close-grip bench press**
+- smith deadlift — **Smith deadlift**
+- smith decline bench press — **Smith decline bench press**
+- smith decline reverse-grip press — **Smith decline reverse-grip press**
+- smith front squat (clean grip) — **Smith front squat (clean grip)**
+- smith full squat — **Smith full squat**
+- smith hack squat — **Smith hack squat**
+- smith hip raise — **Smith hip raise**
+- smith incline bench press — **Smith incline bench press**
+- smith incline reverse-grip press — **Smith incline reverse-grip press**
+- Smith Incline Shoulder Raise — **Smith incline shoulder raise**
+- smith incline shoulder raises — **Smith incline shoulder raises**
+- smith leg press — **Smith leg press**
+- smith low bar squat — **Smith low bar squat**
+- Smith Machine Behind the Back Shrug — **Smith machine behind the back shrug**
+- Smith Machine Bench Press — **Smith machine bench press**
+- Smith Machine Bent Over Row — **Smith machine bent over row**
+- smith machine bicep curl — **Smith machine bicep curl**
+- Smith Machine Calf Raise — **Smith machine calf raise**
+- Smith Machine Close-Grip Bench Press — **Smith machine close-grip bench press**
+- smith machine decline close grip bench press — **Smith machine decline close grip bench press**
+- Smith Machine Decline Press — **Smith machine decline press**
+- Smith Machine Hang Power Clean — **Smith machine hang power clean**
+- Smith Machine Hip Raise — **Smith machine hip raise**
+- Smith Machine Incline Bench Press — **Smith machine incline bench press**
+- smith machine incline tricep extension — **Smith machine incline tricep extension**
+- Smith Machine Leg Press — **Smith machine leg press**
+- Smith Machine One-Arm Upright Row — **Smith machine one-arm upright row**
+- Smith Machine Overhead Shoulder Press — **Smith machine overhead shoulder press**
+- Smith Machine Pistol Squat — **Smith machine pistol squat**
+- Smith Machine Reverse Calf Raises — **Smith machine reverse calf raises**
+- smith machine reverse decline close grip bench press — **Smith machine reverse decline close grip bench press**
+- Smith Machine Squat — **Smith machine squat**
+- Smith Machine Stiff-Legged Deadlift — **Smith machine stiff-legged deadlift**
+- Smith Machine Upright Row — **Smith machine upright row**
+- smith narrow row — **Smith narrow row**
+- smith one arm row — **Smith one arm row**
+- smith one leg floor calf raise — **Smith one leg floor calf raise**
+- smith rear delt row — **Smith rear delt row**
+- smith reverse calf raises — **Smith reverse calf raises**
+- smith reverse grip bent over row — **Smith reverse grip bent over row**
+- smith reverse-grip press — **Smith reverse-grip press**
+- smith seated one leg calf raise — **Smith seated one leg calf raise**
+- smith seated shoulder press — **Smith seated shoulder press**
+- smith seated wrist curl — **Smith seated wrist curl**
+- smith shoulder press — **Smith shoulder press**
+- smith shrug — **Smith shrug**
+- smith single leg split squat — **Smith single leg split squat**
+- Smith Single-Leg Split Squat — **Smith single-leg split squat**
+- smith sprint lunge — **Smith sprint lunge**
+- smith squat — **Smith squat**
+- smith standing back wrist curl — **Smith standing back wrist curl**
+- smith standing behind head military press — **Smith standing behind head military press**
+- smith standing leg calf raise — **Smith standing leg calf raise**
+- smith standing military press — **Smith standing military press**
+- smith sumo squat — **Smith sumo squat**
+- smith toe raise — **Smith toe raise**
+- smith upright row — **Smith upright row**
+- smith wide grip bench press — **Smith wide grip bench press**
+- smith wide grip decline bench press — **Smith wide grip decline bench press**
+- Snatch — **Snatch**
+- Snatch Balance — **Snatch balance**
+- Snatch Deadlift — **Arremesso levantamento terra**
+- Snatch from Blocks — **Arremesso de blocos**
+- Snatch Pull — **Arremesso arremesso**
+- Snatch Shrug — **Arremesso arremesso**
+- Speed Band Overhead Triceps — **Banda de velocidade tríceps**
+- Speed Box Squat — **Caixa de velocidade agachamento**
+- Speed Squats — **Agachamentos de velocidade**
+- Spell Caster — **Spell caster**
+- sphinx — **Sphinx**
+- Spider Crawl — **Crawl de aranha**
+- spider crawl push up — **Crawl de aranha flexão**
+- Spider Curl — **Crawl de aranha**
+- Spinal Stretch — **Alongamento espinhal**
+- spine stretch — **Alongamento espinhal**
+- spine twist — **Torção espinhal**
+- Split Clean — **Limpeza dividida**
+- Split Jerk — **Arremesso dividido**
+- Split Jump — **Salto dividido**
+- Split Snatch — **Arremesso dividido**
+- Split Squat with Dumbbells — **Agachamento dividido com halteres**
+- Split Squats — **Agachamentos divididos**
+- Squat Jerk — **Agachamento arremesso**
+- squat on bosu ball — **Agachamento em bosu**
+- squat to overhead reach — **Agachamento para alcançar**
+- squat to overhead reach with twist — **Agachamento para alcançar com torção**
+- Squat with Bands — **Agachamento com bandas**
+- Squat with Chains — **Agachamento com correntes**
+- Squat with Plate Movers — **Agachamento com plata**
+- Squats - With Bands — **Agachamentos - com bandas**
+- stability ball crunch (full range hands behind head) — **Crunch em bola de estabilização (amplitude completa mãos atrás da cabeça)**
+- Stairmaster — **Stairmaster**
+- stalder press — **Press stalder**
+- Standing Alternating Dumbbell Press — **Press de halteres alternado em pé**
+- standing archer — **Archer em pé**
+- Standing Barbell Calf Raise — **Elevação de panturrilha em barbel**
+- Standing Barbell Press Behind Neck — **Press em barbel atrás do pescoço**
+- standing behind neck press — **Press atrás do pescoço**
+- Standing Bent-Over One-Arm Dumbbell Triceps Extension — **Extensão tríceps em pé com halter**
+- Standing Bent-Over Two-Arm Dumbbell Triceps Extension — **Extensão tríceps em pé com halter**
+- Standing Biceps Cable Curl — **Rosca em cabo para bíceps**
+- Standing Biceps Stretch — **Alongamento bíceps em pé**
+- Standing Bradford Press — **Press bradford**
+- Standing Cable Chest Press — **Press de peito em cabo**
+- Standing Cable Lift — **Elevação em cabo**
+- Standing Cable Wood Chop — **Wood chop em cabo**
+- standing calf raise (on a staircase) — **Elevação de panturrilha em pé (na escada)**
+- Standing Calf Raises — **Elevações de panturrilha**
+- standing calves — **Panturrilhas**
+- standing calves calf stretch — **Alongamento panturrilha**
+- Standing Concentration Curl — **Rosca de concentração em pé**
+- Standing Dumbbell Calf Raise — **Elevação de panturrilha com halter**
+- Standing Dumbbell Press — **Press com halter**
+- Standing Dumbbell Reverse Curl — **Rosca reversa com halter em pé**
+- Standing Dumbbell Straight-Arm Front Delt Raise Above Head — **Elevação com halter em pé**
+- Standing Dumbbell Triceps Extension — **Extensão tríceps com halter**
+- Standing Dumbbell Upright Row — **Remada com halter em pé**
+- Standing Elevated Quad Stretch — **Alongamento quadríceps em pé**
+- Standing Front Barbell Raise Over Head — **Elevação em barbel sobre a cabeça**
+- Standing Gastrocnemius Calf Stretch — **Alongamento gastrocnêmio**
+- Standing Hamstring and Calf Stretch — **Alongamento posterior da coxa e panturrilha**
+- standing hamstring and calf stretch with strap — **Alongamento posterior da coxa e panturrilha com alça**
+- Standing Hip Circles — **Círculos de quadril**
+- Standing Hip Flexors — **Flexores de quadril**
+- Standing Inner-Biceps Curl — **Rosca de bíceps em pé**
+- Standing Lateral Stretch — **Alongamento lateral**
+- Standing Leg Curl — **Flexora de pernas**
+- Standing Long Jump — **Salto long jump**
+- Standing Low-Pulley Deltoid Raise — **Elevação de deltóide em cabo baixo**
+- Standing Low-Pulley One-Arm Triceps Extension — **Extensão tríceps em cabo baixo**
+- Standing Military Press — **Press militar**
+- Standing Olympic Plate Hand Squeeze — **Apertar placa olímpica**
+- Standing One-Arm Cable Curl — **Rosca em cabo para bíceps**
+- Standing One-Arm Dumbbell Curl Over Incline Bench — **Rosca com halter em banco inclinado**
+- Standing One-Arm Dumbbell Triceps Extension — **Extensão tríceps com halter**
+- Standing Overhead Barbell Triceps Extension — **Extensão tríceps com barbel**
+- Standing Palm-In One-Arm Dumbbell Press — **Press com halter palma para frente**
+- Standing Palms-In Dumbbell Press — **Press com halter palma para frente**
+- Standing Palms-Up Barbell Behind The Back Wrist Curl — **Rosca de punho com cabo atrás**
+- Standing Pelvic Tilt — **Inclinação pélvica**
+- Standing Rope Crunch — **Crunch com corda**
+- standing single leg curl — **Agachamento unilateral em pé**
+- Standing Soleus And Achilles Stretch — **Alongamento do soleus e do tendão de aquiles**
+- Standing Toe Touches — **Toque de pés em pé**
+- Standing Towel Triceps Extension — **Extensão de tríceps com toalha em pé**
+- Standing Two-Arm Overhead Throw — **Arremesso com duas mãos acima da cabeça**
+- standing wheel rollerout — **Rolo de tronco em pé**
+- Star Jump — **Salto de estrela**
+- star jump (male) — **Salto de estrela (masculino)**
+- stationary bike run v. 3 — **Bicicleta ergométrica corrida v. 3**
+- stationary bike walk — **Bicicleta ergométrica caminhada**
+- Step Mill — **Esteira**
+- Step-up with Knee Raise — **Elevação com joelho**
+- Stiff Leg Barbell Good Morning — **Agachamento com pernas estendidas**
+- Stiff-Legged Barbell Deadlift — **Levantamento terra com pernas estendidas**
+- Stiff-Legged Dumbbell Deadlift — **Levantamento terra com halter, pernas estendidas**
+- Stomach Vacuum — **Vácuo abdominal**
+- straddle maltese — **Salto de cavalo maltês**
+- straddle planche — **Salto de prancha**
+- Straight Bar Bench Mid Rows — **Supino com barra reta, remada**
+- straight leg outer hip abductor — **Abdução de quadril externo**
+- Straight Raises on Incline Bench — **Elevação de pernas em banco inclinado**
+- Straight-Arm Dumbbell Pullover — **Remada com halter, braços retos**
+- Straight-Arm Pulldown — **Puxada com barra reta**
+- Stride Jump Crossover — **Salto cruzado**
+- Sumo Deadlift — **Levantamento sumo com halter**
+- Sumo Deadlift with Bands — **Levantamento sumo com elásticos**
+- Sumo Deadlift with Chains — **Levantamento sumo com correntes**
+- Superman — **Superman**
+- superman push-up — **Flexão superman**
+- Supine Chest Throw — **Arremesso no peito**
+- Supine One-Arm Overhead Throw — **Arremesso com uma mão acima da cabeça**
+- Supine Two-Arm Overhead Throw — **Arremesso com duas mãos acima da cabeça**
+- suspended abdominal fallout — **Abdominal suspenso**
+- Suspended Fallout — **Abdominal suspenso**
+- Suspended Push-Up — **Flexão suspenso**
+- Suspended Reverse Crunch — **Crunch suspenso**
+- Suspended Row — **Remada suspenso**
+- Suspended Split Squat — **Agachamento suspenso**
+- Svend Press — **Press de ombro**
+- swimmer kicks v. 2 (male) — **Pernada de nadador v. 2 (masculino)**
+- swing 360 — **Giro de 360**
+- T-Bar Row with Handle — **Remada com barra t**
+- Tate Press — **Press de ombro com barra t**
+- The Straddle — **Salto de prancha**
+- Thigh Abductor — **Abdução de quadril**
+- Thigh Adductor — **Adução de quadril**
+- three bench dip — **Dip no banco**
+- Tire Flip — **Virar pneu**
+- Toe Touchers — **Toque de pés**
+- Torso Rotation — **Rotação do tronco**
+- Trail Running/Walking — **Corrida/caminhada em trilha**
+- Trap Bar Deadlift — **Levantamento terra com barra trap**
+- Tricep Dumbbell Kickback — **Kickback de tríceps com halter**
+- Tricep Side Stretch — **Alongamento lateral de tríceps**
+- triceps dip — **Dip de tríceps**
+- triceps dip (bench leg) — **Dip de tríceps (com pernas no banco)**
+- triceps dip (between benches) — **Dip de tríceps (entre bancos)**
+- triceps dips floor — **Dip de tríceps no chão**
+- Triceps Overhead Extension with Rope — **Extensão de tríceps com corda**
+- triceps press — **Press de tríceps**
+- Triceps Pushdown — **Extensão de tríceps**
+- Triceps Pushdown - Rope Attachment — **Extensão de tríceps - com encaixe de corda**
+- Triceps Pushdown - V-Bar Attachment — **Extensão de tríceps - com encaixe de v**
+- Triceps Stretch — **Alongamento de tríceps**
+- Tuck Crunch — **Crunch de tuck**
+- twin handle parallel grip lat pulldown — **Puxada com barra paralela, encaixe duplo**
+- twist hip lift — **Elevação de quadril**
+- twisted leg raise — **Elevação de perna torcida**
+- twisted leg raise (female) — **Elevação de perna torcida (feminino)**
+- two toe touch (male) — **Dois toques de pés (masculino)**
+- Two-Arm Dumbbell Preacher Curl — **Rosca com halter, banco preator**
+- Two-Arm Kettlebell Clean — **Limpeza com halter**
+- Two-Arm Kettlebell Jerk — **Arremesso com halter**
+- Two-Arm Kettlebell Military Press — **Press militar com halter**
+- Two-Arm Kettlebell Row — **Remada com halter**
+- Underhand Cable Pulldowns — **Puxada com cabo, pegada invertida**
+- Upper Back Stretch — **Alongamento da parte superior do corpo**
+- Upper Back-Leg Grab — **Agarrar parte superior do corpo e perna**
+- Upright Barbell Row — **Remada com barra reta**
+- Upright Cable Row — **Remada com cabo**
+- Upright Row - With Bands — **Remada alta com elásticos**
+- upward facing dog — **Yoga - cão úpido**
+- Upward Stretch — **Alongamento úpido**
+- V-Bar Pulldown — **Barra fixa - v**
+- V-Bar Pullup — **Barra fixa - v**
+- v-sit on floor — **V-sit no chão**
+- vertical leg raise (on parallel bars) — **Elevação da perna (em barras paralelas)**
+- Vertical Swing — **Swing vertical**
+- walk elliptical cross trainer — **Elíptico**
+- walking high knees lunge — **Agachamento com joelho alto**
+- walking lunge — **Agachamento**
+- walking on incline treadmill — **Caminhada na esteira inclinada**
+- walking on stepmill — **Caminhada na esteira**
+- Walking, Treadmill — **Esteira**
+- Weighted Ball Hyperextension — **Hiperextensão com bola**
+- Weighted Ball Side Bend — **Flexão lateral com bola**
+- Weighted Bench Dip — **Dip com barra**
+- weighted close grip chin-up on dip cage — **Barra fixa com pegada estreita**
+- weighted cossack squats (male) — **Agachamento cossack (masculino)**
+- weighted crunch — **Abdominal com bola**
+- Weighted Crunches — **Abdominais com bola**
+- weighted decline sit-up — **Abdominal inclinado**
+- weighted donkey calf raise — **Elevação de panturrilha com bola**
+- weighted drop push up — **Flexão com bola**
+- weighted front plank — **Prancha com bola**
+- weighted front raise — **Elevação com bola**
+- weighted hanging leg-hip raise — **Elevação de perna e quadril (na barra)**
+- weighted hyperextension (on stability ball) — **Hiperextensão (em bola)**
+- Weighted Jump Squat — **Agachamento salto**
+- weighted kneeling step with swing — **Agachamento com bola e swing**
+- weighted lunge with swing — **Agachamento com swing**
+- weighted muscle up — **Muscle up**
+- weighted muscle up (on bar) — **Muscle up (na barra)**
+- weighted one hand pull up — **Barra fixa com uma mão**
+- weighted overhead crunch (on stability ball) — **Abdominal com bola (em bola)**
+- Weighted Pull Ups — **Barra fixa**
+- weighted pull-up — **Barra fixa**
+- weighted round arm — **Rotação de braços**
+- weighted russian twist — **Rotação de braços (pernas para cima)**
+- weighted russian twist (legs up) — **Rotação de braços v. 2**
+- weighted russian twist v. 2 — **Rosca bíceps (em bola)**
+- weighted seated bicep curl (on stability ball) — **Rotação (em bola)**
+- weighted seated twist (on stability ball) — **Flexão lateral (em bola)**
+- weighted side bend (on stability ball) — **Agachamento sissy**
+- Weighted Sissy Squat — **Abdominais com elásticos**
+- Weighted Sit-Ups - With Bands — **Agachamento**
+- Weighted Squat — **Agachamento com carga**
+- weighted standing curl — **Rosca com barra**
+- weighted standing hand squeeze — **Aperto de mão**
+- weighted straight bar dip — **Dip com barra**
+- weighted stretch lunge — **Agachamento com alongamento**
+- weighted svend press — **Supino com barra**
+- weighted three bench dips — **Dip com barra**
+- weighted tricep dips — **Dip com tríceps**
+- weighted triceps dip on high parallel bars — **Dip com tríceps em barra alta**
+- wheel rollerout — **Rolo**
+- wheel run — **Rolo**
+- wide grip pull-up — **Barra fixa com pegada larga**
+- wide grip rear pull-up — **Barra fixa com pegada larga (reverso)**
+- wide hand push up — **Flexão com pegada larga**
+- Wide Stance Barbell Squat — **Agachamento com pegada aberta**
+- Wide Stance Stiff Legs — **Agachamento com pernas estendidas**
+- Wide-Grip Barbell Bench Press — **Supino com barra e pegada aberta**
+- wide-grip chest dip on high parallel bars — **Dip com pegada aberta**
+- Wide-Grip Decline Barbell Bench Press — **Supino declinado com barra e pegada aberta**
+- Wide-Grip Decline Barbell Pullover — **Supino com pegada aberta (pullover)**
+- Wide-Grip Lat Pulldown — **Puxada na polia com pegada aberta**
+- Wide-Grip Pulldown Behind The Neck — **Puxada na polia atrás do pescoço com pegada aberta**
+- Wide-Grip Rear Pull-Up — **Barra fixa larga (reverso)**
+- Wide-Grip Standing Barbell Curl — **Rosca em pé com barra e pegada aberta**
+- Wind Sprints — **Sprints**
+- Windmills — **Windmills**
+- world greatest stretch — **Alongamento máximo**
+- World's Greatest Stretch — **Alongamento máximo**
+- Wrist Circles — **Círculos de punho**
+- Wrist Roller — **Rolo de punho**
+- wrist rollerer — **Rolo de punho**
+- Wrist Rotations with Straight Bar — **Rotação de punho com barra**
+- Yoke Walk — **Caminhada em y**
+- Zercher Squats — **Agachamento zercher**
+- Zottman Curl — **Rosca zottman**
+- Zottman Preacher Curl — **Rosca preacher zottman**

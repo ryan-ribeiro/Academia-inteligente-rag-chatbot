@@ -156,6 +156,32 @@ def test_ollama_uses_configured_url_model_and_shared_contract(
     assert request_body["think"] is False
 
 
+def test_exercise_translation_uses_translation_model_prompt(
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    captured = []
+
+    def fake_urlopen(request, timeout):
+        captured.append((request, timeout))
+        return BytesIO(json.dumps({"message": {"content": "Deite-se em um banco reto."}}).encode())
+
+    monkeypatch.setattr(ai, "urlopen", fake_urlopen)
+    monkeypatch.setenv("EXERCISE_TRANSLATION_MODEL", "translategemma:4b")
+    result = OllamaOnboardingProvider(
+        OllamaConfig("http://ollama:11434", "qwen3:4b", 30)
+    ).translate_exercise_statements(["Position your hands on the bar."])
+
+    assert result == ["Deite-se em um banco reto."]
+    request, timeout = captured[0]
+    assert request.full_url == "http://ollama:11434/api/chat"
+    assert timeout == 30
+    body = json.loads(request.data)
+    assert body["model"] == "translategemma:4b"
+    assert body["messages"][0]["role"] == "user"
+    assert "English (en) to Brazilian Portuguese (pt-BR)" in body["messages"][0]["content"]
+    assert "Position your hands on the bar." in body["messages"][0]["content"]
+
+
 def test_adapter_failures_are_controlled(monkeypatch: pytest.MonkeyPatch) -> None:
     monkeypatch.setattr(
         ai, "urlopen", lambda *args, **kwargs: (_ for _ in ()).throw(TimeoutError())

@@ -56,6 +56,33 @@ test('reuses its client request UUID for a retry and explains the draft-review b
   )
 })
 
+test('makes an exercise reference accessible as a link', async () => {
+  const url = 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10801605/'
+  vi.stubGlobal('fetch', vi.fn()
+    .mockResolvedValueOnce({ ok: true, json: async () => ({ messages: [
+      { role: 'assistant', content: `Orientação. [1]\n\nFontes: [1] Artigo (${url})`, created_at: '2026-09-22T00:00:01Z' },
+    ] }) })
+    .mockResolvedValueOnce({ ok: true, json: async () => [] })
+    .mockResolvedValueOnce({ ok: true, json: async () => ({ plan: null }) }))
+  render(<TrainingChatPage accessToken="access-token" onSignOut={vi.fn()} />)
+  const link = await screen.findByRole('link', { name: url })
+  expect(link).toHaveAttribute('href', url)
+  expect(link).toHaveAttribute('rel', 'noopener noreferrer')
+})
+
+test('does not turn untrusted assistant URLs into links', async () => {
+  const url = 'https://example.invalid/unsolicited'
+  vi.stubGlobal('fetch', vi.fn()
+    .mockResolvedValueOnce({ ok: true, json: async () => ({ messages: [
+      { role: 'assistant', content: `Veja ${url}`, created_at: '2026-09-22T00:00:01Z' },
+    ] }) })
+    .mockResolvedValueOnce({ ok: true, json: async () => [] })
+    .mockResolvedValueOnce({ ok: true, json: async () => ({ plan: null }) }))
+  render(<TrainingChatPage accessToken="access-token" onSignOut={vi.fn()} />)
+  expect(await screen.findByText(`Veja ${url}`)).toBeInTheDocument()
+  expect(screen.queryByRole('link', { name: url })).not.toBeInTheDocument()
+})
+
 test('offers an AI-detected change for client confirmation before creating a proposal', async () => {
   const fetchMock = vi.fn()
     .mockResolvedValueOnce({ ok: true, json: async () => ({ messages: [

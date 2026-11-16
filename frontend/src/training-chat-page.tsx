@@ -1,4 +1,4 @@
-import { Box, Button, Card, CardContent, Stack, TextField, Typography } from '@mui/material'
+import { Box, Button, Card, CardContent, Link, Stack, TextField, Typography } from '@mui/material'
 import { useEffect, useState } from 'react'
 
 import { WorkspaceIcon } from './components/workspace-presentation'
@@ -13,6 +13,15 @@ import { useChatAutoScroll } from './use-chat-auto-scroll'
 type TrainingChatPageProps = { accessToken: string; onSignOut: () => void }
 
 function requestId(): string { return crypto.randomUUID() }
+
+function referenceLinks(content: string) {
+  return content.split(/(https:\/\/[^\s)]+)/g).map((part, index) => {
+    const allowed = part.startsWith('https://pmc.ncbi.nlm.nih.gov/articles/')
+      || part.startsWith('https://github.com/yuhonas/free-exercise-db/')
+      || part.startsWith('https://github.com/hasaneyldrm/exercises-dataset/')
+    return allowed ? <Link key={index} href={part} target="_blank" rel="noopener noreferrer">{part}</Link> : part
+  })
+}
 
 export function TrainingChatPage({ accessToken, onSignOut }: TrainingChatPageProps) {
   const [chat, setChat] = useState<TrainingChat | null>(null)
@@ -73,7 +82,7 @@ export function TrainingChatPage({ accessToken, onSignOut }: TrainingChatPagePro
       <Stack spacing={3} sx={{ maxWidth: 880, mx: 'auto', width: '100%', minWidth: 0 }}>
         <PageHeader
           action={<RouterButtonLink to="/treino" variant="outlined">Ver meu treino</RouterButtonLink>}
-          description="Tire dúvidas sobre o seu plano atual e seus exercícios. Mudanças no treino precisam de revisão profissional."
+          description="Tire dúvidas sobre seu plano e sobre exercícios dentro ou fora da sua ficha. Mudanças no treino precisam de revisão profissional."
           eyebrow="Assistente de treino"
           title="Como posso ajudar hoje?"
         />
@@ -81,7 +90,7 @@ export function TrainingChatPage({ accessToken, onSignOut }: TrainingChatPagePro
         <Stack aria-live="polite" aria-relevant="additions" spacing={1.5} sx={{ minHeight: 280, p: { xs: 1, sm: 2 }, borderRadius: 3, bgcolor: 'rgba(16,24,27,0.35)' }}>
           {chat.messages.length === 0
             ? <EmptyState description="Pergunte sobre os exercícios, séries, repetições ou orientações do seu treino atual." title="Seu espaço para tirar dúvidas" />
-            : chat.messages.map((item, index) => <ChatMessage key={`${item.created_at}-${index}`} role={item.role}>{item.content}</ChatMessage>)}
+            : chat.messages.map((item, index) => <ChatMessage key={`${item.created_at}-${index}`} role={item.role}>{item.role === 'assistant' ? referenceLinks(item.content) : item.content}</ChatMessage>)}
         </Stack>
         <Box aria-hidden="true" ref={chatEndRef} sx={{ height: 1, scrollMarginBottom: { xs: 184, sm: 132 } }} />
         <Card aria-busy={pending !== null} component="form" onSubmit={(event) => { event.preventDefault(); void submit(message) }} sx={{ bottom: 16, position: 'sticky', zIndex: 1, borderColor: 'rgba(255,133,100,0.35)', boxShadow: '0 12px 40px rgba(0,0,0,0.25)' }}>

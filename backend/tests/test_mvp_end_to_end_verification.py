@@ -72,7 +72,7 @@ class ChatProvider:
         return AiTrainingChatResponse(
             assistant_message="Vamos preparar uma adaptação para revisão profissional.",
             adaptation_suggested=True,
-            adaptation_reason="Desconforto relatado no agachamento.",
+            adaptation_reason="O cliente precisa de um treino mais curto.",
         )
 
 
@@ -246,7 +246,7 @@ def test_client_critical_path_is_scoped_and_preserves_history(
     chat = api.request(
         "POST",
         "/training/chat/messages",
-        {"message": "Meu joelho incomoda no agachamento.", "client_request_id": source_request_id},
+        {"message": "Gostaria de treinar em menos tempo.", "client_request_id": source_request_id},
     )
     assert chat.status_code == 200
     assert chat.body["messages"][-1]["adaptation_suggested"] is True
@@ -257,7 +257,7 @@ def test_client_critical_path_is_scoped_and_preserves_history(
         {
             "source_client_request_id": source_request_id,
             "client_request_id": str(uuid4()),
-            "reason": "Desconforto relatado no agachamento.",
+            "reason": "O cliente precisa de um treino mais curto.",
         },
     )
     assert adaptation.status_code == 201

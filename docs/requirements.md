@@ -532,7 +532,12 @@ response may carry a non-binding persisted adaptation-suggestion signal for the
 Task 17 confirmation flow; it is not a plan patch or proposal. Context is
 limited to the authenticated client's current approved
 plan, relevant own completed-onboarding facts when necessary, bounded summary,
-and bounded recent messages. Raw messages and summary are client-only and
+bounded recent messages, and bounded excerpts from an authorized, traceable
+public exercise-reference corpus for exercise questions. Corpus excerpts must
+not contain client data; retrieval must not expose another client's data.
+Source rights, applicability, attribution, evidence sufficiency and controlled
+failure behavior must be established before enabling this additional context.
+Raw messages and summary are client-only and
 eligible for cleanup after 30 days; this does not affect authoritative plans or
 plan history. The frontend UUID idempotency and one-retry provider policy apply;
 Ollama retains its configurable local timeout. Any actual plan change remains

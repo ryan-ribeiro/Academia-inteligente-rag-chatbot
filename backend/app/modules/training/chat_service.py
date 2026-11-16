@@ -17,6 +17,7 @@ from sqlalchemy.orm import Session
 from app.integrations.ai import (
     AiProviderError,
     AiTrainingChatResponse,
+    GroundedExerciseStatement,
     TrainingChatProvider,
     training_chat_provider_from_environment,
 )
@@ -25,6 +26,7 @@ from app.modules.clients.models import Account, Client
 from app.modules.equipment.service import EquipmentService
 from app.modules.onboarding.draft_service import OnboardingDraftService
 from app.modules.onboarding.models import Onboarding
+from app.modules.training.exercise_retrieval import evidence_matches, exercise_query, retrieve
 from app.modules.training.generation_service import (
     CompletedOnboardingRequiredError,
     InitialTrainingGenerationService,
@@ -90,6 +92,146 @@ class TrainingChatService:
         self._recent_message_limit = int(os.environ.get("AI_RECENT_MESSAGE_LIMIT", "6"))
         self._summary_limit = int(os.environ.get("AI_TRAINING_CHAT_SUMMARY_LIMIT", "2000"))
 
+    @staticmethod
+    def _execution_statements(
+        message: str, references: list[dict[str, str]]
+    ) -> list[GroundedExerciseStatement]:
+        """Select literal setup, working-movement, and return steps from one passage."""
+        normalized_message = "".join(
+            char
+            for char in unicodedata.normalize("NFKD", message.casefold())
+            if not unicodedata.combining(char)
+        )
+        if not re.search(r"\b(execut\w*|fazer|faco|realiz\w*)\b", normalized_message):
+            return []
+        setup_pattern = (
+            r"\b(start(?:ing)? position|starting stance|step away|step under the bar|"
+            r"position your legs|position yourself|staggered stance|stand(?:ing)? (?:up|with|in)|"
+            r"place your feet|place the back of your shoulders|lie back|lie down|lay back|"
+            r"lie on the floor|"
+            r"lying on the bench|sit down|begin seated|kneel|grab the bar|grip the bar|"
+            r"start in a (?:standing|seated|kneeling)|"
+            r"get into a prone position|posicion inicial|posicion de partida|ponte de pie)\b"
+        )
+        movement_pattern = (
+            r"\b(lower yourself|lower the|slowly lower|begin by bending|"
+            r"bend(?:ing)? (?:your|the) knees|"
+            r"flex(?:ing)? your knees|descend(?:ing)?|step forward|curl the|curl your|"
+            r"lift the|raise your|raise the|press your|press the|push the|pull your|"
+            r"pull the|extend your|extend the|drive through|drive your|driving through|kick your|"
+            r"begin coming down|start the lift|lift by pushing|bring the bar down|"
+            r"bring your torso up|hold this position|"
+            r"flexiona|baja el|estenda|levante|puxe|empurre)\b"
+        )
+        return_pattern = (
+            r"\b(return to|go back(?: slowly)? to|back to the starting|slowly lower|"
+            r"lower the .* back|"
+            r"bring the .* back|bring your .* back|push .* back to|to return to|"
+            r"reverse the motion|reverse direction|"
+            r"stand back up|jump up|land softly|raise the bar back|press .* back up|go back to|"
+            r"extend both knees|raise the body and return|"
+            r"volta a|retorne|desça novamente)\b"
+        )
+        start_marker = re.compile(
+            r"\b(?:this is|this will be) (?:your|the) starting position\b", re.I
+        )
+        for index, reference in enumerate(references, 1):
+            steps = [
+                sentence.strip()
+                for line in reference["text"].splitlines()
+                for sentence in re.split(r"(?<=[.!?])\s+", line.strip())
+                if 12 <= len(sentence.strip()) <= 400
+            ]
+            setup_index = next(
+                (i for i, step in enumerate(steps) if re.search(setup_pattern, step, re.I)),
+                None,
+            )
+            start_position_index = next(
+                (
+                    i
+                    for i, step in enumerate(steps)
+                    if setup_index is not None
+                    and i >= setup_index
+                    and start_marker.search(step)
+                ),
+                None,
+            )
+            movement_start = (
+                start_position_index + 1
+                if start_position_index is not None
+                else (setup_index + 1 if setup_index is not None else 0)
+            )
+            movement_index = next(
+                (
+                    i
+                    for i, step in enumerate(steps)
+                    if i >= movement_start
+                    and re.search(movement_pattern, step, re.I)
+                ),
+                None,
+            )
+            return_index = next(
+                (
+                    i
+                    for i, step in enumerate(steps)
+                    if (movement_index is None or i > movement_index)
+                    and re.search(return_pattern, step, re.I)
+                ),
+                None,
+            )
+            static_hold = movement_index is not None and re.search(
+                r"\bhold this position\b", steps[movement_index], re.I
+            )
+            if setup_index is not None and movement_index is not None and (
+                return_index is not None or static_hold
+            ):
+                selected = [steps[setup_index], steps[movement_index]]
+                if return_index is not None:
+                    selected.append(steps[return_index])
+                # Include the complete setup through the sentence that declares the start.
+                if not start_marker.search(selected[0]):
+                    for setup_step in steps[setup_index + 1 : movement_index]:
+                        if len(selected[0]) + len(setup_step) + 1 > 400:
+                            break
+                        selected[0] += " " + setup_step
+                        if start_marker.search(setup_step):
+                            break
+                if "split squat with dumbbells" in reference["section"].casefold():
+                    equipment_step = next(
+                        (
+                            step
+                            for step in steps
+                            if re.search(r"\bhold a dumbbell in each hand\b", step, re.I)
+                        ),
+                        None,
+                    )
+                    if equipment_step:
+                        selected[0] = equipment_step
+                return [
+                    GroundedExerciseStatement(
+                        text=step, reference_index=index, source_excerpt=step
+                    )
+                    for step in selected
+                ]
+        return []
+
+    @staticmethod
+    def _exercise_intro(reference: dict[str, str]) -> str:
+        title = reference["section"].casefold()
+        variation_label = (
+            "o agachamento búlgaro com halteres, com o pé traseiro elevado "
+            "e o outro pé à frente"
+            if title == "split squat with dumbbells"
+            else "o agachamento sem carga"
+            if title == "bodyweight squat"
+            else "o agachamento com barra"
+            if title == "barbell squat"
+            else "o supino reto com barra e pegada média"
+            if title == "barbell bench press - medium grip"
+            else "a variação descrita na referência"
+        )
+        return f"Vou considerar {variation_label}. [1]\nEtapas descritas na referência:"
+
     def state_for_subject(self, session: Session, subject: str) -> TrainingChatState:
         client_id = self._client_id(session, subject)
         self.purge_expired_content(session)
@@ -147,10 +289,65 @@ class TrainingChatService:
         context = self._context(session, client_id, conversation, message, user.id)
         editable_draft = self._editable_ai_draft(session, client_id)
         draft_revision = editable_draft.revision if editable_draft else None
+        references: list[dict[str, str]] = []
         try:
-            initial_reply = self._initial_plan_reply(session, subject, client_id, context)
+            normalized = self._normalized(message)
+            urgent = re.search(
+                r"\b(dor no peito|pressao no peito|falta de ar|desmai\w*|desacord\w*)\b",
+                normalized,
+            )
+            pain_pattern = (
+                r"\b(dor|dores|doi|doendo|dolorid[oa]|machuquei|machucad[oa]|"
+                r"lesao|desconforto|incomoda|incomodando|fisgada|pontada)\b"
+            )
+            prior_reports = " ".join(
+                item["content"] for item in context["recent_messages"] if item["role"] == "user"
+            )
+            prior_reports += " " + (context["conversation_summary"] or "")
+            follows_pain = bool(
+                re.search(pain_pattern, self._normalized(prior_reports))
+                and re.search(
+                    r"\b(substit\w*|troc\w*|outro|outra|alternativ\w*|"
+                    r"nesse caso|neste caso|e agora|o que faco)\b",
+                    normalized,
+                )
+            )
+            if urgent or follows_pain or re.search(pain_pattern, normalized):
+                initial_reply = (
+                    "Pare a atividade e procure atendimento de urgência imediatamente. "
+                    "Não alterei nenhum plano de treino."
+                    if urgent
+                    else "Pare o exercício que causa dor ou desconforto e procure um profissional "
+                    "de saúde para avaliação. Não alterei nenhum plano de treino. "
+                    "Se houver sintomas graves ou preocupantes, procure atendimento de urgência."
+                )
+            else:
+                initial_reply = self._initial_plan_reply(session, subject, client_id, context)
+            query = exercise_query(message) if initial_reply is None else None
+            if query and not context["rules"]["may_update_ai_draft"]:
+                references = retrieve(query, limit=1)
+                if references:
+                    context["exercise_references"] = [
+                        {"reference_index": index, **reference}
+                        for index, reference in enumerate(references, 1)
+                    ]
+                else:
+                    initial_reply = (
+                        "Não encontrei uma referência suficiente para responder "
+                        "sobre esse exercício. Informe o nome e o equipamento da variação "
+                        "ou consulte um instrutor para orientações sobre a execução."
+                    )
+            execution_question = bool(
+                re.search(r"\b(execut\w*|fazer|faco|realiz\w*)\b", normalized)
+            )
             if initial_reply is not None:
                 response = AiTrainingChatResponse(assistant_message=initial_reply)
+            elif references and execution_question:
+                record_turn(path="retrieved_exercise_steps")
+                response = AiTrainingChatResponse(
+                    assistant_message=self._exercise_intro(references[0]),
+                    grounded_statements=self._execution_statements(message, references),
+                )
             else:
                 record_turn(path="model")
                 response = self._retry(lambda: self._provider.training_chat(context))
@@ -158,6 +355,101 @@ class TrainingChatService:
             session.commit()  # Preserve only the original client message for retry.
             raise
         content = response.assistant_message
+        if references and response.draft_update is None:
+            statements = response.grounded_statements
+            if not statements or any(
+                item.reference_index > len(references)
+                or re.search(
+                    r"https?://|www\.|\[\d+\]|\b(?:fonte|referencia):",
+                    self._normalized(item.text),
+                )
+                or " ".join(item.source_excerpt.split())
+                not in " ".join(references[item.reference_index - 1]["text"].split())
+                for item in statements
+            ) or not evidence_matches([(item.text, item.source_excerpt) for item in statements]):
+                content = (
+                    "Não consegui confirmar uma resposta com as referências disponíveis. "
+                    "Consulte um instrutor para orientações sobre o exercício."
+                )
+            else:
+                try:
+                    original = [item.text for item in statements]
+                    already_portuguese = all(
+                        len(re.findall(
+                            r"\b(o|a|os|as|de|do|da|dos|das|em|com|para|seus|suas|"
+                            r"joelhos|quadris|pes|movimento|posicao)\b",
+                            self._normalized(text),
+                        )) >= 2
+                        and not re.search(
+                            r"\b(the|your|with|feet|shoulder|knees|stand|bend)\b",
+                            text, re.IGNORECASE,
+                        )
+                        for text in original
+                    )
+                    translations = original if already_portuguese else self._retry(
+                        lambda: self._provider.translate_exercise_statements(original)
+                    )
+                except TrainingChatUnavailableError:
+                    session.commit()
+                    raise
+                invalid_translation = len(translations) != len(statements) or any(
+                    not isinstance(text, str)
+                    or not text.strip()
+                    or len(text) > 400
+                    or re.search(
+                        r"\b(the|your|with|feet|shoulder|knees|stand|bend|keep|"
+                        r"lower|until|hands|while|place|lift|straighten|straightening|"
+                        r"hips|heels|exhale|inhale|barbell|rack|floor|starting|position)\b|"
+                        r"https?://|www\.|\[\d+\]",
+                        text,
+                        re.IGNORECASE,
+                    )
+                    for text in translations
+                )
+                if not invalid_translation and translations != original:
+                    invalid_translation = not evidence_matches(
+                        list(zip(original, translations, strict=True)), threshold=0.70
+                    )
+                execution_question = bool(
+                    re.search(r"\b(execut\w*|fazer|faco|realiz\w*)\b", normalized)
+                )
+                translated_text = self._normalized(" ".join(translations))
+                incomplete_execution = execution_question and not (
+                    re.search(
+                        r"\b(agach\w*|flexion\w*|dobr\w*|desc\w*|abaix\w*|"
+                        r"pux\w*|empurr\w*|elev\w*|levant\w*|gir\w*)\b",
+                        translated_text,
+                    )
+                    and re.search(
+                        r"\b(retorn\w*|volt\w*|suba|subir|desc\w*|abaix\w*|baix\w*)\b",
+                        translated_text,
+                    )
+                )
+                if invalid_translation:
+                    content = (
+                        "Não consegui apresentar uma tradução confiável da referência. "
+                        "Tente novamente ou consulte um instrutor."
+                    )
+                elif incomplete_execution:
+                    content = (
+                        "Não consegui confirmar todas as etapas desse movimento. "
+                        "Consulte um instrutor para orientações sobre a execução."
+                    )
+                else:
+                    translated_steps = "\n".join(
+                        f"{translated} [{item.reference_index}]"
+                        for item, translated in zip(statements, translations, strict=True)
+                    )
+                    used = sorted({item.reference_index for item in statements})
+                    sources = []
+                    for index in used:
+                        ref = references[index - 1]
+                        sources.append(
+                            f'[{index}] {ref.get("title", ref["source"])} — '
+                            f'{ref["section"]} ({ref["url"]})'
+                        )
+                    content = response.assistant_message + "\n\n" + translated_steps
+                    content += "\n\nFontes: " + "; ".join(sources)
         if response.draft_update is not None:
             if editable_draft is not None and context["rules"]["may_update_ai_draft"]:
                 self._apply_draft_update(

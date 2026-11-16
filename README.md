@@ -85,6 +85,29 @@ Real webcam verification is still pending; no liveness or hardware readiness is 
 
 ### Local conversational AI with Ollama
 
+For CPU-only local exercise retrieval, the optional `rag` profile starts a
+separate Ollama service and downloads the embedding and Brazilian Portuguese
+translation models:
+
+```bash
+docker compose --profile rag up -d rag-ollama rag-embedding-model rag-translation-model
+```
+
+Set `EXERCISE_EMBEDDING_URL=http://rag-ollama:11434` in `.env`. If using this
+same service for conversation without an OpenAI key, also set
+`AI_PROVIDER=ollama`, `OLLAMA_BASE_URL=http://rag-ollama:11434`, and
+`OLLAMA_MODEL=qwen3:4b`, then run
+`docker compose exec rag-ollama ollama pull qwen3:4b` and recreate the backend.
+CPU inference can be slow. This profile and the GPU `ollama` profile share a
+model volume; operate only one Ollama server at a time.
+
+The semantic index is built from the local corpus with
+`docker compose exec backend python scripts/build_semantic_exercise_index.py`.
+It saves resumable progress and publishes the new index only when complete.
+For source provenance, licence restrictions, and revocation controls, see
+`backend/data/exercise-references/README.md`. Retrieval reports insufficient
+evidence if the index or embedding service is unavailable.
+
 OpenAI remains the initial configured provider. For local development without
 an API cost, use the optional internal Ollama Compose profile. Set the following
 values in `.env` (a smaller compatible model such as `qwen3:4b` can be used

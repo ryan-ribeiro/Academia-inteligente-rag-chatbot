@@ -38,6 +38,12 @@ x-backend: &backend
     OLLAMA_BASE_URL: ${OLLAMA_BASE_URL:-http://ollama:11434}
     OLLAMA_MODEL: ${OLLAMA_MODEL:-qwen3:8b}
     OLLAMA_TIMEOUT_SECONDS: ${OLLAMA_TIMEOUT_SECONDS:-120}
+    EXERCISE_EMBEDDING_URL: ${EXERCISE_EMBEDDING_URL:-http://ollama:11434}
+    EXERCISE_EMBEDDING_MODEL: ${EXERCISE_EMBEDDING_MODEL:-embeddinggemma:300m-qat-q4_0}
+    EXERCISE_EMBEDDING_TIMEOUT: ${EXERCISE_EMBEDDING_TIMEOUT:-60}
+    EXERCISE_TRANSLATION_MODEL: ${EXERCISE_TRANSLATION_MODEL:-translategemma:4b}
+    EXERCISE_REVOKED_SOURCES: ${EXERCISE_REVOKED_SOURCES:-}
+    EXERCISE_SIMILARITY_THRESHOLD: ${EXERCISE_SIMILARITY_THRESHOLD:-0.55}
     FACIAL_ACCESS_MODE: ${FACIAL_ACCESS_MODE:-disabled}
     COMPREFACE_URL: http://compreface-api:8080
     COMPREFACE_API_KEY_FILE: /run/secrets/compreface_key
@@ -184,6 +190,9 @@ services:
     networks: [outbound]
   ollama-model:
     extends: {file: docs/deployment/providers.yml, service: ollama-model}
+    networks: [outbound]
+  ollama-translation-model:
+    extends: {file: docs/deployment/providers.yml, service: ollama-translation-model}
     networks: [outbound]
 
 networks:

@@ -7,6 +7,7 @@ RUN pip install --no-cache-dir -r requirements.txt \
     && groupadd --gid 10001 academia \
     && useradd --uid 10001 --gid academia --no-create-home academia
 COPY app ./app
+COPY data/exercise-references/exercise-semantic.sqlite3 ./data/exercise-references/exercise-semantic.sqlite3
 COPY alembic ./alembic
 COPY alembic.ini ./
 
