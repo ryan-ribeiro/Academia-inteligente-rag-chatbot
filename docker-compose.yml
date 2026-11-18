@@ -72,6 +72,8 @@ services:
         condition: service_started
       mailpit:
         condition: service_started
+      rag-prepare:
+        condition: service_completed_successfully
     healthcheck:
       test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
       interval: 10s
@@ -120,7 +122,6 @@ services:
 
   rag-ollama:
     image: ollama/ollama:${OLLAMA_DOCKER_TAG:-0.34.1}
-    profiles: ["rag"]
     environment:
       OLLAMA_HOST: 0.0.0.0:11434
     ports:
@@ -135,7 +136,6 @@ services:
 
   rag-embedding-model:
     image: ollama/ollama:${OLLAMA_DOCKER_TAG:-0.34.1}
-    profiles: ["rag"]
     entrypoint: ["/bin/ollama"]
     command: ["pull", "${EXERCISE_EMBEDDING_MODEL:-embeddinggemma:300m-qat-q4_0}"]
     environment:
@@ -147,7 +147,6 @@ services:
 
   rag-translation-model:
     image: ollama/ollama:${OLLAMA_DOCKER_TAG:-0.34.1}
-    profiles: ["rag"]
     entrypoint: ["/bin/ollama"]
     command: ["pull", "${EXERCISE_TRANSLATION_MODEL:-translategemma:4b}"]
     environment:
@@ -155,6 +154,23 @@ services:
     depends_on:
       rag-ollama:
         condition: service_healthy
+    restart: "no"
+
+  rag-prepare:
+    build:
+      context: ./backend
+    command: ["python", "scripts/prepare_exercise_references.py"]
+    environment:
+      EXERCISE_EMBEDDING_URL: ${EXERCISE_EMBEDDING_URL:-http://rag-ollama:11434}
+      EXERCISE_EMBEDDING_MODEL: ${EXERCISE_EMBEDDING_MODEL:-embeddinggemma:300m-qat-q4_0}
+      EXERCISE_EMBEDDING_TIMEOUT: ${EXERCISE_EMBEDDING_TIMEOUT:-60}
+    volumes:
+      - ./backend:/app
+    depends_on:
+      rag-embedding-model:
+        condition: service_completed_successfully
+      rag-translation-model:
+        condition: service_completed_successfully
     restart: "no"
 
   ollama:

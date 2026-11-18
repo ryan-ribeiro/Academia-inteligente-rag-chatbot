@@ -85,28 +85,22 @@ Real webcam verification is still pending; no liveness or hardware readiness is 
 
 ### Local conversational AI with Ollama
 
-For CPU-only local exercise retrieval, the optional `rag` profile starts a
-separate Ollama service and downloads the embedding and Brazilian Portuguese
-translation models:
+The normal `docker compose up` starts a CPU Ollama service, pulls the embedding
+and translation models, checks the pinned reference snapshots and prepares the
+semantic index before starting the backend. The snapshots and completed index
+are tracked in Git; missing or changed snapshots are downloaded only if their
+SHA-256 matches the pinned version. Existing indexes are reused when their
+source hashes and embedding model fingerprint match. A rebuild can take a long
+time on CPU and resumes after interruption. Startup fails if preparation fails;
+check `docker compose logs rag-prepare rag-embedding-model rag-translation-model`.
 
-```bash
-docker compose --profile rag up -d rag-ollama rag-embedding-model rag-translation-model
-```
-
-Set `EXERCISE_EMBEDDING_URL=http://rag-ollama:11434` in `.env`. If using this
-same service for conversation without an OpenAI key, also set
-`AI_PROVIDER=ollama`, `OLLAMA_BASE_URL=http://rag-ollama:11434`, and
-`OLLAMA_MODEL=qwen3:4b`, then run
+For local conversation without an OpenAI key, set `AI_PROVIDER=ollama`,
+`OLLAMA_BASE_URL=http://rag-ollama:11434`, and `OLLAMA_MODEL=qwen3:4b`, then run
 `docker compose exec rag-ollama ollama pull qwen3:4b` and recreate the backend.
-CPU inference can be slow. This profile and the GPU `ollama` profile share a
-model volume; operate only one Ollama server at a time.
-
-The semantic index is built from the local corpus with
-`docker compose exec backend python scripts/build_semantic_exercise_index.py`.
-It saves resumable progress and publishes the new index only when complete.
-For source provenance, licence restrictions, and revocation controls, see
-`backend/data/exercise-references/README.md`. Retrieval reports insufficient
-evidence if the index or embedding service is unavailable.
+The CPU service and optional GPU `ollama` profile share a model volume; operate
+only one Ollama server at a time. For provenance, licence restrictions and
+revocation controls, see `backend/data/exercise-references/README.md`. Production
+has a separate deployment configuration and does not run this preparation job.
 
 OpenAI remains the initial configured provider. For local development without
 an API cost, use the optional internal Ollama Compose profile. Set the following
